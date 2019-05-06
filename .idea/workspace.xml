@@ -37,6 +37,7 @@
       <change beforePath="$PROJECT_DIR$/../../WDI/wdi-v2-react-app-project4/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../WDI/wdi-v2-react-app-project4/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../WDI/wishitems" beforeDir="false" afterPath="$PROJECT_DIR$/../../WDI/wishitems" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,162 +128,12 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="ByteShortint" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="ByteShortint" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="ByteShortint" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="ByteShortint" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kyleanderson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="CharAndBoolean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="CharAndBoolean" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="CharAndBoolean" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="CharAndBoolean" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kyleanderson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="FloatAndDouble" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="FloatAndDouble" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="FloatAndDouble" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="FloatAndDouble" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kyleanderson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="Operators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="Operators" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="Operators" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="Operators" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kyleanderson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Udemy_Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Udemy_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kyleanderson" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -339,8 +190,8 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20757021" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.4993895" weight="0.32900944" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32900944" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="0" sideWeight="0.4993895" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32900944" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50061053" side_tool="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32900944" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -348,7 +199,7 @@
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32900944" />
       <window_info active="true" anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" side_tool="true" visible="true" weight="0.32946634" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
