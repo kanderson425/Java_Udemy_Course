@@ -18,6 +18,7 @@
       <change afterPath="$PROJECT_DIR$/../../WDI/wdi-v2-react-app-project4/src/pages/ProductPage/ProductPage.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../WDI/wdi-v2-react-app-project4/src/pages/SignupPage/SignupPage.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../WDI/wdi-v2-react-app-project4/src/pages/SignupPage/SignupPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../WDI/Eloquent_JavaScript" beforeDir="false" afterPath="$PROJECT_DIR$/../../WDI/Eloquent_JavaScript" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../WDI/WDI-CC-6 Repo" beforeDir="false" afterPath="$PROJECT_DIR$/../../WDI/WDI-CC-6 Repo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../WDI/WDI-DjangoApp-Project3/OLD_homework_tracker" beforeDir="false" afterPath="$PROJECT_DIR$/../../WDI/WDI-DjangoApp-Project3/OLD_homework_tracker" afterDir="false" />
@@ -103,7 +104,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -331,7 +332,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="23" width="1680" height="963" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -341,7 +341,7 @@
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20757021" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.4993895" weight="0.32900944" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32972324" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50061053" side_tool="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32900944" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -360,6 +360,32 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
