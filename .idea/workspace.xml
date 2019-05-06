@@ -18,7 +18,6 @@
       <change afterPath="$PROJECT_DIR$/../../WDI/wdi-v2-react-app-project4/src/pages/ProductPage/ProductPage.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../WDI/wdi-v2-react-app-project4/src/pages/SignupPage/SignupPage.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../WDI/wdi-v2-react-app-project4/src/pages/SignupPage/SignupPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../WDI/Eloquent_JavaScript" beforeDir="false" afterPath="$PROJECT_DIR$/../../WDI/Eloquent_JavaScript" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../WDI/WDI-CC-6 Repo" beforeDir="false" afterPath="$PROJECT_DIR$/../../WDI/WDI-CC-6 Repo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../WDI/WDI-DjangoApp-Project3/OLD_homework_tracker" beforeDir="false" afterPath="$PROJECT_DIR$/../../WDI/WDI-DjangoApp-Project3/OLD_homework_tracker" afterDir="false" />
@@ -49,7 +48,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ByteShortint/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
@@ -58,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HelloWorld/src/Hello.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -417,11 +416,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ByteShortint/src/com/kyleanderson/Main.java">
+    <entry file="file://$PROJECT_DIR$/Strings/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
+        <state relative-caret-position="-1" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Operators/src/com/kyleanderson/Main.java">
@@ -431,15 +428,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Strings/src/com/kyleanderson/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HelloWorld/src/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ByteShortint/src/com/kyleanderson/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>
