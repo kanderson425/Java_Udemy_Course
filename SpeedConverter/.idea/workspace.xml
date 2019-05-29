@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d273eaaa-41c2-4117-8175-047452aeb137" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DecimalComparator/DecimalComparator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DecimalComparator/src/DecimalComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DecimalComparator/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeapYear/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeapYear/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EqualSumChecker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EqualSumChecker/EqualSumChecker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EqualSumChecker/src/EqualSumChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EqualSumChecker/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecimalComparator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DecimalComparator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SpeedConverter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -33,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -63,8 +64,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="67" />
-    <option name="y" value="24" />
+    <option name="x" value="134" />
+    <option name="y" value="90" />
     <option name="width" value="840" />
     <option name="height" value="960" />
   </component>
@@ -141,7 +142,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="24" width="840" height="960" extended-state="1" />
+    <frame x="134" y="90" width="840" height="960" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -173,17 +174,17 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SpeedConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
