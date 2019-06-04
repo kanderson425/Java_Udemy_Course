@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50b8fd8a-3730-4401-8e7d-8bf80954192e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MethodOverloading Exercises/src/EqualityPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodOverloading Exercises/src/PlayingCat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MethodOverloading Exercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MethodOverloading Exercises/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SecondsAndMinutesChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondsAndMinutesChallenge/.idea/workspace.xml" afterDir="false" />
