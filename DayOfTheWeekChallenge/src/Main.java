@@ -4,7 +4,7 @@ public class Main {
         printDayOfTheWeek(6);
     }
 
-    public static void printDayOfTheWeek(int day) {
+    private static void printDayOfTheWeek(int day) {
         switch(day) {
             case 0:
                 System.out.println("Sunday");
