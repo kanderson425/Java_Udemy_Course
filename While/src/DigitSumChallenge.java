@@ -1,7 +1,7 @@
 public class DigitSumChallenge {
 
     public static void main(String[] args) {
-        System.out.println(sumDigits(777));
+        System.out.println("The sum of the digits in our number is " + sumDigits(-25));
     }
 
 //    //My Attempt
@@ -30,7 +30,7 @@ public class DigitSumChallenge {
             sum += digit;
 
             //drop the least significant digit
-            number /= 10;
+            number /= 10; // same as number = number / 10;
         }
 
         return sum;
