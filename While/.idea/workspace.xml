@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f85ec186-0fba-4425-994a-f81b403f4cc7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AllFactors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PerfectNumber.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,11 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AllFactors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PerfectNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -81,6 +90,7 @@
         <option value="$PROJECT_DIR$/src/LastDigitChecker.java" />
         <option value="$PROJECT_DIR$/src/GreatCommonDivisor.java" />
         <option value="$PROJECT_DIR$/src/AllFactors.java" />
+        <option value="$PROJECT_DIR$/src/PerfectNumber.java" />
       </list>
     </option>
   </component>
@@ -136,16 +146,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AllFactors">
+  <component name="RunManager" selected="Application.PerfectNumber">
     <configuration name="AllFactors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AllFactors" />
-      <module name="While" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EvenDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EvenDigitSum" />
       <module name="While" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,6 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PerfectNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PerfectNumber" />
+      <module name="While" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SharedDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SharedDigit" />
       <module name="While" />
@@ -174,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PerfectNumber" />
         <item itemvalue="Application.AllFactors" />
         <item itemvalue="Application.GreatCommonDivisor" />
         <item itemvalue="Application.LastDigitChecker" />
         <item itemvalue="Application.SharedDigit" />
-        <item itemvalue="Application.EvenDigitSum" />
       </list>
     </recent_temporary>
   </component>
@@ -282,8 +292,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AllFactors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PerfectNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>
