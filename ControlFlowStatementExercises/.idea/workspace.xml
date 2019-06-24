@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9893d41e-3afa-43a4-9161-2d998e4ef135" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ParsingValueFromString/src/FlourPackProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ParsingValueFromString/src/LargestPrime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ParsingValueFromString/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsingValueFromString/.idea/workspace.xml" afterDir="false" />
     </list>
