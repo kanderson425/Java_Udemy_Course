@@ -2,41 +2,38 @@ import java.util.Scanner;
 
 public class ReadingUserInputChallenge {
 
-    public static void main(String[] args) {
+            public static void main(String[] args) {
 
-        //My attempt
+                //My attempt
 
-        Scanner scanner = new Scanner(System.in);
+                Scanner scanner = new Scanner(System.in);
 
-        int count = 1;
-        int sum = 0;
+                int count = 1;
+                int sum = 0;
 
 
 
-            while(count <= 10) {
-                System.out.println("Enter number #" + count + ": ");
+                while(count <= 10) {
+                    System.out.println("Enter number #" + count + ": ");
 
-                boolean hasNextInt = scanner.hasNextInt();
-                if(hasNextInt) {
-                    int inputNumber = scanner.nextInt();
-                    count += 1;
-                    sum += inputNumber;
-                } else {
-                    System.out.println("Invalid Number");
+                    boolean hasNextInt = scanner.hasNextInt();
+                    if(hasNextInt) {
+                        int inputNumber = scanner.nextInt();
+                        count += 1;
+                        sum += inputNumber;
+                    } else {
+                        System.out.println("Invalid Number");
+                    }
+                    scanner.nextLine();
                 }
 
-                scanner.nextLine();
+                System.out.println("sum = " + sum);
 
-            }
-
-
-        System.out.println("sum = " + sum);
-
-        scanner.close();
+                scanner.close();
 
 
 
-        //solution
+        //solution #1
 
 //        Scanner scanner = new Scanner(System.in);
 //
