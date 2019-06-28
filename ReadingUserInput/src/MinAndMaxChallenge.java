@@ -3,38 +3,76 @@ import java.util.Scanner;
 public class MinAndMaxChallenge {
 
     public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//
+//        int count = 0;
+//        int max = 0;
+//        int min = 0;
+//
+//        while(true) {
+//            System.out.println("Enter Number: ");
+//
+//            boolean isAnInt = scanner.hasNextInt();
+//            if(isAnInt) {
+//                int inputNumber = scanner.nextInt();
+//                count ++;
+//                if(inputNumber > max) {
+//                    max = inputNumber;
+//                }
+//                if(inputNumber < min) {
+//                    min = inputNumber;
+//                }
+//                if(count == 10) {
+//                    break;
+//                }
+//            } else {
+//                System.out.println("Invalid Value");
+//                break;
+//            }
+//
+//            scanner.nextLine();
+//
+//        }
+//        scanner.close();
+//        System.out.println("The max number is " + max);
+//        System.out.println("The min number is " + min);
+
+        //Solution
+
         Scanner scanner = new Scanner(System.in);
 
-        int count = 0;
-        int max = 0;
         int min = 0;
+        int max = 0;
+        boolean first = true;
 
         while(true) {
-            System.out.println("Enter Number: ");
+            System.out.println("Enter number: ");
 
             boolean isAnInt = scanner.hasNextInt();
             if(isAnInt) {
-                int inputNumber = scanner.nextInt();
-                count ++;
-                if(inputNumber > max) {
-                    max = inputNumber;
+                int number = scanner.nextInt();
+
+                if(first) {
+                    first = false;
+                    min = number;
+                    max = number;
                 }
-                if(count == 0) {
-                    min = inputNumber;
+                if(number > max) {
+                    max = number;
                 }
-                if(count == 10) {
-                    break;
+                if(number < min) {
+                    min = number;
                 }
+
             } else {
                 System.out.println("Invalid Value");
                 break;
+
             }
-
-            scanner.nextLine();
-
+            scanner.nextLine(); // handle input
         }
-        System.out.println("The max number is " + max);
-        System.out.println("The min number is " + min);
+
+        System.out.println("Min = " + min + ", Max = " + max);
 
         scanner.close();
     }

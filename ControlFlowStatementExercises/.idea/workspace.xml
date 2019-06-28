@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9893d41e-3afa-43a4-9161-2d998e4ef135" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ReadingUserInput/src/MinAndMaxChallenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ParsingValueFromString/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsingValueFromString/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ReadingUserInput/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ReadingUserInput/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReadingUserInput/src/ReadingUserInputChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReadingUserInput/src/ReadingUserInputChallenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReadingUserInput/src/MinAndMaxChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReadingUserInput/src/MinAndMaxChallenge.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
