@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9345bb5e-6635-4a0f-8ea2-83e72dbf40fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/MinAndMaxChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinAndMaxChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InputCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaintJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ControlFlowStatementExercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ControlFlowStatementExercises/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParsingValueFromString/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsingValueFromString/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,28 +25,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/InputCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="65" lean-forward="true" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReadingUserInputChallenge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="43" selection-start-line="43" selection-start-column="2" selection-end-line="68" selection-end-column="26" />
+            <state relative-caret-position="194">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MinAndMaxChallenge.java">
+        <entry file="file://$PROJECT_DIR$/src/PaintJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="42" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -65,6 +60,8 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/ReadingUserInputChallenge.java" />
         <option value="$PROJECT_DIR$/src/MinAndMaxChallenge.java" />
+        <option value="$PROJECT_DIR$/src/InputCalculator.java" />
+        <option value="$PROJECT_DIR$/src/PaintJob.java" />
       </list>
     </option>
   </component>
@@ -119,7 +116,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinAndMaxChallenge">
+  <component name="RunManager" selected="Application.PaintJob">
+    <configuration name="InputCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputCalculator" />
+      <module name="ReadingUserInput" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ReadingUserInput" />
@@ -134,6 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaintJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PaintJob" />
+      <module name="ReadingUserInput" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadingUserInputChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReadingUserInputChallenge" />
       <module name="ReadingUserInput" />
@@ -143,6 +154,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PaintJob" />
+        <item itemvalue="Application.InputCalculator" />
         <item itemvalue="Application.MinAndMaxChallenge" />
         <item itemvalue="Application.ReadingUserInputChallenge" />
         <item itemvalue="Application.Main" />
@@ -174,7 +187,7 @@
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21001221" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.498779" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.498779" weight="0.3291536" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.3291536" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -191,7 +204,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" x="-1754" y="221" width="1632" height="284" id="Run" order="8" sideWeight="0.501221" side_tool="true" visible="true" weight="0.3821734" />
+      <window_info active="true" anchor="right" x="-1754" y="221" width="1632" height="284" id="Run" order="8" sideWeight="0.501221" side_tool="true" visible="true" weight="0.31318682" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -202,6 +215,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MinAndMaxChallenge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReadingUserInputChallenge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -209,10 +229,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MinAndMaxChallenge.java">
+    <entry file="file://$PROJECT_DIR$/src/InputCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+        <state relative-caret-position="194">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PaintJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="42" selection-end-column="5" />
         </state>
       </provider>
     </entry>
