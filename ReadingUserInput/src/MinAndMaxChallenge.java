@@ -79,8 +79,10 @@ public class MinAndMaxChallenge {
 
         Scanner scanner = new Scanner(System.in);
 
-        int min = 2147483647;
-        int max = -2147483647;
+//        int min = 2147483647;
+        int min = Integer.MAX_VALUE;
+//        int max = -2147483647;
+        int max = Integer.MIN_VALUE;
 
         while(true) {
             System.out.println("Enter number: ");
