@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e80f3c85-9519-4f62-8fad-8c68e50f68d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ReadingUserInput/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ReadingUserInput/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReadingUserInput/src/MinAndMaxChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReadingUserInput/src/MinAndMaxChallenge.java" afterDir="false" />
-    </list>
+    <list default="true" id="e80f3c85-9519-4f62-8fad-8c68e50f68d6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

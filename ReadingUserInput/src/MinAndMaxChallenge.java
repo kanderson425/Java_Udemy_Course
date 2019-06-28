@@ -37,13 +37,50 @@ public class MinAndMaxChallenge {
 //        System.out.println("The max number is " + max);
 //        System.out.println("The min number is " + min);
 
-        //Solution
+        //Solution #1
+//        Scanner scanner = new Scanner(System.in);
+//
+//        int min = 0;
+//        int max = 0;
+//        boolean first = true;
+//
+//        while(true) {
+//            System.out.println("Enter number: ");
+//
+//            boolean isAnInt = scanner.hasNextInt();
+//            if(isAnInt) {
+//                int number = scanner.nextInt();
+//
+//                if(first) {
+//                    first = false;
+//                    min = number;
+//                    max = number;
+//                }
+//                if(number > max) {
+//                    max = number;
+//                }
+//                if(number < min) {
+//                    min = number;
+//                }
+//
+//            } else {
+//                System.out.println("Invalid Value");
+//                break;
+//
+//            }
+//            scanner.nextLine(); // handle input
+//        }
+//
+//        System.out.println("Min = " + min + ", Max = " + max);
+//
+//        scanner.close();
+
+        //Solution # 2
 
         Scanner scanner = new Scanner(System.in);
 
-        int min = 0;
-        int max = 0;
-        boolean first = true;
+        int min = 2147483647;
+        int max = -2147483647;
 
         while(true) {
             System.out.println("Enter number: ");
@@ -52,11 +89,6 @@ public class MinAndMaxChallenge {
             if(isAnInt) {
                 int number = scanner.nextInt();
 
-                if(first) {
-                    first = false;
-                    min = number;
-                    max = number;
-                }
                 if(number > max) {
                     max = number;
                 }

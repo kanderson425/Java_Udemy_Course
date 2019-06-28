@@ -4,7 +4,6 @@
     <list default="true" id="9345bb5e-6635-4a0f-8ea2-83e72dbf40fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../ControlFlowStatementExercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ControlFlowStatementExercises/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ParsingValueFromString/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsingValueFromString/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinAndMaxChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinAndMaxChallenge.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MinAndMaxChallenge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
-              <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
+            <state relative-caret-position="723">
+              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -176,7 +175,7 @@
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21001221" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.498779" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.498779" visible="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.3291536" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -213,8 +212,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MinAndMaxChallenge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
+        <state relative-caret-position="723">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
         </state>
       </provider>
     </entry>
