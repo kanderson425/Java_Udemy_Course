@@ -13,14 +13,12 @@ public class SimpleCalculator {
         return this.secondNumber;
     }
 
-    public double setFirstNumber(double firstNumber) {
+    public void setFirstNumber(double firstNumber) {
         this.firstNumber = firstNumber;
-        return  firstNumber;
     }
 
-    public double setSecondNumber(double secondNumber) {
+    public void setSecondNumber(double secondNumber) {
         this.secondNumber = secondNumber;
-        return secondNumber;
     }
 
     public double getAdditionResult() {
@@ -44,6 +42,5 @@ public class SimpleCalculator {
         } else {
          return firstNumber / secondNumber;
         }
-
     }
 }
