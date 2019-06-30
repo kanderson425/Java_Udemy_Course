@@ -52,20 +52,17 @@ public class BankAccount {
         this.phoneNumber = phoneNumber;
     }
 
-    public double depositFunds(double depositAmount) {
-        this.balance = this.balance + depositAmount;
+    public void depositFunds(double depositAmount) {
+        this.balance += depositAmount;
         System.out.println("Your new balance is: " + this.balance);
-        return this.balance;
     }
 
-    public double withdrawFunds(double withdrawAmount) {
-        if(withdrawAmount > this.balance) {
+    public void withdrawFunds(double withdrawAmount) {
+        if(this.balance - withdrawAmount <0) {
             System.out.println( "Sorry, but you're a broke-ass fuck.");
-            return this.balance;
         } else {
-            this.balance = this.balance + withdrawAmount;
+            this.balance -= withdrawAmount;
             System.out.println("Your new balance is: " + this.balance);
-            return this.balance;
         }
     }
 
