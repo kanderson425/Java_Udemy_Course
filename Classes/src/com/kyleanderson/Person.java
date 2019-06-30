@@ -3,9 +3,9 @@ package com.kyleanderson;
 public class Person {
 
     //Fields
-    public String firstName;
-    public String lastName;
-    public int age;
+    private String firstName;
+    private String lastName;
+    private int age;
 
     //Methods
     public String getFirstName() {
@@ -55,8 +55,4 @@ public class Person {
             return firstName + " " + lastName;
         }
     }
-
-
-
-
 }
