@@ -8,19 +8,14 @@ public class VipCustomer {
     private String emailAddress;
 
 
-    //methods
-
+    //constructors
     public VipCustomer() {
-        this("kyle", 1000.00, "kyle@email.com");
-        System.out.println("Empty constructor called");
+        this("Kyle", 1000.00, "kyle@email.com");
+
     }
 
-    public VipCustomer(String name, double creditLimit, String emailAddress) {
-
-        System.out.println("Account constructor with parameters called");
-
-        this.creditLimit = creditLimit;
-        this. emailAddress = emailAddress;
+    public VipCustomer(String name, double creditLimit) {
+        this(name, creditLimit, "unknownEmail.com");
     }
 
     public VipCustomer(String name, double creditLimit, String emailAddress) {
