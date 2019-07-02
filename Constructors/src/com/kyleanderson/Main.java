@@ -1,11 +1,10 @@
 package com.kyleanderson;
 
-import java.awt.image.VolatileImage;
-
 public class Main {
 
     public static void main(String[] args) {
 
+        //BankAccount Exercise
 //        BankAccount bobsAccount = new BankAccount(1234, 0.00, "Bob Brown", "myemail@bob.com", "238-283-9999");
 //
 //
@@ -25,16 +24,25 @@ public class Main {
 //        System.out.println(kylesAccount.getAccountNumber() + " name " + kylesAccount.getCustomerName());
 
 
-        VipCustomer person1 = new VipCustomer();
-        System.out.println(person1.getName());
+        //VIPCustomer Exercise
+//        VipCustomer person1 = new VipCustomer();
+//        System.out.println(person1.getName());
+//
+//        VipCustomer person2 = new VipCustomer("Logan", 20000.00);
+//        System.out.println(person2.getName());
+//
+//        VipCustomer person3 = new VipCustomer("Tim", 1000.00, "tim@email.com");
+//        System.out.println(person3.getName());
+//        System.out.println(person3.getEmailAddress());
 
-        VipCustomer person2 = new VipCustomer("Logan", 20000.00);
-        System.out.println(person2.getName());
+        //Wall
+        Wall wall = new Wall(5,4);
+        System.out.println("area= " + wall.getArea());
 
-        VipCustomer person3 = new VipCustomer("Tim", 1000.00, "tim@email.com");
-        System.out.println(person3.getName());
-        System.out.println(person3.getEmailAddress());
-
+        wall.setHeight(-1.5);
+        System.out.println("width= " + wall.getWidth());
+        System.out.println("heigt= " + wall.getHeight());
+        System.out.println("area= " + wall.getArea());
 
     }
 }
