@@ -19,8 +19,8 @@ public class Main {
         bobsAccount.withdrawFunds(100);
 
 
-
-
+        BankAccount kylesAccount = new BankAccount("Kyle", "kyle@email.com", "1234");
+        System.out.println(kylesAccount.getAccountNumber() + " name " + kylesAccount.getCustomerName());
 
 
     }
