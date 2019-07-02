@@ -36,13 +36,22 @@ public class Main {
 //        System.out.println(person3.getEmailAddress());
 
         //Wall
-        Wall wall = new Wall(5,4);
-        System.out.println("area= " + wall.getArea());
+//        Wall wall = new Wall(5,4);
+//        System.out.println("area= " + wall.getArea());
+//
+//        wall.setHeight(-1.5);
+//        System.out.println("width= " + wall.getWidth());
+//        System.out.println("heigt= " + wall.getHeight());
+//        System.out.println("area= " + wall.getArea());
 
-        wall.setHeight(-1.5);
-        System.out.println("width= " + wall.getWidth());
-        System.out.println("heigt= " + wall.getHeight());
-        System.out.println("area= " + wall.getArea());
+        //Point
+        Point first = new Point(6,5);
+        Point second = new Point(3,1);
+        System.out.println("distance(0,0)= " + first.distance());
+        System.out.println("distance(second)= " + first.distance(second));
+        System.out.println("distance(2,2)= " + first.distance(2,2));
+        Point point = new Point();
+        System.out.println("distance()= " + point.distance());
 
     }
 }
