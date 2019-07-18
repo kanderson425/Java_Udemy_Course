@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c222f1ad-ac0f-4c72-84cd-b74baa76a14d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../InheritanceChallenge/src/com/kyleanderson/BMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InheritanceChallenge/src/com/kyleanderson/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InheritanceChallenge/src/com/kyleanderson/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cdbd9db5-dde9-41f8-a720-190487087c17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/kyleanderson/BMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kyleanderson/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kyleanderson/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Inheritance/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,42 +15,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Vehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Animal.java">
+        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BMW.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Fish.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Dog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="90">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -70,21 +71,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/kyleanderson/Animal.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/kyleanderson/Dog.java" />
-        <option value="$PROJECT_DIR$/src/com/kyleanderson/Fish.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/Car.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/BMW.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="387" />
+    <option name="x" value="840" />
+    <option name="y" value="23" />
     <option name="width" value="840" />
-    <option name="height" value="613" />
+    <option name="height" value="960" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -95,17 +103,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="Inheritance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inheritance" type="462c0819:PsiDirectoryNode" />
+              <item name="InheritanceChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InheritanceChallenge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Inheritance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inheritance" type="462c0819:PsiDirectoryNode" />
+              <item name="InheritanceChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InheritanceChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Inheritance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inheritance" type="462c0819:PsiDirectoryNode" />
+              <item name="InheritanceChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InheritanceChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="kyleanderson" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -115,11 +123,6 @@
       </pane>
       <pane id="PackagesPane" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,7 +139,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.kyleanderson.Main" />
-      <module name="Inheritance" />
+      <module name="InheritanceChallenge" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -144,27 +147,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c222f1ad-ac0f-4c72-84cd-b74baa76a14d" name="Default Changelist" comment="" />
-      <created>1562206973459</created>
+      <changelist id="cdbd9db5-dde9-41f8-a720-190487087c17" name="Default Changelist" comment="" />
+      <created>1563417678392</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562206973459</updated>
+      <updated>1563417678392</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="387" width="840" height="613" extended-state="0" />
+    <frame x="840" y="23" width="840" height="960" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -172,10 +170,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.40350878" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.037593983" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49692833" weight="0.2816568" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32972324" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -184,7 +182,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.50307167" side_tool="true" weight="0.3195266" />
+      <window_info active="true" anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" side_tool="true" visible="true" weight="0.32946634" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -198,29 +196,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Dog.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="720">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Fish.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Animal.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BMW.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="90">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
