@@ -8,6 +8,7 @@ public class Main {
     bmw.steer(45);
     bmw.accelerate(30);
     bmw.accelerate(20);
+    bmw.accelerate(-42);
 
     }
 }
