@@ -7,4 +7,9 @@ public class BMW extends Car {
         super("BMW", "4WD", 5, 5, 6, false);
         this.roadServiceMonths = roadServiceMonths;
     }
+
+    public void accelerate(int rate) {
+
+        int newVelocity = getCurrentVelocity() + rate;
+    }
 }
