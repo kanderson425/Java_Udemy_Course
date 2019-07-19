@@ -27,4 +27,6 @@ public class Car extends Vehicle {
         System.out.println("Car.changeVelocity() : Velocity " + speed + " direction " + direction);
     }
 
+
+
 }
