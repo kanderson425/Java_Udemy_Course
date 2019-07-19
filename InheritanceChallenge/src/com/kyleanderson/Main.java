@@ -6,6 +6,7 @@ public class Main {
 	// write your code here
     BMW bmw = new BMW(36);
     bmw.accelerate(30);
+    bmw.accelerate(20);
 
     }
 }
