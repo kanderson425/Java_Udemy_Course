@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c222f1ad-ac0f-4c72-84cd-b74baa76a14d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/src/com/kyleanderson/BMW.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceChallenge/src/com/kyleanderson/BMW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/src/com/kyleanderson/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceChallenge/src/com/kyleanderson/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceChallenge/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,7 +163,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="370" width="840" height="613" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
