@@ -2,9 +2,7 @@ package com.kyleanderson;
 
 public class Circle {
 
-    double radius;
-
-
+    private double radius;
 
     public Circle(double radius) {
         if(radius < 0) {
