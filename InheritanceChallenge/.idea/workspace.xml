@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdbd9db5-dde9-41f8-a720-190487087c17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Coding Exercise 35_Cylinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Coding Exercise 35_Cylinder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Coding Exercise 35_Cylinder/src/com/kyleanderson/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Coding Exercise 35_Cylinder/src/com/kyleanderson/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Coding Exercise 35_Cylinder/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Coding Exercise 35_Cylinder/src/com/kyleanderson/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="cdbd9db5-dde9-41f8-a720-190487087c17" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="61" />
     <option name="y" value="71" />
     <option name="width" value="898" />
@@ -161,7 +157,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="71" width="898" height="960" extended-state="0" />
+    <frame x="61" y="71" width="898" height="960" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
