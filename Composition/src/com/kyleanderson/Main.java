@@ -12,6 +12,7 @@ public class Main {
         Motherboard theMotherboard = new Motherboard("BJ-200","Asus",4,6,"v2.44");
 
         PC thePC = new PC(theCase, theMonitor, theMotherboard);
+        thePC.getMonitor().drawPixelAt(1550,1200,"red");
 
     }
 }
