@@ -1,4 +1,6 @@
 package com.kyleanderson;
+//Using extends we can only inherit from one class at a time. Now, we can basically 'extend'
+//multiple classes at the same time. As seen below.
 
 public class PC {
     private Case theCase;
