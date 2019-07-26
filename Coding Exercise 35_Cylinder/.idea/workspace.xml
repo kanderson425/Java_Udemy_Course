@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e350795-a3d6-4c7a-bfe9-3cc9f8da01a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Coding Exercise 36_PoolArea/src/com/kyleanderson/Cuboid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Coding Exercise 36_PoolArea/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Coding Exercise 36_PoolArea/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coding Exercise 36_PoolArea/src/com/kyleanderson/Cuboid.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Coding Exercise 36_PoolArea/src/com/kyleanderson/Cuboid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coding Exercise 36_PoolArea/src/com/kyleanderson/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Coding Exercise 36_PoolArea/src/com/kyleanderson/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Inheritance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Inheritance/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -174,7 +175,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5012531" side_tool="true" visible="true" weight="0.32938388" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5012531" side_tool="true" weight="0.32938388" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
