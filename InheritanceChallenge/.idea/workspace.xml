@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdbd9db5-dde9-41f8-a720-190487087c17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Composition/src/com/kyleanderson/PC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composition/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composition/src/com/kyleanderson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composition/src/com/kyleanderson/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composition/src/com/kyleanderson/PC.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -160,7 +162,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="721" y="24" width="959" height="960" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
