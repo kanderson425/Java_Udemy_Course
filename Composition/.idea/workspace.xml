@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce37ed9f-5516-4fb3-8009-e644044de2a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/kyleanderson/Motherboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kyleanderson/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Motherboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Motherboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceChallenge/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Motherboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="285">
+              <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Monitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="85" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -72,6 +83,7 @@
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Car.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Motherboard.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/Monitor.java" />
       </list>
     </option>
   </component>
@@ -211,8 +223,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Motherboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="285">
+          <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="85" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
         </state>
       </provider>
     </entry>

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdbd9db5-dde9-41f8-a720-190487087c17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Composition/src/com/kyleanderson/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Composition/src/com/kyleanderson/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Coding Exercise 35_Cylinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Coding Exercise 35_Cylinder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Coding Exercise 36_PoolArea/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Coding Exercise 36_PoolArea/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Coding Exercise 36_PoolArea/src/com/kyleanderson/Cuboid.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Coding Exercise 36_PoolArea/src/com/kyleanderson/Cuboid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Coding Exercise 36_PoolArea/src/com/kyleanderson/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Coding Exercise 36_PoolArea/src/com/kyleanderson/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Inheritance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Inheritance/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composition/src/com/kyleanderson/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composition/src/com/kyleanderson/Motherboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composition/src/com/kyleanderson/Motherboard.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
