@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdbd9db5-dde9-41f8-a720-190487087c17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Composition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Composition/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Composition/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composition/src/com/kyleanderson/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Composition/src/com/kyleanderson/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composition/src/com/kyleanderson/PC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,9 +77,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="721" />
-    <option name="y" value="24" />
-    <option name="width" value="959" />
+    <option name="x" value="68" />
+    <option name="y" value="23" />
+    <option name="width" value="1612" />
     <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -161,14 +160,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="721" y="24" width="959" height="960" extended-state="0" />
+    <frame x="68" y="23" width="1612" height="960" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.032715376" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.01910828" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49883178" visible="true" weight="0.3289941" />
