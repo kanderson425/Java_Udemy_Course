@@ -12,6 +12,10 @@ public class Lamp {
         this.globeRating = globeRating;
     }
 
+    public void turnOn() {
+        System.out.println("Lamp -> Turning on");
+    }
+
     public String getStyle() {
         return style;
     }
