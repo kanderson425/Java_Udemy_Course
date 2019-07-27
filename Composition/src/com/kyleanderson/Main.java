@@ -27,6 +27,11 @@ public class Main {
 
         Lamp lamp = new Lamp("Classis", false, 75);
 
+        Bedroom bedroom = new Bedroom("Kyle's Room", wall1, wall2, wall3, wall4, ceiling, bed, lamp);
+        bedroom.makeBed();
+
+        bedroom.getLamp().turnOn();
+
 
     }
 }
