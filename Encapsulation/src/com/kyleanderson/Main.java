@@ -21,7 +21,8 @@ public class Main {
       EnhancedPlayer player = new EnhancedPlayer("Kyle", 50, "Sword");
         System.out.println("Initial Health is " + player.getHealth());
 
-        //Encapsulation Challenge - Printer
 
+        //Encapsulation Challenge - Printer
+      Printer printer = new Printer(80, 2, true);
     }
 }
