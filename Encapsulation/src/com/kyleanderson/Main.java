@@ -18,11 +18,14 @@ public class Main {
 //    player.loseHealth(damage);
 //    System.out.println("Remaining health = " + player.healthRemaining());
 
-      EnhancedPlayer player = new EnhancedPlayer("Kyle", 50, "Sword");
-        System.out.println("Initial Health is " + player.getHealth());
+//      This is the correct way of writing this code using encapsulation:
+//      EnhancedPlayer player = new EnhancedPlayer("Kyle", 50, "Sword");
+//      System.out.println("Initial Health is " + player.getHealth());
 
 
         //Encapsulation Challenge - Printer
       Printer printer = new Printer(80, 2, true);
+      printer.printPage();
+      printer.printPage();
     }
 }

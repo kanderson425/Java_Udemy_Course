@@ -30,6 +30,9 @@ public class Printer {
         System.out.println("Printing page.");
         int newPagesPrinted = pagesPrinted + 1;
         pagesPrinted = newPagesPrinted;
+        int tonerLevel = tonerLevelPercent - 10;
+        tonerLevelPercent = tonerLevel;
         System.out.println("You have printed out " + pagesPrinted + " pages.");
+        System.out.println("Toner level is now at " + tonerLevelPercent + " percent.");
     }
 }
