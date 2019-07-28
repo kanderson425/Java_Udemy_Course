@@ -2,28 +2,32 @@ package com.kyleanderson;
 
 public class Printer {
 
-    private int tonerLevelPercent = 100;
+    private int tonerLevel;
     private int pagesPrinted;
     private boolean duplexPrinter;
 
-    public Printer(int tonerLevelPercent, int pagesPrinted, boolean duplexPrinter) {
-        this.tonerLevelPercent = tonerLevelPercent;
-        this.pagesPrinted = pagesPrinted;
-        this.duplexPrinter = duplexPrinter;
-        System.out.println("The current printer toner level is at " + tonerLevelPercent + " percent.");
-        System.out.println("You have printed out " + pagesPrinted + " pages.");
-        if(duplexPrinter) {
-            System.out.println("This printer can print double sided.");
+    public Printer(int tonerLevel, int pagesPrinted, boolean duplexPrinter) {
+        if(tonerLevel >= 1 && tonerLevel <= 100) {
+            this.tonerLevel = tonerLevel;
         } else {
-            System.out.println("This printer can NOT print double sided.");
+            this.tonerLevel = -1;
         }
+        this.duplexPrinter = duplexPrinter;
+        this.pagesPrinted = 0;
 
     }
 
-    public void fillUpToner() {
-        tonerLevelPercent = 100;
-        System.out.println("Filled up toner. The toner level is now set to " + tonerLevelPercent + " percent.");
-
+    public int addToner(int tonerAmount) {
+        if(tonerLevel > 0 && tonerAmount <= 100) {
+            if(this.tonerLevel + tonerAmount > 100) {
+                return -1;
+            } else {
+                this.tonerLevel += tonerAmount;
+                return this.tonerLevel;
+            }
+        } else {
+            return -1;
+        }
     }
 
     public void printPage() {
