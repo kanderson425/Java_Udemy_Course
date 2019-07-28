@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce37ed9f-5516-4fb3-8009-e644044de2a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Encapsulation/src/com/kyleanderson/EnhancedPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Encapsulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Encapsulation/src/com/kyleanderson/EnhancedPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/src/com/kyleanderson/EnhancedPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Encapsulation/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -232,6 +231,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="24" width="840" height="960" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />

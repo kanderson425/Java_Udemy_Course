@@ -18,5 +18,7 @@ public class Main {
 //    player.loseHealth(damage);
 //    System.out.println("Remaining health = " + player.healthRemaining());
 
+      EnhancedPlayer player = new EnhancedPlayer("Kyle", 50, "Sword");
+        System.out.println("Initial Health is " + player.getHealth());
     }
 }
