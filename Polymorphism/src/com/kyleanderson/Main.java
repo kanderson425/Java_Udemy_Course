@@ -58,6 +58,13 @@ class StarWars extends Movie {
     }
 }
 
+class Forgetable extends Movie {
+    public Forgetable() {
+        super("Forgetable");
+    }
+    // No override of the plot method
+}
+
 
 
 
