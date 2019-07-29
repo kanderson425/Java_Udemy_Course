@@ -1,5 +1,7 @@
 package com.kyleanderson;
 
+import org.graalvm.compiler.lir.sparc.SPARCMove;
+
 class Movie {
     private String name;
 
@@ -45,6 +47,16 @@ class MazeRunner extends Movie {
     }
 }
 
+class StarWars extends Movie {
+    public StarWars() {
+        super("Star Wars");
+    }
+
+    @Override
+    public String plot() {
+        return "Imperial forces try to take over the universe.";
+    }
+}
 
 
 
