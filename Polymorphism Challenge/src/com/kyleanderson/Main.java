@@ -47,6 +47,24 @@ public class Main {
 
     }
 
+    class BMW extends Car {
+        public BMW() {
+            super("BMW", 6);
+        }
+    }
+
+    class Subaru extends Car {
+        public Subaru() {
+            super("Subaru", 4);
+        }
+    }
+
+    class Jeep extends Car {
+        public Jeep() {
+            super("Jeep", 6);
+        }
+    }
+
     public static void main(String[] args) {
 	// write your code here
     }
