@@ -8,6 +8,7 @@ class Movie {
     }
 
     public String plot() {
+        return "No plot here";
 
     }
 }
