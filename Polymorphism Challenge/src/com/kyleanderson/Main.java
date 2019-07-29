@@ -51,17 +51,32 @@ public class Main {
         public BMW() {
             super("BMW", 6);
         }
+
+        @Override
+        public String getName() {
+            return "This here car is a BEEEEMER";
+        }
     }
 
     class Subaru extends Car {
         public Subaru() {
             super("Subaru", 4);
         }
+
+        @Override
+        public String getName() {
+            return "This Car is a Subaru - very nice!";
+        }
     }
 
     class Jeep extends Car {
         public Jeep() {
             super("Jeep", 6);
+        }
+
+        @Override
+        public String getName() {
+            return "This tool of warfare defeated the damn Nazis!";
         }
     }
 
