@@ -24,8 +24,9 @@ public class Main {
 
 
         //Encapsulation Challenge - Printer
-      Printer printer = new Printer(80, 2, true);
-      printer.printPage();
-      printer.printPage();
+      Printer printer = new Printer(50, true);
+        System.out.println("Initial page count is " + printer.getPagesPrinted());
+      printer.printPages(9);
+      printer.printPages(2);
     }
 }

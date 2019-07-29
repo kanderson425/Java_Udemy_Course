@@ -6,7 +6,7 @@ public class Printer {
     private int pagesPrinted;
     private boolean duplexPrinter;
 
-    public Printer(int tonerLevel, int pagesPrinted, boolean duplexPrinter) {
+    public Printer(int tonerLevel, boolean duplexPrinter) {
         if(tonerLevel >= 1 && tonerLevel <= 100) {
             this.tonerLevel = tonerLevel;
         } else {
@@ -30,13 +30,19 @@ public class Printer {
         }
     }
 
-    public void printPage() {
-        System.out.println("Printing page.");
-        int newPagesPrinted = pagesPrinted + 1;
-        pagesPrinted = newPagesPrinted;
-        int tonerLevel = tonerLevelPercent - 10;
-        tonerLevelPercent = tonerLevel;
-        System.out.println("You have printed out " + pagesPrinted + " pages.");
-        System.out.println("Toner level is now at " + tonerLevelPercent + " percent.");
+    public int printPages(int pages) {
+        int pagesToPrint = pages;
+        if(this.duplexPrinter) {
+            pagesToPrint = (pages / 2) + (pages % 2);
+            System.out.println("Printing in duplex mode");
+        }
+        this.pagesPrinted += pagesToPrint;
+        System.out.println("Printed " + pagesToPrint + " in this print job.");
+        System.out.println("You have printed " + pagesPrinted + " total pages.");
+        return pagesToPrint;
+    }
+
+    public int getPagesPrinted() {
+        return pagesPrinted;
     }
 }
