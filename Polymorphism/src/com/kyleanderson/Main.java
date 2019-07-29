@@ -34,6 +34,20 @@ class IndependenceDay extends Movie {
     }
 }
 
+class MazeRunner extends Movie {
+    public MazeRunner() {
+        super("Maze Runner");
+    }
+
+    @Override
+    public String plot() {
+        return "Kids try and excape a maze.";
+    }
+}
+
+
+
+
 
 public class Main {
 
