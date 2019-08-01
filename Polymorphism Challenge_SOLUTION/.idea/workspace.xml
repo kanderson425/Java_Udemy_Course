@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77a2da98-4f6c-4265-b994-085c53559030" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Encapsulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP Master Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP Master Challenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/DeluxeBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/DeluxeBurger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/Hamburger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/HealthyBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/HealthyBurger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphism Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphism Challenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polymorphism/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphism/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
