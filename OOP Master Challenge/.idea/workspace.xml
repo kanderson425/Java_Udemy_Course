@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../Encapsulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/DeluxeBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/DeluxeBurger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Hamburger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/HealthyBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/HealthyBurger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polymorphism Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphism Challenge/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polymorphism Challenge_SOLUTION/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphism Challenge_SOLUTION/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Polymorphism/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphism/.idea/workspace.xml" afterDir="false" />
@@ -32,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Hamburger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="300">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -50,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/DeluxeBurger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="150">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -74,9 +73,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/kyleanderson/Hamburger.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/HealthyBurger.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/DeluxeBurger.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/Hamburger.java" />
       </list>
     </option>
   </component>
@@ -209,13 +208,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Hamburger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/HealthyBurger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -225,8 +217,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/DeluxeBurger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Hamburger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>

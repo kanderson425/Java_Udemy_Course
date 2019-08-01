@@ -15,4 +15,8 @@ public class Hamburger {
         this.meatType = meatType;
         this.basePrice = basePrice;
     }
+
+    public int getBasePrice() {
+        return basePrice;
+    }
 }

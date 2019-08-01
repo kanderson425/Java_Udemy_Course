@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be2b5751-4625-41af-9c8c-c22fee538bce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Encapsulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP Master Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP Master Challenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/Hamburger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/HealthyBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/HealthyBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/DeluxeBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/DeluxeBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Polymorphism Challenge_SOLUTION/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphism Challenge_SOLUTION/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Polymorphism/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Polymorphism/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +25,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1268">
+            <state relative-caret-position="1016">
               <caret line="92" column="56" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="56" />
             </state>
           </provider>
@@ -158,7 +161,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1268">
+        <state relative-caret-position="1016">
           <caret line="92" column="56" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="56" />
         </state>
       </provider>
