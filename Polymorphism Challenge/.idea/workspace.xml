@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be2b5751-4625-41af-9c8c-c22fee538bce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Encapsulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP Master Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP Master Challenge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/DeluxeBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/DeluxeBurger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/HealthyBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/HealthyBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP Master Challenge/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -123,7 +127,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="36" width="840" height="960" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />

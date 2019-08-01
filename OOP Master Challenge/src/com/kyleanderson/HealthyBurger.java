@@ -23,7 +23,7 @@ public class HealthyBurger extends Hamburger {
 
     @Override
     public double itemizeHamburger() {
-        double hamburgerPrice = itemizeHamburger();
+        double hamburgerPrice = super.itemizeHamburger();
         if(this.healthyExtra1Name != null) {
             hamburgerPrice += this.healthyExtra1Price;
             System.out.println("Added " + this.healthyExtra1Name + " for an extra " + this.healthyExtra1Price);
@@ -32,6 +32,7 @@ public class HealthyBurger extends Hamburger {
             hamburgerPrice += this.healthyExtra2Price;
             System.out.println("Added " + this.healthyExtra2Name + " for an extra " + this.healthyExtra2Price);
         }
+        return hamburgerPrice;
 
     }
 }
