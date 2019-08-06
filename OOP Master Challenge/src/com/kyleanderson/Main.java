@@ -17,6 +17,7 @@ public class Main {
 	System.out.println("total Healthy burger price is " + healthyBurger.itemizeHamburger());
 
 	DeluxeBurger db = new DeluxeBurger();
+	db.addHamburgerAddition3("Should not be able to add this", 50.54);
 	db.itemizeHamburger();
     }
 }

@@ -27,4 +27,5 @@ public class DeluxeBurger extends Hamburger {
     public void addHamburgerAddition4(String name, double price) {
         System.out.println("Cannot add additional items to a DeluxeBurger");
     }
+
 }
