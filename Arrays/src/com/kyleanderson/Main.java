@@ -9,6 +9,7 @@ public class Main {
         for(int i=0; i<myIntegers.length; i++) {
             System.out.println("Element " + i +", typed value was " + myIntegers[i]);
         }
+        System.out.println("The average is " + getAverage(myIntegers));
 
 //    //This is how you can initialize an array with all of the array elements
 //	int[] myIntArray = new int[25];

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b18213b-9570-48ae-97e5-473a5dce51a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Arrays/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/com/kyleanderson/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="5b18213b-9570-48ae-97e5-473a5dce51a4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
