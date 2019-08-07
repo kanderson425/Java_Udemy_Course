@@ -14,9 +14,9 @@
     </leaf>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="235" />
+    <option name="x" value="840" />
     <option name="y" value="23" />
-    <option name="width" value="1445" />
+    <option name="width" value="840" />
     <option name="height" value="960" />
   </component>
   <component name="ProjectView">
@@ -74,10 +74,13 @@
       </pane>
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.kyleanderson.Main" />
-      <module name="untitled104" />
+      <module name="ArrayChallenge" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
