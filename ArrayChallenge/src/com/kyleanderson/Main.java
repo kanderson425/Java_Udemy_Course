@@ -1,8 +1,7 @@
 package com.kyleanderson;
 
 import java.util.Scanner;
-import java.util.Arrays;
-import java.util.Collections;
+
 
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
@@ -10,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         int[] myIntegers = getIntegers(5);
         printArray(myIntegers);
+        sortIntegers(myIntegers);
 
     }
 
@@ -27,15 +27,15 @@ public class Main {
         for(int i=0; i<myIntegers.length-1; i++) {
             System.out.print(myIntegers[i] + ",");
         }
-        System.out.print(myIntegers[myIntegers.length - 1]);
+        System.out.println(myIntegers[myIntegers.length - 1]);
     }
 
     public static void sortIntegers(int[] myIntegers) {
-        System.out.print("Ascending order:");
+        System.out.println("Ascending order:");
         int temp;
         for(int i = 0; i <myIntegers.length; i++) {
             for(int j =0; j<myIntegers.length; j++) {
-                if(myIntegers[i] > myIntegers[j]) {
+                if(myIntegers[i] < myIntegers[j]) {
                     temp = myIntegers[i];
                     myIntegers[i] = myIntegers[j];
                     myIntegers[j] = temp;
