@@ -54,6 +54,8 @@ public class Main {
 
     public static void main(String[] args) {
         int[] myIntegers = getIntegers(5);
+        int[] sorted = sortIntegers(myIntegers);
+        printArray(sorted);
     }
 
     public static int[] getIntegers(int capacity) {
@@ -67,7 +69,7 @@ public class Main {
 
     public static void printArray(int[] array) {
         for(int i =0; i<array.length; i++) {
-            System.out.println("ELement " + i + " contents " + array[i]);
+            System.out.println("ELement " + i + " contains " + array[i]);
         }
     }
 
@@ -76,6 +78,21 @@ public class Main {
         for(int i=0; i<array.length; i++) {
             sortedArray[i] = array[i];
         }
+        boolean flag = true;
+        int temp;
+        while(flag) {
+            flag = false;
+            for(int i = 0; i<sortedArray.length -1; i++) {
+                if(sortedArray[i] < sortedArray[i+1]) {
+                    temp = sortedArray[i];
+                    sortedArray[i] = sortedArray[i+1];
+                    sortedArray[i+1] = temp;
+                    flag = true;
+                }
+            }
+        }
+        return sortedArray;
+
     }
 
 }
