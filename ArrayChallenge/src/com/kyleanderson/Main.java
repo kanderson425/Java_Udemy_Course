@@ -1,6 +1,8 @@
 package com.kyleanderson;
 
 import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
@@ -21,8 +23,15 @@ public class Main {
     }
 
     public static void printArray(int[] myIntegers) {
-        for(int i=0; i<myIntegers.length; i++) {
-            System.out.println(myIntegers[i]);
+        System.out.println("Print the array:");
+        for(int i=0; i<myIntegers.length-1; i++) {
+            System.out.print(myIntegers[i] + ",");
         }
+        System.out.print(myIntegers[myIntegers.length - 1]);
     }
+
+    public static void sortIntegers(int[] myIntegers) {
+
+    }
+
 }
