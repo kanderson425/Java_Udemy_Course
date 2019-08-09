@@ -65,4 +65,10 @@ public class Main {
         return array;
     }
 
+    public static void printArray(int[] array) {
+        for(int i =0; i<array.length; i++) {
+            System.out.println("ELement " + i + " contents " + array[i]);
+        }
+    }
+
 }
