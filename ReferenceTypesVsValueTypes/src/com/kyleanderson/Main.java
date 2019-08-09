@@ -26,5 +26,16 @@ public class Main {
 
         System.out.println("after change myIntArray= " + Arrays.toString(myIntArray));
         System.out.println("after change anotherIntArray= " + Arrays.toString(anotherIntArray));
+
+        anotherIntArray = new int[] {4,5,6,7,8};
+        modifyArray(myIntArray);
+        System.out.println("after modifier myIntArray= " + Arrays.toString(myIntArray));
+        System.out.println("after modifier anotherIntArray= " + Arrays.toString(anotherIntArray));
+
+    }
+
+    private static void modifyArray(int[] array) {
+        array[0] = 2;
+        array = new int[] {1,2,3,4,5};
     }
 }
