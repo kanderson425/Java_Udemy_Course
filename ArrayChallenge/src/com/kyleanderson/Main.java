@@ -31,7 +31,21 @@ public class Main {
     }
 
     public static void sortIntegers(int[] myIntegers) {
-
+        System.out.print("Ascending order:");
+        int temp;
+        for(int i = 0; i <myIntegers.length; i++) {
+            for(int j =0; j<myIntegers.length; j++) {
+                if(myIntegers[i] > myIntegers[j]) {
+                    temp = myIntegers[i];
+                    myIntegers[i] = myIntegers[j];
+                    myIntegers[j] = temp;
+                }
+            }
+        }
+        for(int i = 0; i<myIntegers.length - 1; i++) {
+            System.out.print(myIntegers[i] + ",");
+        }
+        System.out.print(myIntegers[myIntegers.length -1]);
     }
 
 }
