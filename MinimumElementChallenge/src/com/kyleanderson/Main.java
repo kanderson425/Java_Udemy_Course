@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 	int[] myIntegers = readIntegers(5);
-     ystem.out.println("myIntegers = " + Arrays.toString(myIntegers));
+     System.out.println("myIntegers = " + Arrays.toString(myIntegers));
     findMin(myIntegers);
     }
 
@@ -25,16 +25,21 @@ public class Main {
     public static int findMin(int[] myIntegers) {
         int min;
         int temp;
-        for (int i = 0; i < myIntegers.length - 1; i++) {
-            for (int j = i + 1; j < myIntegers.length - 1; i++) {
-                if (myIntegers[i] > myIntegers[j]) {
+        boolean flag = true;
+        while(flag) {
+            flag = false;
+            for(int i=0; i<myIntegers.length-1; i++) {
+                if(myIntegers[i] > myIntegers[i+1]) {
                     temp = myIntegers[i];
-                    myIntegers[i] = myIntegers[j];
-                    myIntegers[j] = temp;
+                    myIntegers[i] = myIntegers[i + 1];
+                    myIntegers[i+1] = temp;
+                    flag = true;
+
                 }
             }
         }
         min = myIntegers[0];
+        System.out.println("The min value is " + min);
         return min;
     }
 }
