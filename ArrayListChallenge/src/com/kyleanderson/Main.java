@@ -19,7 +19,7 @@ public class Main {
                     printMenu();
                     break;
                 case 1:
-                    printContacts();
+                    printMenu();
                     break;
                 case 2:
                     addContact();
@@ -50,4 +50,28 @@ public class Main {
         System.out.println("\n 5 - To search for a contact.");
         System.out.println("\n 6 - To quit the application.");
     }
+
+    public static void addContact() {
+        System.out.print("Please enter a contact: " );
+    }
+
+    public static void updateContact() {
+        System.out.print("Current contact name: ");
+
+        System.out.print("Enter new number: ");
+    }
+
+    public static void removeContact() {
+        System.out.print("Enter contact name ");
+
+
+    }
+
+
+    public static void searchForContact() {
+        System.out.print("Name to search for: ");
+
+
+    }
+
 }

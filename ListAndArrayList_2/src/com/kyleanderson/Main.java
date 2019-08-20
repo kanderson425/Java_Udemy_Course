@@ -71,7 +71,7 @@ public class Main {
     }
 
     public static void removeItem() {
-        System.out.print("Enter item name " );
+        System.out.print("Enter item name ");
         String itemNo = scanner.nextLine();
         groceryList.removeGroceryItem(itemNo);
     }
