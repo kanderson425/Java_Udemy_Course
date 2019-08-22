@@ -1,16 +1,18 @@
 package com.kyleanderson;
 import java.util.Scanner;
+import java.util.ArrayList;
 
 
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
+    private static MobilePhone mobilePhone = new MobilePhone();
 
     public static void main(String[] args) {
 	    boolean quit = false;
 	    int choice = 0;
 	    printMenu();
 	    while(!quit) {
-            System.out.println("Select an option from the menu: ");
+            System.out.print("Select an option from the menu: ");
             choice = scanner.nextInt();
             scanner.nextLine();
 
@@ -53,12 +55,16 @@ public class Main {
 
     public static void addContact() {
         System.out.print("Please enter a contact: " );
+        mobilePhone.addContactItem(scanner.next());
+
     }
 
     public static void updateContact() {
         System.out.print("Current contact name: ");
-
+        String contactName = scanner.nextLine();
         System.out.println("Enter new number: ");
+        String newContactName = scanner.nextLine();
+        mobilePhone.modifyContactList(contactName, newContactName);
     }
 
     public static void removeContact() {

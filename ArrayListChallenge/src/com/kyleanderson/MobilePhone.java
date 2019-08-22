@@ -4,8 +4,12 @@ import java.util.ArrayList;
 public class MobilePhone {
     private ArrayList<String> contactList = new ArrayList<String>();
 
-    public void addContactItem(String name, String number) {
+    public void addContactItem(String name) {
+        contactList.add(name);
+    }
 
+    public ArrayList<String> getContactList() {
+        return contactList;
     }
 
     public void printContacts() {
@@ -24,7 +28,7 @@ public class MobilePhone {
 
     private void modifyContactList(int position, String newContact) {
         contactList.set(position, newContact);
-        System.out.println("Contac " + (position+1) + " has been modified.");
+        System.out.println("Contact " + (position+1) + " has been modified.");
     }
 
     public void removeContact(String contact) {
