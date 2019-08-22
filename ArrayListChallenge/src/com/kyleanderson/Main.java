@@ -63,7 +63,7 @@ public class Main {
     public static void updateContact() {
         System.out.print("Current contact name: ");
         String contactName = scanner.nextLine();
-        System.out.println("Enter new number: ");
+        System.out.println("Enter new contact number: ");
         String newContactName = scanner.nextLine();
         mobilePhone.modifyContactList(contactName, newContactName);
     }
