@@ -24,7 +24,7 @@ public class MobilePhone {
 
     private void modifyContactList(int position, String newContact) {
         contactList.set(position, newContact);
-        System.out.println("Contac " + (position+1) + " has been modified.")
+        System.out.println("Contac " + (position+1) + " has been modified.");
     }
 
     public void removeContact(String contact) {
@@ -32,6 +32,22 @@ public class MobilePhone {
         if(position >= 0) {
             removeContact(position);
         }
+    }
+
+    private void removeContact(int position) {
+        contactList.remove(position);
+    }
+
+    private int findContact(String searchContact) {
+        return contactList.indexOf(searchContact);
+    }
+
+    public boolean onFile(String searchContact) {
+        int position = findContact(searchContact);
+        if(position >= 0) {
+            return true;
+        }
+        return false;
     }
 
 
