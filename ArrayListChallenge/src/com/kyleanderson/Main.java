@@ -21,7 +21,7 @@ public class Main {
                     printMenu();
                     break;
                 case 1:
-                    printMenu();
+                    mobilePhone.printContacts();
                     break;
                 case 2:
                     addContact();
@@ -44,14 +44,15 @@ public class Main {
 
     public static void printMenu() {
         System.out.println("\nPress ");
-        System.out.println("\n 0 - To print the menu.");
-        System.out.println("\n 1 - To print list of contacts.");
-        System.out.println("\n 2 - To add a contact.");
-        System.out.println("\n 3 - To update a contact.");
-        System.out.println("\n 4 - To remove a contact.");
-        System.out.println("\n 5 - To search for a contact.");
-        System.out.println("\n 6 - To quit the application.");
+        System.out.println("\t 0 - To print the menu.");
+        System.out.println("\t 1 - To print list of contacts.");
+        System.out.println("\t 2 - To add a contact.");
+        System.out.println("\t 3 - To update a contact.");
+        System.out.println("\t 4 - To remove a contact.");
+        System.out.println("\t 5 - To search for a contact.");
+        System.out.println("\t 6 - To quit the application.");
     }
+
 
     public static void addContact() {
         System.out.print("Please enter a contact: " );
@@ -69,15 +70,29 @@ public class Main {
 
     public static void removeContact() {
         System.out.print("Enter contact name ");
-
-
+        String contactName = scanner.nextLine();
+        mobilePhone.removeContact(contactName);
     }
 
 
     public static void searchForContact() {
         System.out.print("Name to search for: ");
+        String searchContact = scanner.nextLine();
+        if(mobilePhone.onFile(searchContact)) {
+            System.out.println("Found " + searchContact + " in our contact list");
+        } else {
+            System.out.println(searchContact + ", not on file.");
+        }
 
+    }
 
+    public static void processArrayList() {
+        ArrayList<String> newArray = new ArrayList<String>();
+        newArray.addAll(mobilePhone.getContactList());
+
+        ArrayList<String> nextArray = new ArrayList<String>(mobilePhone.getContactList());
+        String [] myArray = new String[mobilePhone.getContactList().size()];
+        myArray = mobilePhone.getContactList().toArray(myArray);
     }
 
 }
