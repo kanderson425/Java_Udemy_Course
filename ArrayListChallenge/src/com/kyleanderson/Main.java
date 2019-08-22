@@ -58,7 +58,7 @@ public class Main {
     public static void updateContact() {
         System.out.print("Current contact name: ");
 
-        System.out.print("Enter new number: ");
+        System.out.println("Enter new number: ");
     }
 
     public static void removeContact() {
