@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72f9f26b-8966-4096-bc59-51bf6368866a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ArrayListChallenge_Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListChallenge_Solution/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ArrayListChallenge_Solution/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListChallenge_Solution/src/com/kyleanderson/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayListChallenge_Solution/src/com/kyleanderson/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListChallenge_Solution/src/com/kyleanderson/MobilePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ListAndArrayList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListAndArrayList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ListAndArrayList_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListAndArrayList_2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
