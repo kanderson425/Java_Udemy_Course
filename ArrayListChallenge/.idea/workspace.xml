@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72f9f26b-8966-4096-bc59-51bf6368866a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ArrayListChallenge_Solution/src/com/kyleanderson/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ArrayListChallenge_Solution/src/com/kyleanderson/MobilePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayListChallenge_Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListChallenge_Solution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayListChallenge_Solution/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListChallenge_Solution/src/com/kyleanderson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayListChallenge_Solution/src/com/kyleanderson/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListChallenge_Solution/src/com/kyleanderson/MobilePhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ListAndArrayList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListAndArrayList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ListAndArrayList_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListAndArrayList_2/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -25,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="65" column="52" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
+            <state relative-caret-position="104">
+              <caret line="66" column="51" lean-forward="true" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -69,15 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="24" />
     <option name="width" value="1314" />
     <option name="height" value="960" />
@@ -161,7 +152,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1314" height="960" extended-state="0" />
+    <frame x="0" y="24" width="1314" height="960" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -209,8 +200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="65" column="52" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
+        <state relative-caret-position="104">
+          <caret line="66" column="51" lean-forward="true" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
         </state>
       </provider>
     </entry>
