@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="397543df-fc6a-468d-888a-bc49936d19d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ListAndArrayList/.idea/ListAndArrayList.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ArrayListChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListChallenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/MobilePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ListAndArrayList/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListAndArrayList/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ListAndArrayList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListAndArrayList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ListAndArrayList_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListAndArrayList_2/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -27,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="81" column="53" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
+            <state relative-caret-position="502">
+              <caret line="110" column="134" selection-start-line="110" selection-start-column="134" selection-end-line="110" selection-end-column="134" />
             </state>
           </provider>
         </entry>
@@ -73,8 +69,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="424" />
     <option name="y" value="23" />
-    <option name="width" value="1314" />
+    <option name="width" value="1256" />
     <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -201,8 +198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="81" column="53" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
+        <state relative-caret-position="502">
+          <caret line="110" column="134" selection-start-line="110" selection-start-column="134" selection-end-line="110" selection-end-column="134" />
         </state>
       </provider>
     </entry>

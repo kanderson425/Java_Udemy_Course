@@ -108,11 +108,7 @@ public class Main {
             System.out.println("Contact not found");
             return;
         }
-        if(mobilePhone.removeContact(existingContactRecord)) {
-            System.out.println("Successfully deleted");
-        } else {
-            System.out.println("Error deleting contact");
-        }
+        System.out.println("Name: " + existingContactRecord.getName() + " phone number is " + existingContactRecord.getPhoneNumber());
     }
 
 
