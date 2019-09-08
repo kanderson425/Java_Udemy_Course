@@ -65,7 +65,7 @@ public class Main {
     private static void updateContact() {
         System.out.println("Enter existing contact name: ");
         String name = scanner.nextLine();
-        Contact existingContactRecord = mobilePhone.queryContat(name);
+        Contact existingContactRecord = mobilePhone.queryContact(name);
         if(existingContactRecord == null) {
             System.out.println("Contact not found");
             return;
@@ -88,7 +88,7 @@ public class Main {
     private static void removeContact() {
         System.out.println("Enter existing contact name: ");
         String name = scanner.nextLine();
-        Contact existingContactRecord = mobilePhone.queryContat(name);
+        Contact existingContactRecord = mobilePhone.queryContact(name);
         if (existingContactRecord == null) {
             System.out.println("Contact not found");
             return;
@@ -103,7 +103,7 @@ public class Main {
     private static void queryContact() {
         System.out.println("Enter existing contact name: ");
         String name = scanner.nextLine();
-        Contact existingContactRecord = mobilePhone.queryContat(name);
+        Contact existingContactRecord = mobilePhone.queryContact(name);
         if (existingContactRecord == null) {
             System.out.println("Contact not found");
             return;
@@ -121,7 +121,7 @@ public class Main {
         System.out.println("0 - to shutdown\n" +
                 "1 - to print contacts\n" +
                 "2 - to add a new contact\n" +
-                "3 - to update existing an existing contacts\n" +
+                "3 - to update an existing contacts\n" +
                 "4 - to remove an existing contact\n" +
                 "5 - query if an existing contact exists\n" +
                 "6 - to print a list of available actions.");
