@@ -42,5 +42,13 @@ public class Main {
         for(int i=0; i<= 10; i++) {
             System.out.println(i + " --> " + intArrayList.get(i).intValue());
         }
+
+        Integer myIntValue = 56; // Integer myIntValue = Integer.valueOf(56); This is how the code below is compiled. The below code is a shortcut
+        int myInt = myIntValue; //Java is essentially doing some background stuff... myIntValue.intValue();
+        //This is the concept of autoboxing at work.
+
+
+
+
     }
 }
