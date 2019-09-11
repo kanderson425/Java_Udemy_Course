@@ -11,6 +11,10 @@ public class Branch {
         return name;
     }
 
+    public ArrayList<Customer> getCustomers() {
+        return customers;
+    }
+
     public Branch(String name) {
         this.name = name;
         this.customers = new ArrayList<Customer>(); //here we are initializing the customer list for the first time
