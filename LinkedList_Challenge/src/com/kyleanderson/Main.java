@@ -1,9 +1,11 @@
 package com.kyleanderson;
 
+import java.util.LinkedList;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        LinkedList<String> playList = new LinkedList<String>();
     }
 
     public static void printMenu() {
