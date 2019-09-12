@@ -19,9 +19,9 @@ public class Album {
         this.albumSongList = new ArrayList<Song>();
     }
 
-    public boolean addSong(String songName) {
+    public boolean addSong(String songName, double duration) {
         if(findSong(songName) == null) {
-            this.albumSongList.add(new Song(name));
+            this.albumSongList.add(new Song(name, duration));
             return true;
         }
         return false;

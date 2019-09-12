@@ -19,10 +19,10 @@ public class Playlist {
         System.out.println("=========================");
     }
 
-    public boolean addSong(String albumName, String songName) {
+    public boolean addSong(String albumName, String songName, double duration) {
         Album album = findAlbum(albumName);
         if(album != null) {
-            return album.newSong(songName);
+            return album.addSong(songName, duration);
         }
         return false;
     }
