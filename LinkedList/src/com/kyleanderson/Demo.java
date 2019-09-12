@@ -19,6 +19,9 @@ public class Demo {
         placesToVisit.add(1,"Alice Springs");
         printList(placesToVisit);
 
+        placesToVisit.remove(4);
+        printList(placesToVisit);
+
     }
 
     private static void printList(LinkedList<String> linkedList) {
