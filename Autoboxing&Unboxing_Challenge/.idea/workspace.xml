@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10d75ba6-7cf1-406f-8614-fe6a2d6e1e89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../LinkedList/src/com/kyleanderson/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Autoboxing&amp;Unboxing_Challenge_SOLUTION/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Autoboxing&amp;Unboxing_Challenge_SOLUTION/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Autoboxing&amp;Unboxing_Challenge_SOLUTION/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Autoboxing&amp;Unboxing_Challenge_SOLUTION/src/com/kyleanderson/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AutoboxingAndUnboxing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoboxingAndUnboxing/.idea/workspace.xml" afterDir="false" />
