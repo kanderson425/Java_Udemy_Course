@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1256f300-061a-43fd-9a6e-7598662e1542" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Autoboxing&amp;Unboxing_Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Autoboxing&amp;Unboxing_Challenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Autoboxing&amp;Unboxing_Challenge_SOLUTION/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Autoboxing&amp;Unboxing_Challenge_SOLUTION/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AutoboxingAndUnboxing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoboxingAndUnboxing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Demo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+            <state relative-caret-position="207">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -69,9 +66,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="227" />
+    <option name="x" value="840" />
     <option name="y" value="23" />
-    <option name="width" value="1395" />
+    <option name="width" value="840" />
     <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -220,8 +217,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+        <state relative-caret-position="207">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
