@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14cd8d5c-f325-448c-ae93-7277868fe613" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Autoboxing&amp;Unboxing_Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Autoboxing&amp;Unboxing_Challenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Autoboxing&amp;Unboxing_Challenge_SOLUTION/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Autoboxing&amp;Unboxing_Challenge_SOLUTION/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LinkedList/src/com/kyleanderson/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/src/com/kyleanderson/Demo.java" afterDir="false" />
     </list>
@@ -106,7 +104,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="960" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
