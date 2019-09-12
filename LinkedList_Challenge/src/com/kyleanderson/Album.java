@@ -27,6 +27,16 @@ public class Album {
         return false;
     }
 
+    private Song findSong(String songName) {
+        for(int i = 0; i<albumSongList.size(); i++) {
+            Song checkedSong = this.albumSongList.get(i);
+            if(checkedSong.getName().equals(songName)) {
+                return checkedSong;
+            }
+        }
+        return null;
+    }
+
 
 
 
