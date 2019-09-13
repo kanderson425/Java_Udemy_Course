@@ -1,6 +1,7 @@
 package com.kyleanderson;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Album {
 
@@ -15,7 +16,7 @@ public class Album {
     }
 
     public boolean addSong(String title, double duration) {
-        if (findSong(title == null)) {
+        if (findSong(title) == null) {
             this.songs.add(new Song(title, duration));
             return true;
         }
@@ -29,5 +30,15 @@ public class Album {
             }
         }
         return null;
+    }
+
+    public boolean addToPlayList(int trackNumber, LinkedList<Song> playlist) {
+        int index = trackNumber -1;
+        if((index > 0) && (index <= this.songs.size())) {
+            playlist.add(this.songs.get(index));
+            return true;
+        }
+        System.out.println("This album does not have a track " + trackNumber);
+        return false;
     }
 }
