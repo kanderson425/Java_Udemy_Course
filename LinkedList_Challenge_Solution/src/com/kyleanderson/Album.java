@@ -32,13 +32,23 @@ public class Album {
         return null;
     }
 
-    public boolean addToPlayList(int trackNumber, LinkedList<Song> playlist) {
+    public boolean addToPlaylist(int trackNumber, LinkedList<Song> playlist) {
         int index = trackNumber -1;
-        if((index > 0) && (index <= this.songs.size())) {
+        if((index >= 0) && (index <= this.songs.size())) {
             playlist.add(this.songs.get(index));
             return true;
         }
         System.out.println("This album does not have a track " + trackNumber);
+        return false;
+    }
+
+    public boolean addToPlaylist(String title, LinkedList<Song> playlist) {
+        Song checkedSong = findSong(title);
+        if(checkedSong != null) {
+            playlist.add(checkedSong);
+            return true;
+        }
+        System.out.println("The song " + title + " is on in this album");
         return false;
     }
 }
