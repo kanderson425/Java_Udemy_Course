@@ -3,13 +3,16 @@ package com.kyleanderson;
 import java.util.*;
 
 public class Playlist {
-    private ArrayList<Album> playlist;
+
+
+    private static ArrayList<Album> playlist;
 
     public Playlist(ArrayList<Album> playlist) {
         this.playlist = playlist;
     }
 
-    private static void printPlaylist(LinkedList<String> linkedList) {
+
+    public static void printPlaylist(LinkedList<String> linkedList) {
         Iterator<String> i = linkedList.iterator();
         while(i.hasNext()) {
             System.out.println("Moving on to next song: " + i.next());
@@ -17,7 +20,7 @@ public class Playlist {
         System.out.println("=========================");
     }
 
-    public boolean addSong(String albumName, String songName, double duration) {
+    public static boolean addSong(String albumName, String songName, double duration) {
         Album album = findAlbum(albumName);
         if(album != null) {
             return album.addSong(songName, duration);
@@ -25,9 +28,9 @@ public class Playlist {
         return false;
     }
 
-    public Album findAlbum(String albumName) {
+    public static Album findAlbum(String albumName) {
         for(int i = 0; i<playlist.size(); i++) {
-            Album checkedAlbum = this.playlist.get(i);
+            Album checkedAlbum = playlist.get(i);
             if(checkedAlbum.getName().equals(albumName)) {
                 return checkedAlbum;
             }
