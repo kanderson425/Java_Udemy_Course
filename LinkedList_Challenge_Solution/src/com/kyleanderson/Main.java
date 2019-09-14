@@ -16,6 +16,10 @@ public class Main {
 	album.addSong("For those about to rock", 5.44);
 	album.addSong("Highway to Hell", 3.25);
 
+	albums.add(album);
+
+
+
 
     }
 }
