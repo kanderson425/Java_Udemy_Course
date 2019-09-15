@@ -48,7 +48,7 @@ public class Album {
             playlist.add(checkedSong);
             return true;
         }
-        System.out.println("The song " + title + " is on in this album");
+        System.out.println("The song " + title + " is not in this album");
         return false;
     }
 }
