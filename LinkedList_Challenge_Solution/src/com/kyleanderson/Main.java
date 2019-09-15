@@ -103,7 +103,7 @@ public class Main {
 					}
 					break;
 				case 4:
-//					printList(playlist);
+					printList(playList);
 					break;
 				case 5:
 					printMenu();
@@ -124,9 +124,9 @@ public class Main {
 
 	private static void printList(LinkedList<Song> playList) {
 		Iterator<Song> iterator = playList.iterator();
-		System.out.println("====================");
+		System.out.println("=======================");
 		while(iterator.hasNext()) {
-			System.out.println(iterator.next().toString());
+			System.out.println(iterator.next());
 		}
 		System.out.println("===========================");
 	}
