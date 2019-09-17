@@ -129,7 +129,7 @@ public class Main {
 				"2 - to play previous song\n" +
 				"3 - to replay the current song\n" +
 				"4 - list songs in playlist\n" +
-				"5 - print available actions." +
+				"5 - print available actions\n" +
 				"6 - to delete current song from playlist");
 	}
 
