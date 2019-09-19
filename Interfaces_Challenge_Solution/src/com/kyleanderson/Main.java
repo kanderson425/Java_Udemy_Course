@@ -1,12 +1,22 @@
 package com.kyleanderson;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Player kyle = new Player("Kyle", 10, 15);
+        System.out.println(kyle.toString());
+        saveObject(kyle);
+
+        kyle.setHitPoints(8);
+        System.out.println(kyle);
+        kyle.setWeapon("Stormbringer");
+        saveObject(kyle);
+        loadObject(kyle);
+
     }
 
     public static ArrayList<String> readValues() {
@@ -42,5 +52,10 @@ public class Main {
         for(int i = 0; i<objectToSave.write().size(); i++) {
             System.out.println("Saving " + objectToSave.write().get(i) + " to storage device");
         }
+    }
+
+    public static void loadObject(ISaveable objectToLoad) {
+        ArrayList<String> values = readValues();
+        objectToLoad.read(values);
     }
 }
