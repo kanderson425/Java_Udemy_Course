@@ -16,6 +16,7 @@ public class Main {
         kyle.setWeapon("Stormbringer");
         saveObject(kyle);
         loadObject(kyle);
+        System.out.println(kyle);
 
     }
 
@@ -32,6 +33,7 @@ public class Main {
         while (!quit) {
             System.out.println("Choose an option: " );
             int choice = scanner.nextInt();
+            scanner.nextLine();
             switch(choice) {
                 case 0:
                     quit = true;

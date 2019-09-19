@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32f2a3b1-3a8a-4b7a-b616-4e961833872d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Interfaces/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaces_Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces_Challenge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaces_Challenge_Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces_Challenge_Solution/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Interfaces_Challenge_Solution/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces_Challenge_Solution/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -151,7 +154,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="960" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
