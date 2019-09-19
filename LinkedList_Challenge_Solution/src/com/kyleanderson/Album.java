@@ -2,6 +2,7 @@ package com.kyleanderson;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class Album {
 
@@ -32,7 +33,7 @@ public class Album {
         return null;
     }
 
-    public boolean addToPlaylist(int trackNumber, LinkedList<Song> playlist) {
+    public boolean addToPlaylist(int trackNumber, List<Song> playlist) {
         int index = trackNumber -1;
         if((index >= 0) && (index <= this.songs.size())) {
             playlist.add(this.songs.get(index));
@@ -42,7 +43,7 @@ public class Album {
         return false;
     }
 
-    public boolean addToPlaylist(String title, LinkedList<Song> playlist) {
+    public boolean addToPlaylist(String title, List<Song> playlist) {
         Song checkedSong = findSong(title);
         if(checkedSong != null) {
             playlist.add(checkedSong);

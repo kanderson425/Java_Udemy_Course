@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a4d7356-3e85-45ad-9371-9481ea0a4584" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/kyleanderson/MobilePhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/MobilePhone.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="210">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -31,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Gearbox.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -49,16 +50,16 @@
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/DeskPhone.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="45" selection-end-column="5" />
+              <caret line="45" column="5" selection-start-line="2" selection-start-column="23" selection-end-line="45" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/MobilePhone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+            <state relative-caret-position="323">
+              <caret line="45" column="74" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -82,14 +83,14 @@
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Gearbox.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/ITelephone.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/DeskPhone.java" />
-        <option value="$PROJECT_DIR$/src/com/kyleanderson/Main.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/MobilePhone.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1448" />
+    <option name="width" value="840" />
     <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -153,6 +154,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -176,10 +182,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.12660028" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.12660028" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3289941" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49928877" visible="true" weight="0.3289941" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -188,7 +194,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" side_tool="true" visible="true" weight="0.32946634" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.50071126" side_tool="true" weight="0.3289941" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -203,7 +209,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Gearbox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -214,24 +220,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/DeskPhone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="45" selection-end-column="5" />
+          <caret line="45" column="5" selection-start-line="2" selection-start-column="23" selection-end-line="45" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/MobilePhone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+        <state relative-caret-position="323">
+          <caret line="45" column="74" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>

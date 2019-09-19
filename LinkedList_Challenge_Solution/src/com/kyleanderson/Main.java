@@ -3,7 +3,7 @@ package com.kyleanderson;
 import java.util.*;
 
 public class Main {
-    private static ArrayList<Album> albums = new ArrayList<Album>();
+    private static List<Album> albums = new ArrayList<Album>();
 
     public static void main(String[] args) {
 	Album album = new Album("Stormbringer", "Deep Purple");
@@ -20,7 +20,8 @@ public class Main {
 
 	albums.add(album);
 
-	LinkedList<Song> playList = new LinkedList<Song>();
+	List<Song> playList = new ArrayList<Song>();
+
 	albums.get(0).addToPlaylist("Stormbringer", playList);
 	albums.get(0).addToPlaylist("Soldier of Fortune", playList);
 	albums.get(0).addToPlaylist("Speed King", playList); // DOES NOT EXIST
@@ -35,7 +36,7 @@ public class Main {
 
     }
 
-    private static void play(LinkedList<Song> playList) {
+    private static void play(List<Song> playList) {
     	Scanner scanner = new Scanner(System.in);
     	boolean quit = false;
     	boolean forward = true;
@@ -133,9 +134,9 @@ public class Main {
 				"6 - to delete current song from playlist");
 	}
 
-	private static void printList(LinkedList<Song> playList) {
+	private static void printList(List<Song> playList) {
 		Iterator<Song> iterator = playList.iterator();
-		System.out.println("=======================");
+		System.out.println("==========================");
 		while(iterator.hasNext()) {
 			System.out.println(iterator.next());
 		}
