@@ -1,5 +1,7 @@
 package com.kyleanderson;
 
+import java.util.ArrayList;
+
 public class Player implements ISaveable {
     private String name;
     private int hitPoints;
@@ -53,5 +55,15 @@ public class Player implements ISaveable {
                 ", strength=" + strength +
                 ", weapon='" + weapon + '\'' +
                 '}';
+    }
+
+    @Override
+    public ArrayList<String> write() {
+        return null;
+    }
+
+    @Override
+    public void read(ArrayList<String> savedValues) {
+
     }
 }
