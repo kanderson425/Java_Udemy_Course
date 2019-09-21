@@ -22,5 +22,9 @@ public class Gearbox {
             this.gearNumber = gearNumber;
             this.ratio = ratio;
         }
+
+        public double driveSpeed(int revs) {
+            return revs * (this.ratio);
+        }
     }
 }
