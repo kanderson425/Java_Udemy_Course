@@ -15,8 +15,12 @@ public class Main {
         System.out.println(kyle);
         kyle.setWeapon("Stormbringer");
         saveObject(kyle);
-        loadObject(kyle);
+//        loadObject(kyle);
         System.out.println(kyle);
+
+        ISaveable werewolf = new Monster("Werewolf", 20, 40);
+        System.out.println("Strength = " + ((Monster) werewolf).getStrength());
+        saveObject(werewolf);
 
     }
 
