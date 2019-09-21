@@ -20,13 +20,13 @@ public class Gearbox {
     }
 
     public void addGear(int number, double ratio) {
-        if((number <0) && (number <= maxGears)) {
+        if((number > 0) && (number <= maxGears)) {
             this.gears.add(new Gear(number, ratio));
         }
     }
 
     public void changeGear(int newGear) {
-        if((newGear >= 0) && (newGear < this.gears.size()) && (this.cluthIsIn)) {
+        if((newGear >= 0) && (newGear < this.gears.size()) && this.cluthIsIn) {
             this.currentGear = newGear;
             System.out.println("Gear " + newGear + " selected.");
         } else {
@@ -40,7 +40,7 @@ public class Gearbox {
             System.out.println("Scream!!!");
             return 0.0;
         }
-        return revs * gears.get(currentGear).getRatio();
+        return revs * (gears.get(currentGear).getRatio());
     }
 
 
