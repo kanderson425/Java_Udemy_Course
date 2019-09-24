@@ -1,7 +1,5 @@
 package com.kyleanderson;
 
-import sun.security.x509.OCSPNoCheckExtension;
-
 public class Button {
     private String title;
     private OnClickListener onClickListener;
