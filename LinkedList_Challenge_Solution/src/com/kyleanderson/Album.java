@@ -38,7 +38,7 @@ public class Album {
         if((index >= 0) && (index <= this.songs.size())) {
             playlist.add(this.songs.get(index));
             return true;
-        }
+        }a
         System.out.println("This album does not have a track " + trackNumber);
         return false;
     }
