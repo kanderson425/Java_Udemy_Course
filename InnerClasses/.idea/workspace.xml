@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9ec274c-eb54-4d75-8b57-35719d9acdec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../InnerClasses_Challenge/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../InnerClasses_Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../InnerClasses_Challenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InnerClasses_Challenge/src/com/kyleanderson/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InnerClasses_Challenge/src/com/kyleanderson/Album.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LinkedList_Challenge_Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList_Challenge_Solution/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -34,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Gearbox.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-225">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -194,14 +192,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Gearbox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-225">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
