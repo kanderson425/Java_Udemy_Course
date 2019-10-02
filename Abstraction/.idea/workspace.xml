@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac0b8c41-41b6-4980-bcdf-81c0e3afa32c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AbstractionChallenge_Solution/src/com/kyleanderson/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AbstractionChallenge_Solution/src/com/kyleanderson/MyLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
