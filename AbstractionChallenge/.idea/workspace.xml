@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="786fdf13-1415-4251-be90-e6adbe1ee9ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AbstractionChallenge_Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractionChallenge_Solution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractionChallenge_Solution/src/com/kyleanderson/ListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractionChallenge_Solution/src/com/kyleanderson/ListItem.java" afterDir="false" />
-    </list>
+    <list default="true" id="786fdf13-1415-4251-be90-e6adbe1ee9ff" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +110,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="921" y="23" width="759" height="960" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
