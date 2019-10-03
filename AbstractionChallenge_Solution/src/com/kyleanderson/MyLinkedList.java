@@ -29,21 +29,17 @@ public class MyLinkedList implements NodeList {
                     currentItem = currentItem.next();
                 } else {
                     // there is no next, so insert at the end of the list
-                    currentItem.setNext(newItem);
-                    newItem.setPrevious(currentItem);
+                    currentItem.setNext(newItem).setPrevious(currentItem); // we are putting these all on the same line
                     return true;
                 }
             } else if (comparison > 0) {
                 // newItem is less, insert before
                 if (currentItem.previous() != null) {
-                    currentItem.previous().setNext(newItem);
-                    newItem.setPrevious(currentItem.previous());
-                    newItem.setNext(currentItem);
-                    currentItem.setPrevious(newItem);
+                    currentItem.previous().setNext(newItem).setPrevious(currentItem.previous());
+                    newItem.setNext(currentItem).setPrevious(newItem);
                 } else {
                     // the node with a previous is the root
-                    newItem.setNext(this.root);
-                    this.root.setPrevious(newItem);
+                    newItem.setNext(this.root).setPrevious(newItem);
                     this.root = newItem;
                 }
                 return true;

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="786fdf13-1415-4251-be90-e6adbe1ee9ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AbstractionChallenge_Solution/src/com/kyleanderson/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractionChallenge_Solution/src/com/kyleanderson/MyLinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="786fdf13-1415-4251-be90-e6adbe1ee9ff" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
