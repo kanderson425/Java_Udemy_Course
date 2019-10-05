@@ -14,5 +14,7 @@ public class Main {
 	for(String s : data) {
 	    list.addItem(new Node(s));
     }
+
+	list.tranverse(list.getRoot());
     }
 }
