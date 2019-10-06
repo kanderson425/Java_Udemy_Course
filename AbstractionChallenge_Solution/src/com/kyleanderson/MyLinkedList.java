@@ -94,6 +94,13 @@ public class MyLinkedList implements NodeList {
                 root = root.next();
             }
         }
+        // We can re-write the code above to make it recursive!
+//        if(root != null) {
+//            System.out.println(root.getValue());
+//            traverse(root.next());
+//            // Generally we do not want to use recursion due to the depth of the data set that we are accessing/ how many times the method will be calling itself and you'd have a stack overflow
+//            // You want to make sure that you don't see these too often
+//        }
 
     }
 }

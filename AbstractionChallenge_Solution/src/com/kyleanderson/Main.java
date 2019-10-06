@@ -7,7 +7,7 @@ public class Main {
         SearchTree tree = new SearchTree(null);
         tree.traverse(tree.getRoot());
     // Create a string data array to avoid multiple loads of addItem instructions:
-
+    String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
 //	String stringData = "5 7 3 9 8 2 1 0 4 6";
 
 
