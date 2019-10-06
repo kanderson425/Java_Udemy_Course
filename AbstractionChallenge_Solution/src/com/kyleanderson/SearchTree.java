@@ -49,7 +49,7 @@ public class SearchTree implements NodeList{
                 return false;
             }
         }
-        // we can't actually get here, but Java complains if there's no reeturn
+        // we can't actually get here, but Java complains if there's no return
         return false;
     }
 
@@ -59,7 +59,7 @@ public class SearchTree implements NodeList{
     }
 
     @Override
-    public void traverse(ListItem item) {
+    public void traverse(ListItem root) {
         // recursive method
         if (root != null){
                traverse(root.previous());
