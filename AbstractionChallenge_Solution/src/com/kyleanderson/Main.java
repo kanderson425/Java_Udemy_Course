@@ -15,6 +15,7 @@ public class Main {
 	    list.addItem(new Node(s));
     }
 
+
 	list.traverse(list.getRoot());
 	list.removeItem(new Node("3"));
 	list.traverse(list.getRoot());
@@ -23,6 +24,5 @@ public class Main {
 	list.traverse(list.getRoot());
 
 
-	//As of right now, the list.getRoot() method only works on printing the list of numbers on the first call of the method. Does not work on any other call of the method
     }
 }

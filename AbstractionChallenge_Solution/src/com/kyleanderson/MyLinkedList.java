@@ -19,7 +19,6 @@ public class MyLinkedList implements NodeList {
             this.root = newItem;
             return true;
         }
-
         ListItem currentItem = this.root;
         while (currentItem != null) {
             int comparison = (currentItem.compareTo(newItem));
@@ -86,7 +85,7 @@ public class MyLinkedList implements NodeList {
     }
 
     @Override
-    public void traverse(ListItem item) {
+    public void traverse(ListItem root) {
         if(root == null) {
             System.out.println("The list is empty");
         } else {
