@@ -2,7 +2,7 @@ package com.kyleanderson;
 
 import java.util.ArrayList;
 
-public class Team<T extends Player> { // by typing extends Player...we are restricting this as a bounded-type parameter
+public class Team<T extends Player> implements Comparable<Team<T>> { // by typing extends Player...we are restricting this as a bounded-type parameter
     private String name;
     int played = 0;
     int won = 0;
@@ -57,9 +57,19 @@ public class Team<T extends Player> { // by typing extends Player...we are restr
 
     public int ranking() {
         return (won * 2) + tied;
+
     }
 
-
+    @Override
+    public int compareTo(Team<T> team) {
+        if(this.ranking() > team.ranking()) {
+            return -1;
+        } else if(this.ranking() < team.ranking()) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
 }
 
 
