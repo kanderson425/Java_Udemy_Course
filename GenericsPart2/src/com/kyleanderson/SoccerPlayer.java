@@ -6,3 +6,4 @@ public class SoccerPlayer extends Player {
         super(name);
     }
 }
+
