@@ -25,7 +25,7 @@ public class Team<T extends Player> { // by typing extends Player...we are restr
             return false;
         } else {
             members.add(player);
-            System.out.println(player.getName() + " picked for team " + this.name);
+            System.out.println(((Player) player).getName() + " picked for team " + this.name);
             return true;
         }
     }
@@ -35,15 +35,22 @@ public class Team<T extends Player> { // by typing extends Player...we are restr
     }
 
     public void matchResult(Team opponent, int ourScore, int theirScore) {
+
+        String message;
+
         if(ourScore > theirScore) {
             won++;
+            message = " beat ";
         } else if(ourScore == theirScore) {
             tied++;
+            message = " drew with ";
         } else {
             lost++;
+            message = " lost to ";
         }
         played++;
         if(opponent != null) {
+            System.out.println(this.getName() + message + opponent.getName());
             opponent.matchResult(null, theirScore, ourScore);
         }
     }
