@@ -28,6 +28,10 @@ public class League<T> implements Comparable<League<T>>{
         }
     }
 
+    public int numTeams() {
+        return this.teams.size();
+    }
+
     public int ranking() {
         return (wins * 2);
     }

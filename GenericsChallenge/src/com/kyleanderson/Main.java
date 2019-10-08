@@ -19,6 +19,16 @@ public class Main {
         SoccerTeam houstonDyn = new SoccerTeam("Houston Dynamo");
         SoccerTeam losAngeles = new SoccerTeam("LA Galaxy");
 
+        League<FootballTeam> footballTeamLeague = new League<>("NFL");
+        League<BaseballTeam> baseballTeamLeague = new League<>("MLB");
+        League<SoccerTeam> soccerTeamLeague = new League<>("MLS");
+
+        footballTeamLeague.addTeam(greenBay);
+        footballTeamLeague.addTeam(houston);
+        footballTeamLeague.addTeam(newEngland);
+
+        System.out.println(footballTeamLeague.numTeams());
+
 
     }
 }
