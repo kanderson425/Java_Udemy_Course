@@ -1,6 +1,9 @@
 package com.kyleanderson;
 
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -51,5 +54,10 @@ public class Main {
 
 	System.out.println(hawthorn.compareTo(adelaideCrows));
 	System.out.println(melbourne.compareTo(fremantle));
+
+
+	// This is how we could sort an ArrayList
+//	ArrayList<Team> teams;
+//	Collections.sort(teams);
     }
 }
