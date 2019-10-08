@@ -4,7 +4,8 @@
     <list default="true" id="436a688f-5713-4f91-aae0-620e170cdb51" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Abstraction/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Abstraction/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AbstractionChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractionChallenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/SearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/SearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="24" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -64,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/SearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
+            <state relative-caret-position="894">
               <caret line="125" column="59" selection-start-line="125" selection-start-column="59" selection-end-line="125" selection-end-column="59" />
             </state>
           </provider>
@@ -92,13 +93,14 @@
         <option value="$PROJECT_DIR$/src/com/kyleanderson/ListItem.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Node.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/NodeList.java" />
-        <option value="$PROJECT_DIR$/src/com/kyleanderson/Main.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/SearchTree.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="840" />
     <option name="y" value="23" />
     <option name="width" value="840" />
     <option name="height" value="960" />
@@ -163,7 +165,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="840" y="23" width="840" height="960" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -171,10 +173,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.04945055" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.10150376" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.498779" visible="true" weight="0.2904911" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49874687" visible="true" weight="0.28994083" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -183,7 +185,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.501221" side_tool="true" visible="true" weight="0.2904911" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5012531" side_tool="true" weight="0.3289941" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -216,13 +218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -232,8 +227,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/SearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
+        <state relative-caret-position="894">
           <caret line="125" column="59" selection-start-line="125" selection-start-column="59" selection-end-line="125" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="24" selection-end-column="34" />
         </state>
       </provider>
     </entry>
