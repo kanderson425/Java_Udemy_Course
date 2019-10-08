@@ -6,13 +6,4 @@ public class BaseballTeam extends Team {
         super(name);
     }
 
-    @Override
-    public String getName() {
-        return super.getName();
-    }
-
-    @Override
-    public int getWins() {
-        return super.getWins();
-    }
 }
