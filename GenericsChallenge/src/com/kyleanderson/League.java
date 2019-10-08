@@ -16,4 +16,8 @@ public class League<T> {
     public String getName() {
         return name;
     }
+
+    public boolean addTeam(T team) {
+
+    }
 }
