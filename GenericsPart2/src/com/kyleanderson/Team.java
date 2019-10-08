@@ -2,7 +2,7 @@ package com.kyleanderson;
 
 import java.util.ArrayList;
 
-public class Team<T> {
+public class Team<T extends Player> { // by typing extends Player...we are restricting this as a bounded-type parameter
     private String name;
     int played = 0;
     int won = 0;
@@ -21,11 +21,11 @@ public class Team<T> {
 
     public boolean addPlayer(T player) {
         if(members.contains(player)) {
-            System.out.println(((Player) player).getName() + " is already on the team.");
+            System.out.println(player.getName() + " is already on the team."); // we can remove the (Player) cast
             return false;
         } else {
             members.add(player);
-            System.out.println(((Player) player).getName() + " picked for team " + this.name);
+            System.out.println(player.getName() + " picked for team " + this.name);
             return true;
         }
     }
