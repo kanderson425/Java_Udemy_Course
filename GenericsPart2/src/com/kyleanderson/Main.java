@@ -36,7 +36,7 @@ public class Main {
 	hawthorn.matchResult(adelaideCrows, 3, 8);
 
 	adelaideCrows.matchResult(fremantle, 2, 1);
-	adelaideCrows.matchResult(baseballTeam, 1,1);
+//	adelaideCrows.matchResult(baseballTeam, 1,1); // This will produce an error b/c we've matched up a soccer team with a baseball team.
 
     }
 }
