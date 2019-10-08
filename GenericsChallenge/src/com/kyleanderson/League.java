@@ -17,7 +17,7 @@ public class League<T> implements Comparable<League<T>>{
         return name;
     }
 
-    public boolean addTeam(T team) {
+    public boolean addTeam(T team, int wins) {
         if(teams.contains(team)) {
             System.out.println(((Team) team).getName() + " is already in the league.");
             return false;
@@ -35,6 +35,7 @@ public class League<T> implements Comparable<League<T>>{
     public int ranking() {
         return (wins * 2);
     }
+
 
     @Override
     public int compareTo(League<T> team) {

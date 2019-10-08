@@ -23,11 +23,19 @@ public class Main {
         League<BaseballTeam> baseballTeamLeague = new League<>("MLB");
         League<SoccerTeam> soccerTeamLeague = new League<>("MLS");
 
-        footballTeamLeague.addTeam(greenBay);
-        footballTeamLeague.addTeam(houston);
-        footballTeamLeague.addTeam(newEngland);
+        footballTeamLeague.addTeam(greenBay, 10);
+        footballTeamLeague.addTeam(houston, 5);
+        footballTeamLeague.addTeam(newEngland, 7);
 
         System.out.println(footballTeamLeague.numTeams());
+
+        baseballTeamLeague.addTeam(houstonAstros, 8);
+        baseballTeamLeague.addTeam(newYork, 16);
+        baseballTeamLeague.addTeam(boston, 12);
+
+        soccerTeamLeague.addTeam(paris, 20);
+        soccerTeamLeague.addTeam(houstonDyn, 15);
+        soccerTeamLeague.addTeam(losAngeles, 10);
 
 
     }

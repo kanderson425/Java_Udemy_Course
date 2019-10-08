@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="034a1185-8ba0-4988-a27a-6be1b835feb2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../GenericsChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericsChallenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GenericsChallenge/src/com/kyleanderson/BaseballTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericsChallenge/src/com/kyleanderson/BaseballTeam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GenericsChallenge/src/com/kyleanderson/FootballTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericsChallenge/src/com/kyleanderson/FootballTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericsChallenge/src/com/kyleanderson/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericsChallenge/src/com/kyleanderson/League.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GenericsChallenge/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericsChallenge/src/com/kyleanderson/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GenericsChallenge/src/com/kyleanderson/SoccerTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericsChallenge/src/com/kyleanderson/SoccerTeam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -70,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Team.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
+            <state relative-caret-position="746">
               <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
             </state>
           </provider>
@@ -203,13 +201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/SoccerPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -228,6 +219,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
         </state>
       </provider>
     </entry>
