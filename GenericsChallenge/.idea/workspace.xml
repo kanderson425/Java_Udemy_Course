@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d7ff9c3-af9c-4207-a434-bb1c13cef9c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/League.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GenericsPart2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericsPart2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GenericsPart2/src/com/kyleanderson/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericsPart2/src/com/kyleanderson/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kyleanderson/BaseballTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kyleanderson/FootballTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kyleanderson/SoccerTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Team.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,17 +33,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Team.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/League.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BaseballTeam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/FootballTeam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="13" lean-forward="true" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/League.java">
+        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/SoccerTeam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -62,8 +91,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/kyleanderson/Team.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/League.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/Team.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/BaseballTeam.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/FootballTeam.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/SoccerTeam.java" />
       </list>
     </option>
   </component>
@@ -83,7 +115,28 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GenericsChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GenericsChallenge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GenericsChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GenericsChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GenericsChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GenericsChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kyleanderson" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,10 +188,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21804512" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21804512" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32938388" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32938388" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -166,17 +219,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Team.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/League.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="269">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/League.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Team.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BaseballTeam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/FootballTeam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" lean-forward="true" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/SoccerTeam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
