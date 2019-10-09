@@ -36,6 +36,18 @@ public class League<T> implements Comparable<League<T>>{
         return (wins * 2);
     }
 
+    @Override
+    public String toString() {
+        return "League{" +
+                "name='" + name + '\'' +
+                ", wins=" + wins +
+                ", teams=" + teams +
+                '}';
+    }
+
+    public void leagueResults(League<T> league) {
+        toString();
+    }
 
     @Override
     public int compareTo(League<T> team) {
