@@ -37,7 +37,7 @@ public class Main {
 //        soccerTeamLeague.addTeam(houstonDyn, 15);
 //        soccerTeamLeague.addTeam(losAngeles, 10);
 
-        footballTeamLeague.toString();
+        footballTeamLeague.leagueResults(footballTeamLeague);
 
     }
 }

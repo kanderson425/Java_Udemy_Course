@@ -46,7 +46,7 @@ public class League<T> implements Comparable<League<T>>{
     }
 
     public void leagueResults(League<T> league) {
-        toString();
+        System.out.println(teams);
     }
 
     @Override
