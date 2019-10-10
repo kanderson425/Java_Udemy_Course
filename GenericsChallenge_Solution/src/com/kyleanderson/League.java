@@ -23,7 +23,7 @@ public class League<T extends Team>{
     public void showLeagueTable() {
         Collections.sort(league);
         for(T t : league) {
-            System.out.println(t.getName() + t.ranking());
+            System.out.println(t.getName() +": " + t.ranking());
         }
     }
 }

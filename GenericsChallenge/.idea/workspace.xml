@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d7ff9c3-af9c-4207-a434-bb1c13cef9c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge_Solution/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge_Solution/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge_Solution/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge_Solution/GenericsChallenge_Solution.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge_Solution/src/com/kyleanderson/FootballPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge_Solution/src/com/kyleanderson/League.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge_Solution/src/com/kyleanderson/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericsChallenge_Solution/src/com/kyleanderson/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Generics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Generics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/League.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericsChallenge_Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericsChallenge_Solution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericsChallenge_Solution/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericsChallenge_Solution/src/com/kyleanderson/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GenericsPart2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericsPart2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -193,6 +183,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="840" height="959" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
