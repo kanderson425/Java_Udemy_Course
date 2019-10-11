@@ -3,7 +3,7 @@ package com.kyleanderson;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class League<T extends Team>{
+public class League< T extends Team>{
     public String name;
     private ArrayList<T> league = new ArrayList<>();
 

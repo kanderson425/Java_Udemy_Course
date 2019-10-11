@@ -20,8 +20,8 @@ public class Main {
         footballLeague.add(fremantle);
 
         hawthorn.matchResult(fremantle, 1, 0);
-        hawthorn.matchResult(adelaideCrows, 3, 8);
-        adelaideCrows.matchResult(fremantle, 2, 1);
+        hawthorn.matchResult(adelaideCrows, 2, 7);
+        adelaideCrows.matchResult(fremantle, 1, 2);
 
         footballLeague.showLeagueTable();
 
