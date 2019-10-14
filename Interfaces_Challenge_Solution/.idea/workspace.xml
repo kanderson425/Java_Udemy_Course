@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6745269f-9fee-4e99-a415-e342238badcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PackageDemo/src/com/example/game/ISaveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PackageDemo/src/com/example/game/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PackageDemo/src/com/example/game/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PackageDemo/src/com/example/game/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WinDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WinDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WinDemo/src/com/example/awtSample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WinDemo/src/com/example/awtSample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PackageDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PackageDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PackageDemo/src/com/example/game/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -173,7 +167,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="172" y="23" width="1505" height="960" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />

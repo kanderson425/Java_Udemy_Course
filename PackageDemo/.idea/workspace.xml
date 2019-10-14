@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e5d758-9833-46dd-a811-51c7624441e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/game/ISaveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/game/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/game/Main_v2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/game/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/game/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interfaces_Challenge_Solution/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces_Challenge_Solution/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interfaces_Challenge_Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces_Challenge_Solution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WinDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WinDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WinDemo/src/com/example/awtSample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WinDemo/src/com/example/awtSample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/game/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,25 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/game/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="16" selection-end-line="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/game/Main_v2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/game/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -82,8 +57,8 @@
         <option value="$PROJECT_DIR$/src/com/example/game/Monster.java" />
         <option value="$PROJECT_DIR$/src/com/example/game/ISaveable.java" />
         <option value="$PROJECT_DIR$/src/com/example/game/Player.java" />
-        <option value="$PROJECT_DIR$/src/com/example/game/Main.java" />
         <option value="$PROJECT_DIR$/src/com/example/game/Main_v2.java" />
+        <option value="$PROJECT_DIR$/src/com/example/game/Main.java" />
       </list>
     </option>
   </component>
@@ -137,9 +112,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/example/game" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
@@ -159,41 +135,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.game.Main" />
-      <module name="PackageDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.mypackage.Main" />
-      <module name="PackageDemo" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -209,7 +150,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="136" y="23" width="1532" height="959" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -219,7 +159,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.15570469" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32972324" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49932885" visible="true" weight="0.32938388" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -228,7 +168,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" side_tool="true" visible="true" weight="0.32938388" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.32938388" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -253,13 +193,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/game/ISaveable.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/game/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/example/mypackage/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -274,10 +207,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/game/Main_v2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/game/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/game/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
