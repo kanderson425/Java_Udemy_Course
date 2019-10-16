@@ -16,7 +16,12 @@ public class Series {
     }
 
     public static int factorial(int n) {
-        int product = 0;
+        int product;
+        if(n == 0) {
+            product = 0;
+        } else {
+            product = 1;
+        }
         for(int i=0; i <=n; i++) {
             product *= i;
         }
