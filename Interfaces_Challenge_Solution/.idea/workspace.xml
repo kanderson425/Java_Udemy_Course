@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6745269f-9fee-4e99-a415-e342238badcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PackageChallenge/src/com/example/packageChallenge/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GameTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PackageChallenge/.idea/artifacts/PackageChallenge_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PackageChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PackageChallenge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PackageChallenge/out/production/PackageChallenge/META-INF/PackageChallenge.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PackageChallenge/src/com/example/packageChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PackageChallenge/src/com/example/packageChallenge/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PackageChallenge/src/com/example/packageChallenge/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PackageChallenge/src/com/example/packageChallenge/Series.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PackageChallenge_2/.idea/libraries/PackageChallenge.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PackageChallenge_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PackageChallenge_2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PackageChallenge_2/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PackageChallenge_2/src/com/kyleanderson/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PackageDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PackageDemo/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

@@ -30,8 +30,10 @@ public class Series {
 
     public static long fibonnaci(int n) {
         if(n == 0) {
+            System.out.println(0);
             return 0;
         } else if(n == 1) {
+            System.out.println(1);
             return 1;
         }
         long nMinus1  = 1;

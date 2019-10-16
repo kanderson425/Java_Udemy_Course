@@ -1,7 +1,7 @@
 package com.kyleanderson;
 
 
-
+import com.example.packageChallenge.Series;
 
 public class Main {
 
