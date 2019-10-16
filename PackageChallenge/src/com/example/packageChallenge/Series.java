@@ -5,7 +5,7 @@ public class Series {
 
     }
 
-    public static int nSum(int n) {
+    public static long nSum(int n) {
         int sum = 0;
         for (int i = 0; i <= n; i++) {
             sum += i;
@@ -15,10 +15,10 @@ public class Series {
 
     }
 
-    public static int factorial(int n) {
+    public static long factorial(int n) {
         int product = 1;
         if (n == 0) {
-            product = 0;
+            product = 1;
         } else {
             for (int i = 1; i <= n; i++) {
                 product *= i;
@@ -28,18 +28,21 @@ public class Series {
         return product;
     }
 
-    public static int fibonnaci(int n) {
-        int a = 0, b = 1, c;
-        if (n == 0) {
-            return a;
-        } else {
-            for (int i = 2; i <= n; i++) {
-                c = a + b;
-                a = b;
-                b = c;
-            }
+    public static long fibonnaci(int n) {
+        if(n == 0) {
+            return 0;
+        } else if(n == 1) {
+            return 1;
         }
-        System.out.println(b);
-        return b;
+        long nMinus1  = 1;
+        long nMinus2 = 0;
+        long fib = 0;
+        for(int i=1; i<n; i++) {
+            fib = (nMinus2 + nMinus1);
+            nMinus2 = nMinus1;
+            nMinus1 = fib;
+        }
+        System.out.println(fib);
+        return fib;
     }
 }

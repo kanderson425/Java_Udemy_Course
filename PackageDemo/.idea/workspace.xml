@@ -7,11 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0e5d758-9833-46dd-a811-51c7624441e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PackageChallenge/.idea/artifacts/PackageChallenge_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PackageChallenge/src/com/example/packageChallenge/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GameTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GameTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Interfaces_Challenge_Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces_Challenge_Solution/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PackageChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PackageChallenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PackageChallenge_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PackageChallenge_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PackageChallenge_2/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PackageChallenge_2/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

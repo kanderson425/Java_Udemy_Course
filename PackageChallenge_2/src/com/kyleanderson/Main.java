@@ -1,15 +1,25 @@
 package com.kyleanderson;
 
-import com.example.packageChallenge.Series;
+
+
 
 public class Main {
 
     public static void main(String[] args) {
+        for(int i=0; i<= 10; i++) {
+            Series.nSum(i);
+        }
 
-        Series.nSum(5);
+        System.out.println("**************************");
 
-        Series.factorial(5);
+        for(int i=0; i<=10; i++) {
+            Series.factorial(i);
+        }
 
-        Series.fibonnaci(5);
+        System.out.println("**************************");
+
+        for(int i=0; i<=10; i++) {
+            Series.fibonnaci(i);
+        }
     }
 }
