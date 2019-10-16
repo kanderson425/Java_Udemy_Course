@@ -1,4 +1,4 @@
-package com.kyleanderson;
+package com.example.packageChallenge;
 
 public class Series {
     public Series() {
