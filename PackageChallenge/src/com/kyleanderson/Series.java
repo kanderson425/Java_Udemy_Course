@@ -16,16 +16,14 @@ public class Series {
     }
 
     public static int factorial(int n) {
-        int product;
-        if(n == 0) {
+        int product = 1;
+        if (n == 0) {
             product = 0;
         } else {
-            product = 1;
-        }
-        for(int i=0; i <=n; i++) {
+        for (int i = 1; i <= n; i++) {
             product *= i;
+            }
         }
-
         System.out.println(product);
         return product;
     }
