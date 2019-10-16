@@ -6,7 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0e5d758-9833-46dd-a811-51c7624441e2" name="Default Changelist" comment="" />
+    <list default="true" id="c0e5d758-9833-46dd-a811-51c7624441e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../PackageChallenge/.idea/artifacts/PackageChallenge_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GameTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interfaces_Challenge_Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces_Challenge_Solution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PackageChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PackageChallenge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,9 +71,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="136" />
-    <option name="y" value="23" />
-    <option name="width" value="1532" />
+    <option name="x" value="9" />
+    <option name="y" value="49" />
+    <option name="width" value="645" />
     <option name="height" value="959" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -78,7 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,6 +107,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,17 +148,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="23" width="1532" height="959" extended-state="0" />
+    <frame x="9" y="49" width="645" height="959" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.15570469" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.3897181" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49932885" visible="true" weight="0.32938388" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49932885" visible="true" weight="0.3390244" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -173,10 +179,12 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/example/mypackage/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/org/example/mypackage/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/example/game/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/example/game/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="270">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -185,34 +193,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/game/ISaveable.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/example/mypackage/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/game/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="16" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/game/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/game/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
   </component>
   <component name="masterDetails">
