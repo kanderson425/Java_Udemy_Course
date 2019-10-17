@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04b2f704-28e3-4132-8109-ffbbb9889d92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Interfaces_Challenge_Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces_Challenge_Solution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/PackageChallenge_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PackageChallenge/META-INF/PackageChallenge.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/packageChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/packageChallenge/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/packageChallenge/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/packageChallenge/Series.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PackageChallenge_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PackageChallenge_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PackageChallenge_2/PackageChallenge_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PackageChallenge_2/PackageChallenge_2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PackageChallenge_2/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PackageChallenge_2/src/com/kyleanderson/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="04b2f704-28e3-4132-8109-ffbbb9889d92" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +154,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="24" width="840" height="960" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -183,7 +172,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.50250626" side_tool="true" visible="true" weight="0.3289941" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.50250626" side_tool="true" weight="0.3289941" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -220,6 +209,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
