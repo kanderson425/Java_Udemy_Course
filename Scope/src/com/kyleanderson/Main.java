@@ -11,6 +11,9 @@ public class Main {
 
 
         scopeInstance.timesTwo();
+        System.out.println("******************");
+        ScopeCheck.InnerClass innerClass = scopeInstance.new InnerClass();
+        innerClass.timesTwo();
     }
 
 }
