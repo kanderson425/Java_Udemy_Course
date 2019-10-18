@@ -21,15 +21,15 @@ public class ScopeCheck {
     }
 
     public class InnerClass {
-        public int var3 = 3;
+        public int varThree = 3;
 
         public InnerClass() {
-            System.out.println("InnerClass created, varOne is " + var3);
+            System.out.println("InnerClass created, varOne is " + varThree);
         }
 
         public void timesTwo() {
             for(int i=0; i<10; i++) {
-                System.out.println(i + " times two is " + i * InnerClass.this.var3);
+                System.out.println(i + " times two is " + i * InnerClass.this.varThree);
             }
         }
     }
