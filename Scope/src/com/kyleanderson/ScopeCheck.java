@@ -24,12 +24,13 @@ public class ScopeCheck {
         public int varThree = 3;
 
         public InnerClass() {
-            System.out.println("InnerClass created, varOne is " + varThree);
+            System.out.println("InnerClass created, varOne is " + varOne + " and varThree is " + varThree);
         }
 
         public void timesTwo() {
+            System.out.println("varONe is sitll available here " + varOne);
             for(int i=0; i<10; i++) {
-                System.out.println(i + " times two is " + i * InnerClass.this.varThree);
+                System.out.println(i + " times two is " + i * varThree);
             }
         }
     }
