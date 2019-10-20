@@ -7,16 +7,19 @@ public class Main {
 
 	    ScopeCheck scopeInstance = new ScopeCheck();
 	    scopeInstance.useInner();
-	    System.out.println("scopeInstance varOne is " + scopeInstance.getVarOne());
-        System.out.println(varFour);
 
-
-
-
-        scopeInstance.timesTwo();
-        System.out.println("******************");
-        ScopeCheck.InnerClass innerClass = scopeInstance.new InnerClass();
-        innerClass.timesTwo();
+	    ScopeCheck.InnerClass innerClass = scopeInstance.new InnerClass();
+        System.out.println("varThree is not accessible here " + innerClass.varThree);
+//	    System.out.println("scopeInstance varOne is " + scopeInstance.getVarOne());
+//        System.out.println(varFour);
+//
+//
+//
+//
+//        scopeInstance.timesTwo();
+//        System.out.println("******************");
+//        ScopeCheck.InnerClass innerClass = scopeInstance.new InnerClass();
+//        innerClass.timesTwo();
     }
 
 }
