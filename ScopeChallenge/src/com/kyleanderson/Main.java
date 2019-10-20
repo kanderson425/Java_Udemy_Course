@@ -5,8 +5,11 @@ public class Main {
 
     public static void main(String[] args) {
 	Scanner X = new Scanner(System.in);
+	System.out.println("Input a number: ");
+	int num = X.nextInt();
+	printTable(num);
 
-	printTable(5);
+
     }
 
     public static void printTable(int num) {
@@ -14,5 +17,6 @@ public class Main {
         for(int i = 1; i <= 12; i++) {
             System.out.println(i + " x " + num + " = " + num * i);
         }
+        System.out.println("Times table for " + num + " is complete.");
     }
 }
