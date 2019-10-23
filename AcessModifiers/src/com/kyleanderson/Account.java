@@ -28,6 +28,17 @@ public class Account {
         }
     }
 
+    public void withdraw(int amount) {
+        int withdrawal = -amount;
+        if(withdrawal < 0) {
+            this.transactions.add(withdrawal);
+            this.balance += withdrawal;
+            System.out.println(amount + " withdrawn. Balance is now " + this.balance);
+
+        } else {
+            System.out.println("Cannot withdraw negative sums");
+        }
+    }
 
 }
 
