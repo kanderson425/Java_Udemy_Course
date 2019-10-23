@@ -16,5 +16,18 @@ public class Account {
     public int getBalance() {
         return balance;
     }
+
+    public void deposit(int amount) {
+        if(amount >0) {
+            transactions.add(amount);
+            this.balance += amount;
+            System.out.println(amount + " deposited. Balance is now " + this.balance);
+
+        } else {
+            System.out.println("Cannot deposit negative sums");
+        }
+    }
+
+
 }
 
