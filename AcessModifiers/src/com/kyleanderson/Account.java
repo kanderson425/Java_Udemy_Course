@@ -40,5 +40,13 @@ public class Account {
         }
     }
 
+    public void calculateBalance() {
+        this.balance = 0;
+        for(int i : this.transactions) {
+            this.balance += i;
+        }
+        System.out.println("Calculated balance is " + this.balance);
+    }
+
 }
 
