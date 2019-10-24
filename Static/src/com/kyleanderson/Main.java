@@ -3,14 +3,15 @@ package com.kyleanderson;
 public class Main {
 
     public static void main(String[] args) {
-        doubleInt(5);
+        StaticTest firstInstance = new StaticTest("1st Instance");
+        System.out.println(firstInstance.getName() + " is instance number " + firstInstance.getNumInstances());
+
+        StaticTest secondInstance = new StaticTest("2nd Instance");
+        System.out.println(secondInstance.getName() + " is instance number " + secondInstance.getNumInstances());
+
+        StaticTest thirdInstance = new StaticTest("3rd Instance");
+        System.out.println(thirdInstance.getName() + " is instance number " + thirdInstance.getNumInstances());
     }
 
-    public static int doubleInt(int num) {
-        int doubleInt;
-        doubleInt = num * 2;
-        System.out.println(doubleInt);
-        return doubleInt;
 
-    }
 }
