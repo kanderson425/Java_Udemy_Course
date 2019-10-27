@@ -15,7 +15,7 @@ public class Main {
 		// The reason that the above does not work is b/c the instanceNumber variable is a final variable, meaning
 		// that this variable is getting treated as a constant and cannot be modified directy/after the variable has been set.
 
-		System.out.println(Math.PI);
-		Math m = new Math();
+//		System.out.println(Math.PI);
+//		Math m = new Math();
     }
 }
