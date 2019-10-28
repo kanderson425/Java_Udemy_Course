@@ -17,5 +17,16 @@ public class Main {
 
 //		System.out.println(Math.PI);
 //		Math m = new Math();
+
+		int pw = 674312;
+		Password password = new ExtendedPassword(pw);
+		password.storePassword();
+
+		password.letMeIn(1);
+		password.letMeIn(523266);
+		password.letMeIn(9773);
+		password.letMeIn(0);
+		password.letMeIn(-1);
+		password.letMeIn(674312);
     }
 }
