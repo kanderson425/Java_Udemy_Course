@@ -7,6 +7,8 @@ public class Theatre {
     private List<Seat> seats = new ArrayList<>();
 
 
+
+
     public Theatre(String theatreName, int numRows, int seatsPerRow) {
         this.theatreName = theatreName;
 
@@ -17,7 +19,14 @@ public class Theatre {
                 seats.add(seat);
             }
         }
+
     }
+
+    public String getTheatreName() {
+        return theatreName;
+    }
+
+
 
 
 }
