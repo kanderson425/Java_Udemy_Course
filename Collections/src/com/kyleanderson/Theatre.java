@@ -26,7 +26,27 @@ public class Theatre {
         return theatreName;
     }
 
+    public boolean reserveSeat(String seatNumber) {
+        Seat reqeustSeat = null;
+        for(Seat seat : seats) {
+            if(seat.getSeatNumber().equals(seatNumber)) {
+                requestSeat = seat;
+                break;
+            }
+        }
+        if(requestSeat = null) {
+            System.out.println("There is no seat " + seatNumber);
+            return false;
+        }
+        return requestSeat.reserve();
+    }
 
+    // for testing
+    public void getSeats() {
+        for (Seat seat : seeats) {
+            System.out.println(seat.getSeatNumber);
+        }
+    }
 
 
 }
