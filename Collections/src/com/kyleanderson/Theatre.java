@@ -1,6 +1,7 @@
 package com.kyleanderson;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Theatre {
     private final String theatreName;
@@ -45,6 +46,15 @@ public class Theatre {
     public void getSeats() {
         for (Seat seat : seeats) {
             System.out.println(seat.getSeatNumber);
+        }
+    }
+
+    private class Seat {
+        private final String seatNumber;
+        private boolean reserved = false;
+
+        public Seat(String seatNumber) {
+            this.seatNumber = seatNumber;
         }
     }
 
