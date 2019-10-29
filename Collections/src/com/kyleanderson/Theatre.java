@@ -1,7 +1,7 @@
 package com.kyleanderson;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+
 
 public class Theatre {
     private final String theatreName;
@@ -55,6 +55,30 @@ public class Theatre {
 
         public Seat(String seatNumber) {
             this.seatNumber = seatNumber;
+        }
+
+        public boolean reserve() {
+            if(!this.reserved) {
+                this.reserved = true;
+                System.out.println("Seat " + seatNumber + " reserved");
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        public boolean cancel() {
+            if(this.reserved) {
+                this.reserved = false;
+                System.out.println("Reservation of seat " + seatNumber + " cancelled");
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        public String getSeatNumber() {
+            return seatNumber;
         }
     }
 
