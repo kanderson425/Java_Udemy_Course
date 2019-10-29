@@ -16,7 +16,7 @@ public class Theatre {
         int lastRow = 'A' + (numRows - 1);
         for(char row = 'A'; row <= lastRow; row++) {
             for(int seatNum = 1; seatNum <= seatsPerRow; seatNum++) {
-                Seat seat = new Seat(row + String.format("%02e", seatNum));
+                Seat seat = new Seat(row + String.format("%02d", seatNum));
                 seats.add(seat);
             }
         }
@@ -28,24 +28,24 @@ public class Theatre {
     }
 
     public boolean reserveSeat(String seatNumber) {
-        Seat reqeustSeat = null;
+        Seat requestedSeat = null;
         for(Seat seat : seats) {
             if(seat.getSeatNumber().equals(seatNumber)) {
-                requestSeat = seat;
+                requestedSeat = seat;
                 break;
             }
         }
-        if(requestSeat = null) {
+        if(requestedSeat == null) {
             System.out.println("There is no seat " + seatNumber);
             return false;
         }
-        return requestSeat.reserve();
+        return requestedSeat.reserve();
     }
 
     // for testing
     public void getSeats() {
-        for (Seat seat : seeats) {
-            System.out.println(seat.getSeatNumber);
+        for (Seat seat : seats) {
+            System.out.println(seat.getSeatNumber());
         }
     }
 
