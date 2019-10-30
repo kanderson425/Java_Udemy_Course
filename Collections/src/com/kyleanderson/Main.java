@@ -18,11 +18,16 @@ public class Main {
         System.out.println("Seat already reserved");
     }
 
-    Collections.reverse(seatCopy);
+    Collections.shuffle(seatCopy);
         System.out.println("Printing seatCopy");
         printList(seatCopy);
         System.out.println("Printing theatre.seat");
         printList(theatre.seats);
+
+        Theatre.Seat minSeat = Collections.min(seatCopy);
+        Theatre.Seat maxSeat = Collections.max(seatCopy);
+        System.out.println("min seat number is " + minSeat.getSeatNumber());
+        System.out.println("Max seat number is " + maxSeat.getSeatNumber());
 
     }
 
