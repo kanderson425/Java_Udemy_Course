@@ -17,6 +17,12 @@ public class Main {
 	    locations.put(4, new Location(4, "You are in a valley beside a stream"));
 	    locations.put(5, new Location(5, "You are in the forest"));
 
+	    locations.get(1).addExit("W",2);
+	    locations.get(1).addExit("E",3);
+	    locations.get(1).addExit("S",4);
+	    locations.get(1).addExit("N",5);
+	    locations.get(1).addExit("Q",0);
+
 	    int loc = 1;
 	    while(true) {
             System.out.println(locations.get(loc).getDescription());
@@ -24,9 +30,10 @@ public class Main {
                 break;
             }
 
-            loc = scanner.nextInt(0);
+            loc = scanner.nextInt();
             if(!locations.containsKey(loc)) {
                 System.out.println("You cannot go in that direction");
+
             }
         }
 

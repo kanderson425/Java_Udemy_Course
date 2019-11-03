@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11ef50c2-10b0-4f40-ba70-4a866c2df376" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Adventure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Adventure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Adventure/src/com/kyleanderson/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Adventure/src/com/kyleanderson/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Adventure/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Adventure/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
