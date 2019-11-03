@@ -21,60 +21,66 @@ public class Main {
 	    locations.get(1).addExit("E",3);
 	    locations.get(1).addExit("S",4);
 	    locations.get(1).addExit("N",5);
-//	    locations.get(1).addExit("Q",0);
 
 	    locations.get(2).addExit("N", 5);
-//	    locations.get(2).addExit("Q", 0);
 
 	    locations.get(3).addExit("W", 1);
-//	    locations.get(3).addExit("Q", 0);
 
 	    locations.get(4).addExit("N", 1);
 	    locations.get(4).addExit("W", 2);
-//	    locations.get(4).addExit("Q", 0);
 
 	    locations.get(5).addExit("S", 1);
 	    locations.get(5).addExit("W", 2);
-//	    locations.get(5).addExit("Q", 0);
 
 	    int loc = 1;
-//	    while(true) {
-//            System.out.println(locations.get(loc).getDescription());
-//            if(loc == 0) {
-//                break;
-//            }
-//
-//            Map<String, Integer> exits = locations.get(loc).getExits();
-//            System.out.print("Available exits are " );
-//            for(String exit: exits.keySet()) {
-//                System.out.print(exit + ", ");
-//            }
-//            System.out.println();
-//
+	    while(true) {
+            System.out.println(locations.get(loc).getDescription());
+            if(loc == 0) {
+                break;
+            }
+
+            Map<String, Integer> exits = locations.get(loc).getExits();
+            System.out.print("Available exits are " );
+            for(String exit: exits.keySet()) {
+                System.out.print(exit + ", ");
+            }
+            System.out.println();
+
 //            String direction = scanner.nextLine().toUpperCase();
-//
-//            if(exits.containsKey(direction)) {
-//                loc = exits.get(direction);
-//            } else {
-//                System.out.println("You cannot go in that direction");
-//            }
-//
+            String direction = scanner.nextLine();
+            String[] splitDirection = direction.split(" ");
+            String convertedDirection = "0";
+
+            for(String i: splitDirection) {
+                if((i.equals("West")) || (i.equals("west")) || (i.equals("w")) || (i.equals("W"))) {
+                    convertedDirection = "W";
+                } else if((i.equals("East"))|| (i.equals("east")) || (i.equals("e")) || (i.equals("E"))) {
+                    convertedDirection = "E";
+                } else if((i.equals("South")) || (i.equals("south")) || (i.equals("s")) || (i.equals("S"))) {
+                    convertedDirection = "S";
+                } else if((i.equals("North")) || (i.equals("north")) || (i.equals("n")) || (i.equals("N"))) {
+                    convertedDirection = "N";
+                }
+            }
+            if(exits.containsKey(convertedDirection)) {
+                loc = exits.get(convertedDirection);
+            } else {
+                System.out.println("You cannot go in that direction");
+            }
+
+        }
+
+        //Code Below: Demonstrates the .split method
+//        String[] road = "You are standing at the end of a road before a small brick bulding".split(" ");
+//        for(String i: road) {
+//            System.out.println(i);
 //        }
-
-
-        String[] road = "You are standing at the end of a road before a small brick bulding".split(" ");
-        for(String i: road) {
-            System.out.println(i);
-        }
-
-        System.out.println("======================================");
-        String[] building = "You are inside a building, a well house for a small spring".split(" ");
-        for(String i: building) {
-            System.out.println(i);
-        }
-
-
-
+//
+//        System.out.println("======================================");
+//        String[] building = "You are inside a building, a well house for a small spring".split(", ");
+//        for(String i: building) {
+//            System.out.println(i);
+//        }
 
     }
 }
