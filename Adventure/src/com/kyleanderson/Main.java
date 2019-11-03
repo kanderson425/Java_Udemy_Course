@@ -23,6 +23,14 @@ public class Main {
 	    locations.get(1).addExit("N",5);
 	    locations.get(1).addExit("Q",0);
 
+	    locations.get(2).addExit("N", 5);
+	    locations.get(2).addExit("Q", 0);
+
+
+
+
+
+
 	    int loc = 1;
 	    while(true) {
             System.out.println(locations.get(loc).getDescription());
