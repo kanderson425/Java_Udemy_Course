@@ -26,6 +26,13 @@ public class Main {
 	    locations.get(2).addExit("N", 5);
 	    locations.get(2).addExit("Q", 0);
 
+	    locations.get(3).addExit("W", 1);
+	    locations.get(3).addExit("Q", 0);
+
+	    locations.get(4).addExit("N", 1);
+	    locations.get(4).addExit("W", 2);
+	    locations.get(4).addExit("Q", 0);
+
 
 
 
