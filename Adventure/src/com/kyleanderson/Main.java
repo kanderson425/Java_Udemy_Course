@@ -21,21 +21,21 @@ public class Main {
 	    locations.get(1).addExit("E",3);
 	    locations.get(1).addExit("S",4);
 	    locations.get(1).addExit("N",5);
-	    locations.get(1).addExit("Q",0);
+//	    locations.get(1).addExit("Q",0);
 
 	    locations.get(2).addExit("N", 5);
-	    locations.get(2).addExit("Q", 0);
+//	    locations.get(2).addExit("Q", 0);
 
 	    locations.get(3).addExit("W", 1);
-	    locations.get(3).addExit("Q", 0);
+//	    locations.get(3).addExit("Q", 0);
 
 	    locations.get(4).addExit("N", 1);
 	    locations.get(4).addExit("W", 2);
-	    locations.get(4).addExit("Q", 0);
+//	    locations.get(4).addExit("Q", 0);
 
 	    locations.get(5).addExit("S", 1);
 	    locations.get(5).addExit("W", 2);
-	    locations.get(5).addExit("Q", 0);
+//	    locations.get(5).addExit("Q", 0);
 
 	    int loc = 1;
 	    while(true) {

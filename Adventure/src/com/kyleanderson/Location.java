@@ -12,6 +12,7 @@ public class Location {
         this.locationID = locationID;
         this.description = description;
         this.exits = new HashMap<String, Integer>();
+        this.exits.put("Q", 0); // this automatically adds the 'quit' functionality to every location and allows us to avoid manually adding this option to each indivdiaul location in the Main class
     }
 
     public void addExit(String direction, int location) {
