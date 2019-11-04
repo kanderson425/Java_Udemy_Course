@@ -60,6 +60,8 @@ public class Main {
                     convertedDirection = "S";
                 } else if((i.equals("North")) || (i.equals("north")) || (i.equals("n")) || (i.equals("N"))) {
                     convertedDirection = "N";
+                } else if((i.equals("Quit")) || (i.equals("quit")) || (i.equals("q")) || (i.equals("Q"))) {
+                    convertedDirection = "Q";
                 }
             }
             if(exits.containsKey(convertedDirection)) {
