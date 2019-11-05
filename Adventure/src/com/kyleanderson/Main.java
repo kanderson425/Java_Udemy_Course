@@ -32,6 +32,14 @@ public class Main {
 	    locations.get(5).addExit("S", 1);
 	    locations.get(5).addExit("W", 2);
 
+	    Map<String, String> vocabulary = new HashMap<String, String>();
+	    vocabulary.put("QUIT", "Q");
+	    vocabulary.put("NORTH", "N");
+	    vocabulary.put("SOUTH", "S");
+	    vocabulary.put("EAST","E");
+	    vocabulary.put("WEST", "W");
+
+
 	    int loc = 1;
 	    while(true) {
             System.out.println(locations.get(loc).getDescription());
@@ -46,26 +54,35 @@ public class Main {
             }
             System.out.println();
 
-//            String direction = scanner.nextLine().toUpperCase();
-            String direction = scanner.nextLine();
-            String[] splitDirection = direction.split(" ");
-            String convertedDirection = "0";
-
-            for(String i: splitDirection) {
-                if((i.equals("West")) || (i.equals("west")) || (i.equals("w")) || (i.equals("W"))) {
-                    convertedDirection = "W";
-                } else if((i.equals("East"))|| (i.equals("east")) || (i.equals("e")) || (i.equals("E"))) {
-                    convertedDirection = "E";
-                } else if((i.equals("South")) || (i.equals("south")) || (i.equals("s")) || (i.equals("S"))) {
-                    convertedDirection = "S";
-                } else if((i.equals("North")) || (i.equals("north")) || (i.equals("n")) || (i.equals("N"))) {
-                    convertedDirection = "N";
-                } else if((i.equals("Quit")) || (i.equals("quit")) || (i.equals("q")) || (i.equals("Q"))) {
-                    convertedDirection = "Q";
+            String direction = scanner.nextLine().toUpperCase();
+            if(direction.length() > 1) {
+                String[] words = direction.split(" ");
+                for(String word: words) {
+                    if(vocabulary.containsKey(word)) {
+                        direction = vocabulary.get(word);
+                        break;
+                    }
                 }
             }
-            if(exits.containsKey(convertedDirection)) {
-                loc = exits.get(convertedDirection);
+//            String direction = scanner.nextLine();
+//            String[] splitDirection = direction.split(" ");
+//            String convertedDirection = "0";
+//
+//            for(String i: splitDirection) {
+//                if((i.equals("West")) || (i.equals("west")) || (i.equals("w")) || (i.equals("W"))) {
+//                    convertedDirection = "W";
+//                } else if((i.equals("East"))|| (i.equals("east")) || (i.equals("e")) || (i.equals("E"))) {
+//                    convertedDirection = "E";
+//                } else if((i.equals("South")) || (i.equals("south")) || (i.equals("s")) || (i.equals("S"))) {
+//                    convertedDirection = "S";
+//                } else if((i.equals("North")) || (i.equals("north")) || (i.equals("n")) || (i.equals("N"))) {
+//                    convertedDirection = "N";
+//                } else if((i.equals("Quit")) || (i.equals("quit")) || (i.equals("q")) || (i.equals("Q"))) {
+//                    convertedDirection = "Q";
+//                }
+//            }
+            if(exits.containsKey(direction)) {
+                loc = exits.get(direction);
             } else {
                 System.out.println("You cannot go in that direction");
             }
