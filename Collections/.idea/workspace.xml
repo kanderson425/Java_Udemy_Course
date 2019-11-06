@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11ef50c2-10b0-4f40-ba70-4a866c2df376" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Adventure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Adventure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Adventure/src/com/kyleanderson/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Adventure/src/com/kyleanderson/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="791" />
     <option name="y" value="83" />
     <option name="width" value="889" />
@@ -154,7 +154,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="791" y="83" width="889" height="960" extended-state="1" />
+    <frame x="791" y="83" width="889" height="960" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -183,7 +183,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info active="true" anchor="right" x="-1754" y="221" width="1632" height="284" id="Run" order="9" sideWeight="0.5793651" visible="true" weight="0.5608028" />
+      <window_info anchor="right" x="-1754" y="221" width="1632" height="284" id="Run" order="9" sideWeight="0.5793651" weight="0.5608028" />
     </layout>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
