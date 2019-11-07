@@ -80,10 +80,19 @@ public class Main {
             System.out.println("\t" + planet.getName());
         }
 
-        HeavenlyBody body = solarSystem.get("Jupiter");
+        HeavenlyBody body = solarSystem.get("Mars");
         System.out.println("Moons of " + body.getName());
         for(HeavenlyBody jupiterMoon: body.getSatelites()) {
             System.out.println("\t" + jupiterMoon.getName());
+        }
+
+        Set<HeavenlyBody> moons = new HashSet<>();
+        for(HeavenlyBody planet: planets) {
+            moons.addAll(planet.getSatelites());
+        }
+        System.out.println("All moons");
+        for(HeavenlyBody moon: moons) {
+            System.out.println("\t" + moon.getName());
         }
     }
 
