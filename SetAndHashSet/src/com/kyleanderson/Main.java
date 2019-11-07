@@ -79,5 +79,13 @@ public class Main {
         for(HeavenlyBody planet: planets) {
             System.out.println("\t" + planet.getName());
         }
+
+        HeavenlyBody body = solarSystem.get("Jupiter");
+        System.out.println("Moons of " + body.getName());
+        for(HeavenlyBody jupiterMoon: body.getSatelites()) {
+            System.out.println("\t" + jupiterMoon.getName());
+        }
     }
+
+
 }
