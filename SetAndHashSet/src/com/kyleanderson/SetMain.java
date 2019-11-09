@@ -3,6 +3,9 @@ package com.kyleanderson;
 import java.util.HashSet;
 import java.util.Set;
 
+
+
+
 public class SetMain {
     public static void main(String[] args) {
         Set<Integer> squares = new HashSet<>();
@@ -18,5 +21,8 @@ public class SetMain {
         union.addAll(cubes);
         System.out.println("Union contains " + union.size() + " elements.");
 
+        Set<Integer> intersection = new HashSet<>(squares);
+        intersection.retainAll(cubes);
+        System.out.println("Intersection contains " + intersection.size() + " elements.");
     }
 }
