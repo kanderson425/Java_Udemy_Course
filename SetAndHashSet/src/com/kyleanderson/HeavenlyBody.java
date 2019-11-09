@@ -37,6 +37,7 @@ public final class HeavenlyBody {
         if(this == obj) {
             return true;
         }
+
         System.out.println("obj.getClass() " + obj.getClass());
         System.out.println("this.getClass() " + this.getClass());
         if((obj == null) || (obj.getClass() != this.getClass())) {
@@ -46,8 +47,11 @@ public final class HeavenlyBody {
         return this.name.equals(objName);
     }
 
-
-
+    @Override
+    public int hashCode() {
+        System.out.println("hashCode called");
+        return this.name.hashCode() + 57;
+    }
 
 
 }
