@@ -1,6 +1,5 @@
 package com.kyleanderson;
 
-import java.awt.event.HierarchyEvent;
 import java.util.HashSet;
 import java.util.Set;
 
