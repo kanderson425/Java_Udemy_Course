@@ -42,8 +42,13 @@ public class SetMain {
         Set<String> divine = new HashSet<>();
         String[] natureWords = {"all", "nature", "is", "but", "art", "unknown", "to", "thee"};
         nature.addAll(Arrays.asList(natureWords));
+        
         String[] divineWords = {"to", "err", "is", "human", "to", "forgive", "divine"};
         divine.addAll(Arrays.asList(divineWords));
+
+        Set<String> test = new HashSet<>();
+        String[] testWords = {"this", "is", "a", "collection", "of", "test", "words"}
+        test.addAll(Arrays.asList(testWords));
 
 
     }
