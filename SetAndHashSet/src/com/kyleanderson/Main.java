@@ -10,67 +10,67 @@ public class Main {
     private static Set<HeavenlyBody> planets = new HashSet<>();
 
     public static void main(String[] args) {
-	    HeavenlyBody temp = new HeavenlyBody("Mercury", 88);
+	    HeavenlyBody temp = new HeavenlyBody("Mercury", 88, "Planet");
 	    solarSystem.put(temp.getName(), temp);
 	    planets.add(temp);
 
-        temp = new HeavenlyBody("Venus", 225);
+        temp = new HeavenlyBody("Venus", 225, "Planet");
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
-        temp = new HeavenlyBody("Earth", 365);
+        temp = new HeavenlyBody("Earth", 365,"Planet");
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
-        HeavenlyBody tempMoon = new HeavenlyBody("Moon", 27);
+        HeavenlyBody tempMoon = new HeavenlyBody("Moon", 27,"Moon");
         solarSystem.put(tempMoon.getName(), tempMoon);
-        temp.addMoon(tempMoon);
+        temp.addSatelite(tempMoon);
 
-        temp = new HeavenlyBody("Mars", 687);
+        temp = new HeavenlyBody("Mars", 687,"Planet");
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
-        tempMoon = new HeavenlyBody("Deimos", 1.3);
+        tempMoon = new HeavenlyBody("Deimos", 1.3,"Moon");
         solarSystem.put(tempMoon.getName(), tempMoon);
-        temp.addMoon(tempMoon); //temp is still Mars
+        temp.addSatelite(tempMoon); //temp is still Mars
 
-        tempMoon = new HeavenlyBody("Phobos", 0.3);
+        tempMoon = new HeavenlyBody("Phobos", 0.3,"Moon");
         solarSystem.put(tempMoon.getName(), tempMoon);
-        temp.addMoon(tempMoon); // temp is still Mars
+        temp.addSatelite(tempMoon); // temp is still Mars
 
-        temp = new HeavenlyBody("Jupiter", 4332);
+        temp = new HeavenlyBody("Jupiter", 4332,"Planet");
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
-        tempMoon = new HeavenlyBody("Io", 1.8);
+        tempMoon = new HeavenlyBody("Io", 1.8, "Moon");
         solarSystem.put(tempMoon.getName(), tempMoon);
-        temp.addMoon(tempMoon); // temp is still Jupiter
+        temp.addSatelite(tempMoon); // temp is still Jupiter
 
-        tempMoon = new HeavenlyBody("Europa", 3.5);
+        tempMoon = new HeavenlyBody("Europa", 3.5,"Moon");
         solarSystem.put(tempMoon.getName(), tempMoon);
-        temp.addMoon(tempMoon); // temp is still Jupiter
+        temp.addSatelite(tempMoon); // temp is still Jupiter
 
-        tempMoon = new HeavenlyBody("Ganymede", 7.1);
+        tempMoon = new HeavenlyBody("Ganymede", 7.1,"Moon");
         solarSystem.put(tempMoon.getName(), tempMoon);
-        temp.addMoon(tempMoon); // temp is still Jupiter
+        temp.addSatelite(tempMoon); // temp is still Jupiter
 
-        tempMoon = new HeavenlyBody("Callisto", 16.7);
+        tempMoon = new HeavenlyBody("Callisto", 16.7,"Moon");
         solarSystem.put(tempMoon.getName(), tempMoon);
-        temp.addMoon(tempMoon); // temp is still Jupiter
+        temp.addSatelite(tempMoon); // temp is still Jupiter
 
-        temp = new HeavenlyBody("Saturn", 10759);
+        temp = new HeavenlyBody("Saturn", 10759,"Planet");
         solarSystem.put(tempMoon.getName(), tempMoon);
         planets.add(temp);
 
-        temp = new HeavenlyBody("Uranus", 30660);
+        temp = new HeavenlyBody("Uranus", 30660,"Planet");
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
-        temp = new HeavenlyBody("Neptune", 165);
+        temp = new HeavenlyBody("Neptune", 165,"Planet");
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
-        temp = new HeavenlyBody("Pluto", 248);
+        temp = new HeavenlyBody("Pluto", 248,"Planet");
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
@@ -95,7 +95,7 @@ public class Main {
             System.out.println("\t" + moon.getName());
         }
 
-        HeavenlyBody pluto = new HeavenlyBody("Pluto", 842);
+        HeavenlyBody pluto = new HeavenlyBody("Pluto", 842,"Planet");
         planets.add(pluto);
 
         for(HeavenlyBody planet: planets) {
