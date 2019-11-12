@@ -103,9 +103,14 @@ public class Main {
 //            System.out.println(planet.getName() + ": " + planet.getOrbitalPeriod());
         }
 
-        Object o = new Object();
-        o.equals(0);
-        "pluto".equals("");
+        //This check for test case #2:
+        HeavenlyBody earth1 = new Planet("Earth", 365);
+        HeavenlyBody earth2 = new Planet("Earth", 365);
+        System.out.println(earth1.equals(earth2));
+        System.out.println(earth2.equals(earth1));
+        System.out.println(earth1.equals(pluto));
+        System.out.println(pluto.equals(earth1));
+
 
     }
 
