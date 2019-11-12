@@ -64,6 +64,18 @@ public class SetMain {
         unionTest.removeAll(intersectionTest);
         printSet(unionTest);
 
+        if(nature.containsAll(divine)) {
+            System.out.println("divine is a subset of nature");
+        }
+
+        if(nature.containsAll(intersectionTest)) {
+            System.out.println("intersection is a subset of nature");
+        }
+
+        if(divine.containsAll(intersectionTest)) {
+            System.out.println("intersection is a subset of divine");
+        }
+
 
     }
 
