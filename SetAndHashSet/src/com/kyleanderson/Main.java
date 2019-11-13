@@ -80,7 +80,7 @@ public class Main {
             System.out.println("\t" + planet.getKey());
         }
 
-        HeavenlyBody body = solarSystem.get("Mars");
+        HeavenlyBody body = solarSystem.get(HeavenlyBody.makeKey("Mars", HeavenlyBody.BodyTypes.PLANET));
         System.out.println("Moons of " + body.getKey());
         for(HeavenlyBody jupiterMoon: body.getSatelites()) {
             System.out.println("\t" + jupiterMoon.getKey());
@@ -111,6 +111,15 @@ public class Main {
         System.out.println(earth1.equals(pluto));
         System.out.println(pluto.equals(earth1));
 
+        solarSystem.put(pluto.getKey(), pluto);
+        System.out.println(solarSystem.get(HeavenlyBody.makeKey("Pluto", HeavenlyBody.BodyTypes.PLANET)));
+        System.out.println(solarSystem.get(HeavenlyBody.makeKey("Pluto", HeavenlyBody.BodyTypes.DWARF_PLANET)));
+
+        System.out.println();
+        System.out.println("The solar system contains");
+        for(HeavenlyBody heavenlyBody : solarSystem.values()) {
+            System.out.println(heavenlyBody);
+        }
 
     }
 
