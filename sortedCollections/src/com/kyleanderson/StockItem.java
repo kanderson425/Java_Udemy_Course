@@ -1,14 +1,24 @@
 package com.kyleanderson;
 
+
+
+
+
 public class StockItem implements Comparable<StockItem>{
     private final String name;
     private double price;
-    private int quantityStock = 0; // can be initialized later
+    private int quantityStock; // can be initialized later
 
     public StockItem(String name, double price) {
         this.name = name;
         this.price = price;
         this.quantityStock = 0; // or here (but you wouldn't normally do both).
+    }
+
+    public StockItem(String name, double price, int quantityStock) {
+        this.name = name;
+        this.price = price;
+        this.quantityStock = quantityStock;
     }
 
     public String getName() {
@@ -19,7 +29,7 @@ public class StockItem implements Comparable<StockItem>{
         return price;
     }
 
-    public int getQuantityStock() {
+    public int quantityInStock() {
         return quantityStock;
     }
 
@@ -30,7 +40,7 @@ public class StockItem implements Comparable<StockItem>{
     }
 
     public void adjustStock(int quantity) {
-        int newQuantity = this.quantityStock +  quantity;
+        int newQuantity = this.quantityStock + quantity;
         if(newQuantity >= 0) {
             this.quantityStock = newQuantity;
         }
@@ -68,5 +78,10 @@ public class StockItem implements Comparable<StockItem>{
         }
 
         throw new NullPointerException();
+    }
+
+    @Override
+    public String toString() {
+        return this.name + " : price " + this.price;
     }
 }
