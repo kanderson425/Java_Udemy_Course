@@ -37,12 +37,21 @@ public class StockItem implements Comparable<StockItem>{
         }
     }
 
-    public void adjustStock(int quantity) {
+    public void reserveAdjustStock(int quantity) {
         int newQuantity = this.quantityStock + quantity;
         if(newQuantity >= 0) {
             this.quantityStock = newQuantity;
         }
     }
+
+    public void checkOutAdjustStock(int quantity) {
+        int newQuantity = this.quantityStock + quantity;
+        if(newQuantity >= 0) {
+            this.quantityStock = newQuantity;
+        }
+    }
+
+
 
     @Override
     public boolean equals(Object obj) {

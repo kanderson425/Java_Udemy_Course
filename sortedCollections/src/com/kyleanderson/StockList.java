@@ -1,7 +1,6 @@
 package com.kyleanderson;
 
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -18,7 +17,7 @@ public class StockList {
             StockItem inStock = list.getOrDefault(item.getName(), item);
             // If there are already stocks on this item, adjust the quantity
             if(inStock != item) {
-                item.adjustStock(inStock.quantityInStock());
+                item.reserveAdjustStock(inStock.quantityInStock());
             }
 
             list.put(item.getName(), item);
@@ -27,10 +26,19 @@ public class StockList {
         return 0;
     }
 
-    public int sellStock(String item, int quantity) {
+    public int reserveSellStock(String item, int quantity) {
         StockItem inStock = list.getOrDefault(item, null);
         if((inStock != null) && (inStock.quantityInStock() >= quantity) && (quantity >0)) {
-            inStock.adjustStock(-quantity);
+            inStock.reserveAdjustStock(-quantity);
+            return quantity;
+        }
+        return 0;
+    }
+
+    public int checkoutSellStock(String item, int quantity) {
+        StockItem inStock = list.getOrDefault(item, null);
+        if((inStock != null) && (inStock.quantityInStock() >= quantity) && (quantity >0)) {
+            inStock.reserveAdjustStock(-quantity);
             return quantity;
         }
         return 0;
