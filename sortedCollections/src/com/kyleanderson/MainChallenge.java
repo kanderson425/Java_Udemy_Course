@@ -18,8 +18,10 @@ public class MainChallenge {
 
         Basket challengeBasket = new Basket("Challenge");
         reserveItem(challengeBasket, "bread", 10);
+        reserveItem(challengeBasket, "car", 1);
 
         System.out.println(challengeBasket);
+        checkoutBasket(challengeBasket);
     }
 
 
@@ -37,12 +39,8 @@ public class MainChallenge {
         return 0;
     }
 
-    public static int checkoutBasket(Basket basket) {
 
-
-        return 0;
+    public static void checkoutBasket(Basket basket) {
+        basket.checkout(basket);
     }
-
-
-
 }
