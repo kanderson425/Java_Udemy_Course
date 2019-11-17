@@ -1,18 +1,16 @@
 package com.kyleanderson;
 
-
-
-
-
 public class StockItem implements Comparable<StockItem>{
     private final String name;
     private double price;
     private int quantityStock; // can be initialized later
+    private int reserved; // per the challenge
 
     public StockItem(String name, double price) {
         this.name = name;
         this.price = price;
         this.quantityStock = 0; // or here (but you wouldn't normally do both).
+        this.reserved = 0;
     }
 
     public StockItem(String name, double price, int quantityStock) {
