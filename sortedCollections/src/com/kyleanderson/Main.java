@@ -10,7 +10,7 @@ public class Main {
         temp = new StockItem("cake", 1.10, 7);
         stockList.addStock(temp);
 
-        temp = new StockItem("car", 1250, 2);
+        temp = new StockItem("car", 12.50, 2);
         stockList.addStock(temp);
 
         temp = new StockItem("chair", 62.0, 100);
@@ -42,6 +42,29 @@ public class Main {
         for(String s: stockList.Items().keySet()) {
             System.out.println(s);
         }
+
+        Basket kylesBasket = new Basket("Kyle");
+        sellItem(kylesBasket, "car", 1);
+        System.out.println(kylesBasket);
+
+        sellItem(kylesBasket, "car", 1);
+        System.out.println(kylesBasket);
+
+        sellItem(kylesBasket, "car", 1);
+        System.out.println(kylesBasket);
+
+        if(sellItem(kylesBasket,"car", 1) != 1) {
+            System.out.println("There are no more cars in stock");
+        }
+        sellItem(kylesBasket, "spanner", 5);
+        System.out.println(kylesBasket);
+
+        sellItem(kylesBasket, "juice", 4);
+        sellItem(kylesBasket, "cup", 12);
+        sellItem(kylesBasket, "bread", 1);
+        System.out.println(kylesBasket);
+
+        System.out.println(stockList);
     }
 
     public static int sellItem(Basket basket, String item, int quantity) {
