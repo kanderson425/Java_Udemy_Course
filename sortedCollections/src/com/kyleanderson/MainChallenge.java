@@ -21,7 +21,7 @@ public class MainChallenge {
         reserveItem(challengeBasket, "car", 1);
 
         System.out.println(challengeBasket);
-        checkoutBasket(challengeBasket);
+
     }
 
 
@@ -40,8 +40,4 @@ public class MainChallenge {
     }
 
 
-    public static void checkoutBasket(Basket basket) {
-
-        basket.checkout(basket);
-    }
 }

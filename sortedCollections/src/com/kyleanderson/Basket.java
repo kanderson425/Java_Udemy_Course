@@ -38,6 +38,10 @@ public class Basket {
         return 0;
     }
 
+    public void clearBasket() {
+        this.list.clear();
+    }
+
 //    public String checkout(Basket basket) {
 //        double checkoutCost = 0.0;
 //        String m =  "\nChecking out the items from the " + name + " basket: ";
