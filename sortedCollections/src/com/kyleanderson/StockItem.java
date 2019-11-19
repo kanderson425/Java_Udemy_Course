@@ -3,14 +3,14 @@ package com.kyleanderson;
 public class StockItem implements Comparable<StockItem>{
     private final String name;
     private double price;
-    private int quantityStock; // can be initialized later
+    private int quantityInStock; // can be initialized later
     private int reserved = 0; // per the challenge
 
 
-    public StockItem(String name, double price, int quantityStock) {
+    public StockItem(String name, double price, int quantityInStock) {
         this.name = name;
         this.price = price;
-        this.quantityStock = quantityStock;
+        this.quantityInStock = quantityInStock;
     }
 
     public String getName() {
@@ -21,8 +21,8 @@ public class StockItem implements Comparable<StockItem>{
         return price;
     }
 
-    public int quantityInStock() {
-        return quantityStock - reserved;
+    public int availableQuantity() {
+        return quantityInStock - reserved;
     }
 
     public void setPrice(double price) {
@@ -32,14 +32,14 @@ public class StockItem implements Comparable<StockItem>{
     }
 
     public void adjustStock(int quantity) {
-        int newQuantity = this.quantityStock + quantity;
+        int newQuantity = this.quantityInStock + quantity;
         if(newQuantity >= 0) {
-            this.quantityStock = newQuantity;
+            this.quantityInStock = newQuantity;
         }
     }
 
     public int reserveStock(int quantity) {
-        if(quantity <= quantityInStock()) {
+        if(quantity <= availableQuantity()) {
             reserved += quantity;
             return quantity;
         }
@@ -54,10 +54,19 @@ public class StockItem implements Comparable<StockItem>{
         return 0;
     }
 
+    public int finalizeStock(int quantity) {
+        if(quantity <= reserved) {
+            quantityInStock -= quantity;
+            reserved -= quantity;
+            return quantity;
+        }
+        return 0;
+    }
+
 //    public void checkOutAdjustStock(int quantity) {
-//        int newQuantity = this.quantityStock + quantity;
+//        int newQuantity = this.availableQuantity + quantity;
 //        if(newQuantity >= 0) {
-//            this.quantityStock = newQuantity;
+//            this.availableQuantity = newQuantity;
 //        }
 //    }
 
