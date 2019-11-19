@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f29979cb-03cc-4c36-a196-b06eadab0693" name="Default Changelist" comment="" />
+    <list default="true" id="f29979cb-03cc-4c36-a196-b06eadab0693" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/MainChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/MainChallenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/StockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/StockList.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/StockItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="233">
+              <caret line="108" column="85" selection-start-line="108" selection-start-column="85" selection-end-line="108" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -51,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/StockList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="253">
+              <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -75,8 +80,8 @@
       <find>sellItem</find>
       <find>reverse</find>
       <find>reserve</find>
-      <find>reverseAdjustStock</find>
       <find>reserveAdjustStock</find>
+      <find>reverseAdjustStock</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,17 +91,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/kyleanderson/StockList.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Basket.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/MainChallenge.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/StockItem.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/StockList.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="841" />
+    <option name="x" value="801" />
     <option name="y" value="23" />
-    <option name="width" value="840" />
+    <option name="width" value="880" />
     <option name="height" value="959" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -180,7 +185,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="841" y="23" width="840" height="959" extended-state="0" />
+    <frame x="801" y="23" width="880" height="959" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -188,19 +193,19 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.13283208" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.12649165" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.47368422" visible="true" weight="0.51184833" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.4725537" visible="true" weight="0.51184833" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32938388" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49879807" weight="0.32938388" />
+      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49624062" weight="0.32938388" />
       <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4993895" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5263158" side_tool="true" visible="true" weight="0.51184833" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5274463" side_tool="true" visible="true" weight="0.51184833" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -226,13 +231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/StockList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/MainChallenge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -249,8 +247,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/StockItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="233">
+          <caret line="108" column="85" selection-start-line="108" selection-start-column="85" selection-end-line="108" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/StockList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
         </state>
       </provider>
     </entry>

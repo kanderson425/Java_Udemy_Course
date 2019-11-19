@@ -32,7 +32,7 @@ public class MainChallenge {
             System.out.println("We don't sell " + item);
             return 0;
         }
-        if(challengeStockList.reserveSellStock(item, quantity) != 0) {
+        if(challengeStockList.sellStock(item, quantity) != 0) {
             basket.addToBasket(stockItem, quantity);
             return quantity;
         }

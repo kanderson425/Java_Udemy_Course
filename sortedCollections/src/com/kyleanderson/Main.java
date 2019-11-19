@@ -87,7 +87,7 @@ public class Main {
             System.out.println("We don't sell " + item);
             return 0;
         }
-        if(stockList.reserveSellStock(item, quantity) != 0) {
+        if(stockList.sellStock(item, quantity) != 0) {
             basket.addToBasket(stockItem, quantity);
             return quantity;
         }
