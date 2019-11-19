@@ -70,8 +70,8 @@ public class Main {
 
 //        temp = new StockItem("pen", 1.12);
 //        stockList.Items().put(temp.getName(), temp);
-        stockList.Items().get("car").reserveAdjustStock(2000);
-        stockList.get("car").reserveAdjustStock(-1000);
+        stockList.Items().get("car").adjustStock(2000);
+        stockList.get("car").adjustStock(-1000);
         System.out.println(stockList);
         for(Map.Entry<String, Double> prices: stockList.PriceList().entrySet()) {
             System.out.println(prices.getKey() + " costs " + prices.getValue());

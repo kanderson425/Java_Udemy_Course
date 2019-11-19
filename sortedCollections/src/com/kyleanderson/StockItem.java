@@ -4,14 +4,8 @@ public class StockItem implements Comparable<StockItem>{
     private final String name;
     private double price;
     private int quantityStock; // can be initialized later
-    private int reserved; // per the challenge
+    private int reserved = 0; // per the challenge
 
-    public StockItem(String name, double price) {
-        this.name = name;
-        this.price = price;
-        this.quantityStock = 0; // or here (but you wouldn't normally do both).
-        this.reserved = 0;
-    }
 
     public StockItem(String name, double price, int quantityStock) {
         this.name = name;
@@ -28,7 +22,7 @@ public class StockItem implements Comparable<StockItem>{
     }
 
     public int quantityInStock() {
-        return quantityStock;
+        return quantityStock - reserved;
     }
 
     public void setPrice(double price) {
@@ -37,21 +31,35 @@ public class StockItem implements Comparable<StockItem>{
         }
     }
 
-    public void reserveAdjustStock(int quantity) {
+    public void adjustStock(int quantity) {
         int newQuantity = this.quantityStock + quantity;
         if(newQuantity >= 0) {
             this.quantityStock = newQuantity;
         }
     }
 
-    public void checkOutAdjustStock(int quantity) {
-        int newQuantity = this.quantityStock + quantity;
-        if(newQuantity >= 0) {
-            this.quantityStock = newQuantity;
+    public int reserveStock(int quantity) {
+        if(quantity <= quantityInStock()) {
+            reserved += quantity;
+            return quantity;
         }
+        return 0;
     }
 
+    public int unreserveStock(int quantity) {
+        if(quantity <= reserved) {
+            reserved -= quantity;
+            return quantity;
+        }
+        return 0;
+    }
 
+//    public void checkOutAdjustStock(int quantity) {
+//        int newQuantity = this.quantityStock + quantity;
+//        if(newQuantity >= 0) {
+//            this.quantityStock = newQuantity;
+//        }
+//    }
 
     @Override
     public boolean equals(Object obj) {

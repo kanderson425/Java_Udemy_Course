@@ -29,6 +29,7 @@ public class Basket {
             String itemList = "    " + item.getKey() + ", " + item.getValue() + " checking out in basket\n";
             checkoutCost += item.getKey().getPrice() * item.getValue();
 
+
         }
         String separator = "\n*********";
         String t = "\nYour total basket cost is " + checkoutCost;

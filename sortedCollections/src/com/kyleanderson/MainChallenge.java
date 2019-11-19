@@ -41,6 +41,7 @@ public class MainChallenge {
 
 
     public static void checkoutBasket(Basket basket) {
+
         basket.checkout(basket);
     }
 }
