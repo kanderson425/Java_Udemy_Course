@@ -22,20 +22,36 @@ public class Basket {
         return 0;
     }
 
-    public String checkout(Basket basket) {
-        double checkoutCost = 0.0;
-        String m =  "\nChecking out the items from the " + name + " basket: ";
-        for(Map.Entry<StockItem, Integer> item: list.entrySet()) {
-            String itemList = "    " + item.getKey() + ", " + item.getValue() + " checking out in basket\n";
-            checkoutCost += item.getKey().getPrice() * item.getValue();
+    public int removeFromBasket(StockItem item, int quantity) {
+        if((item != null) && (quantity > 0)) {
+            // check if we already have the item in the basket
+            int inBasket = list.getOrDefault(item, 0);
+            int newQuantity = inBasket + quantity;
 
-
+            if(newQuantity > 0) {
+                list.put(item, newQuantity);
+                return quantity;
+            } else if(newQuantity == 0) {
+                list.remove(item);
+            }
         }
-        String separator = "\n*********";
-        String t = "\nYour total basket cost is " + checkoutCost;
-        System.out.println(separator + m + t + separator);
-        return m + t + checkoutCost;
+        return 0;
     }
+
+//    public String checkout(Basket basket) {
+//        double checkoutCost = 0.0;
+//        String m =  "\nChecking out the items from the " + name + " basket: ";
+//        for(Map.Entry<StockItem, Integer> item: list.entrySet()) {
+//            String itemList = "    " + item.getKey() + ", " + item.getValue() + " checking out in basket\n";
+//            checkoutCost += item.getKey().getPrice() * item.getValue();
+//
+//
+//        }
+//        String separator = "\n*********";
+//        String t = "\nYour total basket cost is " + checkoutCost;
+//        System.out.println(separator + m + t + separator);
+//        return m + t + checkoutCost;
+//    }
 
     public Map<StockItem, Integer> Items() {
         return Collections.unmodifiableMap(list);
