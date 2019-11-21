@@ -46,6 +46,7 @@ public class Main {
         }
 
         Basket kylesBasket = new Basket("Kyle");
+
         sellItem(kylesBasket, "car", 1);
         System.out.println(kylesBasket);
 
@@ -59,12 +60,12 @@ public class Main {
             System.out.println("There are no more cars in stock");
         }
         sellItem(kylesBasket, "spanner", 5);
-        System.out.println(kylesBasket);
+//        System.out.println(kylesBasket);
 
         sellItem(kylesBasket, "juice", 4);
         sellItem(kylesBasket, "cup", 12);
         sellItem(kylesBasket, "bread", 1);
-        System.out.println(kylesBasket);
+//        System.out.println(kylesBasket);
 
         System.out.println(stockList);
 

@@ -17,27 +17,26 @@ public class MainChallenge {
         System.out.println("*************************");
 
         Basket challengeBasket = new Basket("Challenge");
-        reserveItem(challengeBasket, "bread", 10);
-        reserveItem(challengeBasket, "car", 1);
+
 
         System.out.println(challengeBasket);
 
     }
 
 
-    public static int reserveItem(Basket basket, String item, int quantity) {
-        // retrieve the item from the stockList first
-        StockItem stockItem = challengeStockList.get(item);
-        if(stockItem == null) {
-            System.out.println("We don't sell " + item);
-            return 0;
-        }
-        if(challengeStockList.sellStock(item, quantity) != 0) {
-            basket.addToBasket(stockItem, quantity);
-            return quantity;
-        }
-        return 0;
-    }
+//    public static int reserveItem(Basket basket, String item, int quantity) {
+//        // retrieve the item from the stockList first
+//        StockItem stockItem = challengeStockList.get(item);
+//        if(stockItem == null) {
+//            System.out.println("We don't sell " + item);
+//            return 0;
+//        }
+//        if(challengeStockList.sellStock(item, quantity) != 0) {
+//            basket.addToBasket(stockItem, quantity);
+//            return quantity;
+//        }
+//        return 0;
+//    }
 
 
 }
