@@ -71,13 +71,25 @@ public class Main {
 
 //        temp = new StockItem("pen", 1.12);
 //        stockList.Items().put(temp.getName(), temp);
-        stockList.Items().get("car").adjustStock(2000);
-        stockList.get("car").adjustStock(-1000);
+        StockItem car = stockList.Items().get("car");
+        if(car != null) {
+            car.adjustStock(2000);
+        }
+        if(car != null) {
+            stockList.get("car").adjustStock(-10000);
+        }
+
         System.out.println(stockList);
         for(Map.Entry<String, Double> prices: stockList.PriceList().entrySet()) {
             System.out.println(prices.getKey() + " costs " + prices.getValue());
         }
 
+        Basket basket = new Basket("customer");
+        sellItem(basket, "cup", 100);
+        sellItem(basket, "juice", 5);
+        removeItem(basket, "cup", 1);
+        System.out.println(basket);
+        checkout(basket);
 
     }
 
@@ -110,7 +122,7 @@ public class Main {
     public static void checkout(Basket basket) {
         for(Map.Entry<StockItem, Integer> item: basket.Items().entrySet()) {
             stockList.sellStock(item.getKey().getName(), item.getValue());
-            basket.clearBasket();
         }
+        basket.clearBasket();
     }
 }
