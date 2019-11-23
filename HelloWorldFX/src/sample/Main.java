@@ -8,6 +8,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 import javafx.scene.paint.Color;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
 
 public class Main extends Application {
@@ -23,6 +25,7 @@ public class Main extends Application {
 
         Label greeting = new Label("Welcome to JavaFX!");
         greeting.setTextFill(Color.GREEN);
+        greeting.setFont(Font.font("Times New Roman", FontWeight.BOLD, 70));
         root.getChildren().add(greeting);
 
 
