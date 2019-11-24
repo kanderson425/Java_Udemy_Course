@@ -1,8 +1,6 @@
 <?import javafx.geometry.Insets?>
-
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.HBox?>
-
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.control.Label?>
 <BorderPane fx:controller="sample.Controller"
@@ -12,6 +10,15 @@
                BorderPane.alignment="center"
                style="-fx-border-color: blue; -fx-border-width: 3; -fx-border-style: dashed"/>
     </top>
+    <center>
+        <Label text="This label is in the center position and has really loooooooooooooooooooong text"/>
+    </center>
+    <left>
+        <Label text="This label is in the left position" alignment="CENTER"/>
+    </left>
+    <right>
+        <Label text="This label is in the right position" />
+    </right>
     <bottom>
         <HBox spacing="10" alignment="TOP_RIGHT">
             <padding>
@@ -22,5 +29,6 @@
             <Button text="Help" prefWidth="90"/>
         </HBox>
     </bottom>
+
 
 </BorderPane>
