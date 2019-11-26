@@ -14,4 +14,11 @@
                 </ImageView>
             </graphic>
     </Button>
+    <Label GridPane.rowIndex="0" GridPane.columnIndex="1" text="This is a label">
+        <graphic>
+            <ImageView>
+                <Image url="@/toolbarButtonGraphics/general/Information24.gif"/>
+            </ImageView>
+        </graphic>
+    </Label>
 </GridPane>
