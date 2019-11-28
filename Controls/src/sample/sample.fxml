@@ -14,6 +14,10 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.collections.*?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
 <GridPane fx:controller="sample.Controller"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
     <Button GridPane.rowIndex="0" GridPane.columnIndex="0" text="Click me">
@@ -56,5 +60,16 @@
     </HBox>
     <TextField GridPane.rowIndex="1" GridPane.columnIndex="0"/>
     <PasswordField GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    <ComboBox GridPane.rowIndex="1" GridPane.columnIndex="3" GridPane.columnSpan="3">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+                <String fx:value="This is Option 1 This is Option 1"/>
+                <String fx:value="This is Option 2 This is Option 2"/>
+                <String fx:value="This is Option 3 This is Option 3"/>
+                <String fx:value="This is Option 4 This is Option 4"/>
+                <String fx:value="This is Option 5 This is Option 5"/>
+            </FXCollections>
+        </items>
+    </ComboBox>
 
 </GridPane>
