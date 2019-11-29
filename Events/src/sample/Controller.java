@@ -1,5 +1,6 @@
 package sample;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -38,7 +39,12 @@ public class Controller {
             public void run() {
                 try {
                     Thread.sleep(10000);
-                    ourLabel.setText("We did something!");
+                    Platform.runLater(new Runnable() {
+                        @Override
+                        public void run() {
+                            ourLabel.setText("We did something!");
+                        }
+                    });
                 } catch(InterruptedException event) {
                     // we don't care about this here
                 }
