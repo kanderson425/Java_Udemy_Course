@@ -31,6 +31,8 @@ public class Controller {
         }
         if(ourCheckBox.isSelected()) {
             nameField.clear();
+            helloButton.setDisable(true);
+            byeButton.setDisable(true);
         }
     }
 
