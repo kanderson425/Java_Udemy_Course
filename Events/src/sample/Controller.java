@@ -38,10 +38,14 @@ public class Controller {
             @Override
             public void run() {
                 try {
+                    String s = Platform.isFxApplicationThread() ? "UI Thread" : "Background Thread";
+                    System.out.println("I'm going to sleep on the: " + s);
                     Thread.sleep(10000);
                     Platform.runLater(new Runnable() {
                         @Override
                         public void run() {
+                            String s = Platform.isFxApplicationThread() ? "UI Thread" : "Background Thread";
+                            System.out.println("I'm updating the label on the: " + s);
                             ourLabel.setText("We did something!");
                         }
                     });
