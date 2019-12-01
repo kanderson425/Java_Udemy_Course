@@ -1,5 +1,8 @@
 package com.kyleanderson.todolist;
 import com.kyleanderson.todolist.datamodel.TodoItem;
+import javafx.fxml.FXML;
+import javafx.scene.control.ListView;
+import javafx.scene.control.SelectionMode;
 
 import java.time.LocalDate;
 import java.time.Month;
@@ -8,6 +11,8 @@ import java.util.List;
 
 public class Controller {
     private List<TodoItem> todoItems;
+    @FXML
+    private ListView todoListView;
 
     public void initialize() {
         TodoItem item1 = new TodoItem("Mail birthday card", "Buy a 38th birthday card for John",
@@ -27,6 +32,9 @@ public class Controller {
         todoItems.add(item3);
         todoItems.add(item4);
         todoItems.add(item5);
+
+        todoListView.getItems().setAll(todoItems);
+        todoListView.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
 
     }
 }
