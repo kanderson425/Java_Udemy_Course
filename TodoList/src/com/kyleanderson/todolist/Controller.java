@@ -1,6 +1,7 @@
 package com.kyleanderson.todolist;
 import com.kyleanderson.todolist.datamodel.TodoItem;
 import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.SelectionMode;
 import javafx.scene.control.TextArea;
@@ -14,8 +15,12 @@ public class Controller {
     private List<TodoItem> todoItems;
     @FXML
     private ListView<TodoItem> todoListView;
+
     @FXML
     private TextArea itemDetailsTextArea;
+
+    @FXML
+    private Label deadlineLabel;
 
     public void initialize() {
         TodoItem item1 = new TodoItem("Mail birthday card", "Buy a 38th birthday card for John",
@@ -44,11 +49,14 @@ public class Controller {
     public void handleClickListView() {
         TodoItem item = todoListView.getSelectionModel().getSelectedItem();
 //        System.out.println("The selected item is " + item);
-        StringBuilder sb = new StringBuilder(item.getDetails());
-        sb.append("\n\n\n\n");
-        sb.append("Due: ");
-        sb.append(item.getDeadline().toString());
-        itemDetailsTextArea.setText(sb.toString());
+        itemDetailsTextArea.setText(item.getDetails());
+        deadlineLabel.setText(item.getDeadline().toString());
+
+//        StringBuilder sb = new StringBuilder(item.getDetails());
+//        sb.append("\n\n\n\n");
+//        sb.append("Due: ");
+//        sb.append(item.getDeadline().toString());
+//        itemDetailsTextArea.setText(sb.toString());
 
     }
 }
