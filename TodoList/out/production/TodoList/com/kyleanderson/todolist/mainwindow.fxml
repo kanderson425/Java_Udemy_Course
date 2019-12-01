@@ -8,20 +8,20 @@
 <BorderPane fx:controller="com.kyleanderson.todolist.Controller"
             xmlns:fx="http://javafx.com/fxml">
     <left>
-        <ListView fx:id="todoListView" onMouseClicked="#handleClickListView">
+        <ListView fx:id="todoListView">
 
         </ListView>
     </left>
     <center>
-        <VBox>
-            <TextArea fx:id="itemDetailsTextArea"/>
+        <VBox style="-fx-background-color: white">
+            <TextArea fx:id="itemDetailsTextArea" VBox.vgrow="ALWAYS"/>
             <HBox>
-                <Label text="Due: " >
+                <Label text="Due: " style="-fx-background-color: white">
                     <font>
                         <Font name="Times New Roman bold" size="20"/>
                     </font>
                 </Label>
-                <Label fx:id="deadlineLabel">
+                <Label fx:id="deadlineLabel" style="-fx-background-color: white">
                     <font>
                         <Font name="Times New Roman bold" size="20"/>
                     </font>
