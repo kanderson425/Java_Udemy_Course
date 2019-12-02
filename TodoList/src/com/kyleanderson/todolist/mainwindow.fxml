@@ -9,13 +9,13 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
-<BorderPane fx:controller="com.kyleanderson.todolist.Controller"
+<BorderPane fx:id="mainBorderPane" fx:controller="com.kyleanderson.todolist.Controller"
             xmlns:fx="http://javafx.com/fxml">
     <top>
         <MenuBar>
             <Menu text="File">
                 <items>
-                    <MenuItem text="New..."/>
+                    <MenuItem text="New..." fx:id="newMenuItem"/>
                     <SeparatorMenuItem/>
                     <MenuItem text="Exit"/>
                 </items>
