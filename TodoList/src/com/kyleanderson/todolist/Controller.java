@@ -56,7 +56,7 @@ public class Controller {
         Dialog<ButtonType> dialog = new Dialog<>();
         dialog.initOwner(mainBorderPane.getScene().getWindow());
         FXMLLoader fxmlLoader = new FXMLLoader();
-        fxmlLoader.setLocation(getClass().getResource("todoItemDialog.fml"));
+        fxmlLoader.setLocation(getClass().getResource("todoItemDialog.fxml"));
         try {
             dialog.getDialogPane().setContent(fxmlLoader.load());
 
