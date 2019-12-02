@@ -3,6 +3,7 @@ package com.kyleanderson.todolist.datamodel;
 import javafx.collections.FXCollections;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.IOError;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -10,6 +11,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.Iterator;
 import java.util.List;
 
 public class TodoData {
@@ -62,6 +64,29 @@ public class TodoData {
         }
     }
 
+    public void storeTodoItems() throws IOException {
 
+        Path path = Paths.get(filename);
+        BufferedWriter bw = Files.newBufferedWriter(path);
+        try {
+            Iterator<TodoItem> iter = todoItems.iterator();
+            while(iter.hasNext()) {
+                TodoItem item = iter.next();
+                bw.write(String.format("%s\t%s\t%s",
+                        item.getShortDescription(),
+                        item.getDetails(),
+                        item.getDeadline().format(formatter)));
+                bw.newLine();
+            }
+
+        } finally {
+            if(bw != null) {
+                bw.close();
+            }
+        }
+
+
+
+    }
 
 }
