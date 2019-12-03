@@ -16,7 +16,7 @@
     <content>
         <GridPane vgap="10" hgap="10">
             <Label text="Short Description:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
-            <TextField fx:id="shorDescriptionField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+            <TextField fx:id="shortDescriptionField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
             <Label text="Details:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
             <TextArea fx:id="detailsArea" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
             <Label text="Deadline:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
