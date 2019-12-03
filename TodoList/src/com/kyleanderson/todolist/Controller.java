@@ -51,6 +51,8 @@ public class Controller {
     public void showNewItemDialog() {
         Dialog<ButtonType> dialog = new Dialog<>();
         dialog.initOwner(mainBorderPane.getScene().getWindow());
+        dialog.setTitle("Add New Todo Item");
+        dialog.setHeaderText("use this dialog to create a new todo item");
         FXMLLoader fxmlLoader = new FXMLLoader();
         fxmlLoader.setLocation(getClass().getResource("todoItemDialog.fxml"));
         try {
