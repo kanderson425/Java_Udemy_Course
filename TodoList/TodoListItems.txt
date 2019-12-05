@@ -1,6 +1,5 @@
 Mail birthday card	Buy a 38th birthday card for John	25-04-2016
 Doctor's Appointment	See Dr. Smith at 123 Main Street. Bring paperwork	23-05-2016
-Finish design proposal for client	I promised Mike I'd email website mockups by Friday 22nd April	22-04-2016
 Pickup Doug at the train station	Doug is arrive on March 23 on the 5:00 train	23-03-2016
 Pickup dry cleaning	The clothes should be ready by wednesday	20-04-2016
 My new Todo item	This is a new todo item	03-12-2019

@@ -5,8 +5,7 @@
       <change beforePath="$PROJECT_DIR$/../TodoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TodoList/TodoListItems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/TodoListItems.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TodoList/src/com/kyleanderson/todolist/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/src/com/kyleanderson/todolist/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoList/src/com/kyleanderson/todolist/datamodel/TodoData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/src/com/kyleanderson/todolist/datamodel/TodoData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoList/src/com/kyleanderson/todolist/datamodel/TodoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/src/com/kyleanderson/todolist/datamodel/TodoItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoList/src/com/kyleanderson/todolist/mainwindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/src/com/kyleanderson/todolist/mainwindow.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -132,9 +131,10 @@
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="933" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="942" />
+    <option name="y" value="25" />
+    <option name="width" value="737" />
     <option name="height" value="959" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -291,10 +291,10 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="933" height="959" extended-state="0" />
+    <frame x="942" y="25" width="737" height="959" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15600449" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" weight="0.24972253" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
