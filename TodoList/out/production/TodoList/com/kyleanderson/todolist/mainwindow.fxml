@@ -1,4 +1,6 @@
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Font?>
 <BorderPane fx:id="mainBorderPane" fx:controller="com.kyleanderson.todolist.Controller"
@@ -16,7 +18,13 @@
             </MenuBar>
             <ToolBar>
                 <HBox>
-                    <Button text="New..." onAction="#showNewItemDialog"/>
+                    <Button text="New..." onAction="#showNewItemDialog">
+                            <graphic>
+                                <ImageView>
+                                    <Image url="@/toolbarButtonGraphics/general/New24.gif"/>
+                                </ImageView>
+                            </graphic>
+                    </Button>
                 </HBox>
             </ToolBar>
         </VBox>
