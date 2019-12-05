@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Controls/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Controls/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Events/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Events/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TodoList/META-INF/TodoList.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TodoList/com/kyleanderson/todolist/mainwindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TodoList/com/kyleanderson/todolist/mainwindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/todolist/mainwindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/todolist/mainwindow.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -64,8 +58,7 @@
     <breakpoint_rules converted="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
@@ -94,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/todolist/mainwindow.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
+            <state relative-caret-position="360">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -157,13 +150,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/module-info.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/todolist/Main.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/todolist/DialogController.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/todolist/todoItemDialog.fxml" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/todolist/datamodel/TodoItem.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/todolist/datamodel/TodoData.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/todolist/Controller.java" />
+        <option value="$PROJECT_DIR$/src/module-info.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/todolist/mainwindow.fxml" />
       </list>
     </option>
@@ -343,8 +336,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="959" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15140416" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15140416" />
       <window_info id="Structure" order="1" weight="0.24967659" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -353,7 +347,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32938388" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32938388" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32938388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3992891" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,13 +382,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TodoList.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -466,10 +453,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/todolist/mainwindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
+        <state relative-caret-position="360">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
