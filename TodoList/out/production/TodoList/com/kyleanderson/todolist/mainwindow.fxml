@@ -12,7 +12,7 @@
                     <items>
                         <MenuItem text="New..." onAction="#showNewItemDialog"/>
                         <SeparatorMenuItem/>
-                        <MenuItem text="Exit"/>
+                        <MenuItem text="Exit" onAction="#handleExit"/>
                     </items>
                 </Menu>
             </MenuBar>
