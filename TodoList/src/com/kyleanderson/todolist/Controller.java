@@ -4,6 +4,7 @@ import com.kyleanderson.todolist.datamodel.TodoData;
 import com.kyleanderson.todolist.datamodel.TodoItem;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
+import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -22,6 +23,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
+import java.util.function.Predicate;
 
 public class Controller {
     private List<TodoItem> todoItems;
@@ -42,6 +44,8 @@ public class Controller {
 
     @FXML
     private ToggleButton filterToggleButton;
+
+    private FilteredList<TodoItem> filteredList;
 
     public void initialize() {
         listContextMenu = new ContextMenu();
@@ -66,13 +70,21 @@ public class Controller {
                 }
             }
         });
+        filteredList = new FilteredList<TodoItem>(TodoData.getInstance().getTodoItems(),
+                new Predicate<TodoItem>() {
+                    @Override
+                    public boolean test(TodoItem todoItem) {
+                        return true;
+                    }
+                });
 
-        SortedList<TodoItem> sortedList = new SortedList<TodoItem>(TodoData.getInstance().getTodoItems(), new Comparator<TodoItem>() {
-            @Override
-            public int compare(TodoItem o1, TodoItem o2) {
-                return o1.getDeadline().compareTo(o2.getDeadline());
-            }
-        });
+                SortedList < TodoItem > sortedList = new SortedList<TodoItem>(filteredList,
+                        new Comparator<TodoItem>() {
+                    @Override
+                    public int compare(TodoItem o1, TodoItem o2) {
+                        return o1.getDeadline().compareTo(o2.getDeadline());
+                    }
+                });
 
 //        todoListView.setItems(TodoData.getInstance().getTodoItems());
         todoListView.setItems(sortedList);
@@ -174,8 +186,20 @@ public class Controller {
 
     public void handleFilterButton() {
         if(filterToggleButton.isSelected()) {
+            filteredList.setPredicate(new Predicate<TodoItem>() {
+                @Override
+                public boolean test(TodoItem todoItem) {
+                    return (todoItem.getDeadline().equals(LocalDate.now()));
+                }
+            });
 
         } else {
+            filteredList.setPredicate(new Predicate<TodoItem>() {
+                @Override
+                public boolean test(TodoItem todoItem) {
+                    return true;
+                }
+            });
 
         }
     }
