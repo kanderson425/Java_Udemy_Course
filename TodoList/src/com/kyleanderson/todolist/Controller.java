@@ -71,7 +71,8 @@ public class Controller {
             }
         });
 
-        todoListView.setItems(TodoData.getInstance().getTodoItems());
+//        todoListView.setItems(TodoData.getInstance().getTodoItems());
+        todoListView.setItems(sortedList);
         todoListView.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
         todoListView.getSelectionModel().selectFirst();
 
