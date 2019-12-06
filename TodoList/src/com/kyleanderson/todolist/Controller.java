@@ -47,6 +47,9 @@ public class Controller {
 
     private FilteredList<TodoItem> filteredList;
 
+    private Predicate<TodoItem> wantAllItems;
+    private Predicate<TodoItem> wantTodaysItems;
+
     public void initialize() {
         listContextMenu = new ContextMenu();
         MenuItem deleteMenuItem = new MenuItem("Delete");
@@ -70,21 +73,29 @@ public class Controller {
                 }
             }
         });
-        filteredList = new FilteredList<TodoItem>(TodoData.getInstance().getTodoItems(),
-                new Predicate<TodoItem>() {
-                    @Override
-                    public boolean test(TodoItem todoItem) {
-                        return true;
-                    }
-                });
+        wantAllItems = new Predicate<TodoItem>() {
+            @Override
+            public boolean test(TodoItem todoItem) {
+                return true;
+            }
+        };
 
-                SortedList < TodoItem > sortedList = new SortedList<TodoItem>(filteredList,
-                        new Comparator<TodoItem>() {
-                    @Override
-                    public int compare(TodoItem o1, TodoItem o2) {
-                        return o1.getDeadline().compareTo(o2.getDeadline());
-                    }
-                });
+        wantTodaysItems = new Predicate<TodoItem>() {
+            @Override
+            public boolean test(TodoItem todoItem) {
+                return (todoItem.getDeadline().equals(LocalDate.now()));
+            }
+        };
+
+        filteredList = new FilteredList<TodoItem>(TodoData.getInstance().getTodoItems(), wantAllItems);
+
+        SortedList < TodoItem > sortedList = new SortedList<TodoItem>(filteredList,
+                new Comparator<TodoItem>() {
+            @Override
+            public int compare(TodoItem o1, TodoItem o2) {
+                return o1.getDeadline().compareTo(o2.getDeadline());
+            }
+        });
 
 //        todoListView.setItems(TodoData.getInstance().getTodoItems());
         todoListView.setItems(sortedList);
@@ -185,22 +196,21 @@ public class Controller {
     }
 
     public void handleFilterButton() {
+        TodoItem selectedItem = todoListView.getSelectionModel().getSelectedItem();
         if(filterToggleButton.isSelected()) {
-            filteredList.setPredicate(new Predicate<TodoItem>() {
-                @Override
-                public boolean test(TodoItem todoItem) {
-                    return (todoItem.getDeadline().equals(LocalDate.now()));
-                }
-            });
+            filteredList.setPredicate(wantTodaysItems);
+            if(filteredList.isEmpty()) {
+                itemDetailsTextArea.clear();
+                deadlineLabel.setText("");
+            } else if(filteredList.contains(selectedItem)) {
+                todoListView.getSelectionModel().select(selectedItem);
+            } else {
+                todoListView.getSelectionModel().selectFirst();
+            }
 
         } else {
-            filteredList.setPredicate(new Predicate<TodoItem>() {
-                @Override
-                public boolean test(TodoItem todoItem) {
-                    return true;
-                }
-            });
-
+            filteredList.setPredicate(wantAllItems);
+            todoListView.getSelectionModel().select(selectedItem);
         }
     }
 
