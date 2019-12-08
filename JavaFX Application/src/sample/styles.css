@@ -1,4 +1,5 @@
-.button {
-    -fx-background-color: green;
+#button_three {
+    -fx-background-color: blue;
     -fx-text-fill: white;
 }
+

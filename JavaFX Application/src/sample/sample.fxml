@@ -6,7 +6,7 @@
             stylesheets="@styles.css">
 <Button text="Button One" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
 <Button text="Button Two" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
-<Button text="Button Three" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+<Button text="Button Three" id="button_three" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
 <Button text="Button Four" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
 <Button text="Button Five" GridPane.rowIndex="0" GridPane.columnIndex="4"/>
 </GridPane>
