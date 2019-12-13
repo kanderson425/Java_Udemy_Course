@@ -21,7 +21,7 @@
    <children>
       <HBox spacing="5.0" GridPane.rowIndex="1">
          <children>
-            <Button mnemonicParsing="false" text="OK">
+            <Button mnemonicParsing="false" onAction="#handleAction" text="OK">
                <HBox.margin>
                   <Insets />
                </HBox.margin>
@@ -33,6 +33,6 @@
             <Insets left="5.0" right="5.0" />
          </GridPane.margin>
       </HBox>
-      <Label text="My Label" />
+      <Label fx:id="label" text="My Label" />
    </children>
 </GridPane>
