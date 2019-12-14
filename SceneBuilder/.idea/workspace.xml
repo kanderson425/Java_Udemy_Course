@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/Contact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/ContactData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/mainwindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TodoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/.idea/workspace.xml" afterDir="false" />
     </list>
