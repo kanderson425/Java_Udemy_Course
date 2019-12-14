@@ -13,7 +13,7 @@ import java.util.Optional;
 
 public class Controller {
     @FXML
-    private BorderPane mainBorderpane;
+    private BorderPane mainBorderPane;
 
 
 
@@ -21,7 +21,7 @@ public class Controller {
     @FXML
     public void showNewItemDialog() {
             Dialog<ButtonType> dialog = new Dialog<>();
-            dialog.initOwner(mainBorderpane.getScene().getWindow());
+            dialog.initOwner(mainBorderPane.getScene().getWindow());
             dialog.setTitle("Add New Contact");
             dialog.setHeaderText("Use this dialog to create a new contact");
             FXMLLoader fxmlLoader = new FXMLLoader();
@@ -37,11 +37,11 @@ public class Controller {
             dialog.getDialogPane().getButtonTypes().add(ButtonType.OK);
             dialog.getDialogPane().getButtonTypes().add(ButtonType.CANCEL);
 
-//            Optional<ButtonType> result = dialog.showAndWait();
-//            if(result.isPresent() && result.get() == ButtonType.OK) {
-//                DialogController controller = fxmlLoader.getController();
-//                Contact newContact = controller.processResults();
-//                contactListView.getSelectionModel().select(newContact);
+            Optional<ButtonType> result = dialog.showAndWait();
+            if(result.isPresent() && result.get() == ButtonType.OK) {
+                DialogController controller = fxmlLoader.getController();
+                Contact newContact = controller.processResults();
+                contactListView.getSelectionModel().select(newContact);
             }
 }
 

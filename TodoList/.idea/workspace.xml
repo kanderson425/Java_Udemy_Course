@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/DialogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/out/production/ContactApplicationChallenge/sample/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/out/production/ContactApplicationChallenge/sample/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/mainwindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/mainwindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SceneBuilder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SceneBuilder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/module-info.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -109,10 +107,10 @@
           <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/todolist/DialogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
+            <state relative-caret-position="403">
               <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
             </state>
           </provider>
@@ -476,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/todolist/DialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/todolist/mainwindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
@@ -510,6 +501,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/todolist/DialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
         </state>
       </provider>
     </entry>
