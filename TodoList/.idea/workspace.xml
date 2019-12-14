@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/Contact.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/ContactData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/mainwindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/out/production/ContactApplicationChallenge/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/out/production/ContactApplicationChallenge/sample/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/mainwindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/com/kyleanderson/contactapplication/mainwindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SceneBuilder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SceneBuilder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,17 +74,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/todolist/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-654">
+            <state relative-caret-position="-662">
               <caret line="90" column="70" selection-start-line="90" selection-start-column="59" selection-end-line="90" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/module-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/todolist/todoItemDialog.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="20" selection-end-line="21" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -96,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/todolist/mainwindow.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-14">
               <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
@@ -175,9 +181,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="641" />
-    <option name="height" value="975" />
+    <option name="y" value="89" />
+    <option name="width" value="779" />
+    <option name="height" value="910" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -339,10 +345,10 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="641" height="975" extended-state="0" />
+    <frame x="0" y="89" width="779" height="910" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.4006678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.3229308" />
       <window_info id="Structure" order="1" weight="0.24967659" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -351,7 +357,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32938388" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32296652" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33962265" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3992891" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/todolist/datamodel/TodoData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -486,26 +485,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/todolist/mainwindow.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-14">
           <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/todolist/todoItemDialog.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="20" selection-end-line="21" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/todolist/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-654">
+        <state relative-caret-position="-662">
           <caret line="90" column="70" selection-start-line="90" selection-start-column="59" selection-end-line="90" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/todolist/todoItemDialog.fxml">
+    <entry file="file://$PROJECT_DIR$/src/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
   </component>
   <component name="masterDetails">
