@@ -21,7 +21,7 @@
    <children>
       <HBox spacing="5.0" GridPane.rowIndex="1">
          <children>
-            <Button mnemonicParsing="false" onAction="#handleAction" text="OK">
+            <Button mnemonicParsing="false" onAction="#handleAction" prefHeight="0.0" prefWidth="66.0" style="-fx-text-fill: white;" text="OK">
                <HBox.margin>
                   <Insets />
                </HBox.margin>
