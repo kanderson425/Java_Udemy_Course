@@ -32,12 +32,11 @@
 //
 //    private ObservableList<Contact> contacts;
 //
-//    @FXML
-//    private ContextMenu listContextMenu;
+//
 //
 //    public ContactData() {
 //        // *** initialize the contacts list here ***
-//        listContextMenu = new ContextMenu();
+//
 //
 //    }
 //

@@ -15,14 +15,14 @@
         <menus>
           <Menu mnemonicParsing="false" text="Contacts">
             <items>
-              <MenuItem mnemonicParsing="false" text="Add" onAction="#showNewItemDialog"/>
+              <MenuItem mnemonicParsing="false" text="Add"/>
                   <MenuItem mnemonicParsing="false" text="Edit"/>
                   <MenuItem mnemonicParsing="false" text="Delete"/>
             </items>
           </Menu>
         </menus>
       </MenuBar>
-      <TableView prefHeight="244.0" prefWidth="892.0" GridPane.rowIndex="1">
+      <TableView fx:id="contactsTableView" prefHeight="244.0" prefWidth="892.0" GridPane.rowIndex="1">
         <columns>
           <TableColumn minWidth="-Infinity" prefWidth="140.0" text="First Name" />
           <TableColumn minWidth="-Infinity" prefWidth="140.0" text="Last Name" />
