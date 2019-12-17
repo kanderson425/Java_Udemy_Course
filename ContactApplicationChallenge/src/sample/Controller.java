@@ -50,7 +50,10 @@ public class Controller{
 
         Optional<ButtonType> result = dialog.showAndWait();
         if(result.isPresent() && result.get() == ButtonType.OK) {
-
+            ContactController contactController = fxmlLoader.getController();
+            Contact newContact = contactController.getNewContact();
+            data.addContact(newContact);
+            data.saveContacts();
         }
 
     }

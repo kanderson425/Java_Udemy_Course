@@ -3,5 +3,7 @@ module ContactApplicationChallenge {
     requires javafx.controls;
     requires java.xml;
 
+
     opens sample;
+    opens sample.datamodel;
 }
