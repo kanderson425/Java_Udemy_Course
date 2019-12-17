@@ -3,5 +3,5 @@ module ContactApplicationChallenge {
     requires javafx.controls;
     requires java.xml;
 
-    opens com.kyleanderson.contactapplication;
+    opens sample;
 }
