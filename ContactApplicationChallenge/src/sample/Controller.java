@@ -1,15 +1,11 @@
-package com.kyleanderson.contactapplication;
+package sample;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.control.*;
-import javafx.scene.layout.Border;
 import javafx.scene.layout.BorderPane;
-
-import java.io.IOException;
-import java.util.Optional;
+import sample.datamodel.Contact;
 
 public class Controller {
     private ObservableList<Contact> contactList;
@@ -21,16 +17,16 @@ public class Controller {
     private TableView contactsTableView;
 
     @FXML
-    private TextField firstNameField;
+    private TableColumn firstName = new TableColumn<>("FirstName");
 
     @FXML
-    private TextField lastNameField;
+    private TableColumn lastName = new TableColumn<>("LastName");
 
     @FXML
-    private TextField phoneNumberField;
+    private TableColumn phoneNumber = new TableColumn<>("PhoneNumber");
 
     @FXML
-    private TextArea notesField;
+    private TableColumn notes = new TableColumn<>("Notes");
 
     public void initialize() {
         ObservableList<Contact> contacts = FXCollections.observableArrayList(
@@ -38,7 +34,10 @@ public class Controller {
                 new Contact("Sarah","Smith","123-456-7890","She is very cool.")
         );
 
-        contactsTableView.setItems(contacts);
+
+
+
+
 
     }
 
