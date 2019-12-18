@@ -12,10 +12,4 @@
 	<phone_number>12345666</phone_number>
 	<notes>She is also cool.</notes>
 </contact>
-<contact>
-	<first_name>Laura</first_name>
-	<last_name>Smith</last_name>
-	<phone_number>1234555</phone_number>
-	<notes>She is the coolest</notes>
-</contact>
 </contacts>
