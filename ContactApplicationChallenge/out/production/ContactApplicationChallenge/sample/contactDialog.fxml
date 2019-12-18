@@ -4,7 +4,7 @@
 <?import javafx.scene.control.TextField?>
 <DialogPane fx:controller="sample.ContactController" xmlns:fx="http://javafx.com/fxml">
     <headerText>
-        Fill in teh information for the new Contact
+        Fill in the information for the new Contact
     </headerText>
     <content>
         <GridPane vgap="10" hgap="10">
