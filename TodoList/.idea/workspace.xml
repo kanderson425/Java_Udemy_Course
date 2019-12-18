@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/contacts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/out/production/ContactApplicationChallenge/sample/contactDialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/out/production/ContactApplicationChallenge/sample/contactDialog.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/out/production/ContactApplicationChallenge/sample/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/out/production/ContactApplicationChallenge/sample/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/contactDialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/contactDialog.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SceneBuilder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SceneBuilder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ContactApplicationChallenge/src/sample/ContactController.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -348,7 +341,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="817" height="975" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.06709678" />
       <window_info id="Structure" order="1" weight="0.24967659" />
