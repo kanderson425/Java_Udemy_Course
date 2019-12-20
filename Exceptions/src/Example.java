@@ -2,27 +2,35 @@ import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
+
+
+
+
+
 public class Example {
+
     public static void main(String[] args) {
-        int result = divide();
-        System.out.println(result);
+        try {
+            int result = divide();
+            System.out.println(result);
+        } catch(ArithmeticException | NoSuchElementException e) {
+            System.out.println(e.toString());
+            System.out.println("unable to perform division, autopilot shutting down");
+        }
     }
 
     private static int divide() {
         int x, y;
-        try {
+//        try {
             x = getInt();
             y = getInt();
-        } catch(NoSuchElementException e) {
-            throw new ArithmeticException("no suitable input");
-        }
-
-        System.out.println("x is " + x + ", y is " + y);
-        try {
+            System.out.println("x is " + x + ", y is " + y);
             return x / y;
-        } catch(ArithmeticException e) {
-            throw new ArithmeticException("attempt to divide by zero");
-        }
+//        } catch(NoSuchElementException e) {
+//            throw new ArithmeticException("no suitable input");
+//        } catch(ArithmeticException e) {
+//            throw new ArithmeticException("attempt to divide by zero");
+//        }
     }
 
     private static int getInt() {
