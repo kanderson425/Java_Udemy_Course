@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08d3cf63-2db2-4f90-b276-055900cf3815" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Exceptions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exceptions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exceptions/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exceptions/src/Example.java" afterDir="false" />
-    </list>
+    <list default="true" id="08d3cf63-2db2-4f90-b276-055900cf3815" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -36,7 +33,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Locations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -47,16 +60,26 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Location.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Location.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/Locations.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="24" />
-    <option name="width" value="1616" />
+    <option name="x" value="840" />
+    <option name="y" value="23" />
+    <option name="width" value="840" />
     <option name="height" value="975" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -89,6 +112,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -132,17 +156,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="24" width="1616" height="975" extended-state="0" />
+    <frame x="840" y="23" width="840" height="975" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18614994" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.141604" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32972324" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32906976" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -174,6 +198,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Locations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>

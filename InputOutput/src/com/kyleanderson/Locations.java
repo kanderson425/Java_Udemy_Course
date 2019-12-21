@@ -10,12 +10,12 @@ public class Locations implements Map<Integer, Location> {
 
     @Override
     public int size() {
-        return 0;
+        return locations.size();
     }
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return locations.isEmpty();
     }
 
     @Override
