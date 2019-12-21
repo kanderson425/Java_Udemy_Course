@@ -20,51 +20,53 @@ public class Locations implements Map<Integer, Location> {
 
     @Override
     public boolean containsKey(Object key) {
-        return false;
+        return locations.containsKey(key);
     }
 
     @Override
     public boolean containsValue(Object value) {
-        return false;
+        return locations.containsValue(value);
     }
 
     @Override
     public Location get(Object key) {
-        return null;
+        return locations.get(key);
     }
 
     @Override
     public Location put(Integer key, Location value) {
-        return null;
+        return locations.put(key, value);
     }
 
     @Override
     public Location remove(Object key) {
-        return null;
+        return locations.remove(key);
     }
 
     @Override
-    public void putAll(Map<? extends Integer, ? extends Location> m) {
+    public void putAll(Map<? extends Integer, ? extends Location> ) {
 
     }
 
     @Override
     public void clear() {
+        locations.clear();
+        }
 
     }
 
     @Override
     public Set<Integer> keySet() {
-        return null;
+        return locations.keySet();
     }
 
     @Override
     public Collection<Location> values() {
-        return null;
+        return locations.values();
     }
 
     @Override
     public Set<Entry<Integer, Location>> entrySet() {
-        return null;
+        return locations.entrySet();
     }
 }
