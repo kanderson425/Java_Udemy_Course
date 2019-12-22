@@ -1,13 +1,25 @@
 package com.kyleanderson;
 
+import java.io.FileWriter;
+import java.io.*;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class Locations implements Map<Integer, Location> {
-    private static Map<Integer, Location> locations = new HashMap<>();
 
+
+public class Locations implements Map<Integer, Location> {
+    private static Map<Integer, Location> locations = new HashMap<Integer, Location>();
+
+    public static void main(String[] args) throws IOException {
+        FileWriter locFile = null;
+        locFile = new FileWriter("locations.txt");
+        for(Location location: locations.values()) {
+            locFile.write(location.getLocationID() + "," + location.getDescription());
+        }
+        locFile.close();
+    }
     static {
         Map<String, Integer> tempExit = new HashMap<String, Integer>();
         locations.put(0, new Location(0, "You are sitting in front of a computer learning Java",tempExit));
