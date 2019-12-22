@@ -1,11 +1,14 @@
 package com.kyleanderson;
 
+
+
 import java.io.FileWriter;
 import java.io.*;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+
 
 
 
@@ -19,13 +22,23 @@ public class Locations implements Map<Integer, Location> {
             for(Location location: locations.values()) {
                 locFile.write(location.getLocationID() + "," + location.getDescription() + "\n");
             }
-            locFile.close();
         } catch(IOException e) {
             System.out.println("In catch block");
             e.printStackTrace();
+        } finally {
+            System.out.println("in finally block");
+            try {
+                if(locFile != null) {
+                    System.out.println("Attempting to close the locfile");
+                    locFile.close();
+                }
+            } catch(IOException e) {
+                e.printStackTrace();
+            }
         }
 
     }
+
     static {
         Map<String, Integer> tempExit = new HashMap<String, Integer>();
         locations.put(0, new Location(0, "You are sitting in front of a computer learning Java",tempExit));
