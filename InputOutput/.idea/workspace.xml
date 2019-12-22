@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d3cf63-2db2-4f90-b276-055900cf3815" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Locations.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Locations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="326">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -133,7 +134,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Locations">
+    <configuration name="Locations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kyleanderson.Locations" />
+      <module name="InputOutput" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kyleanderson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.kyleanderson.Main" />
       <module name="InputOutput" />
@@ -144,8 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Locations" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Locations" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -175,9 +194,9 @@
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.037593983" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49874687" weight="0.32906976" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49749374" visible="true" weight="0.32906976" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="3" sideWeight="0.49749374" visible="true" weight="0.32906976" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49749374" weight="0.32906976" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
@@ -212,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Locations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="326">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
         </state>
       </provider>
     </entry>
