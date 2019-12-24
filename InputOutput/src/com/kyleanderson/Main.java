@@ -17,7 +17,7 @@ public class Main {
         // Single letter commands (N, W, S, E, Q) should still be available.
 
 	    Scanner scanner = new Scanner(System.in);
-	    
+
         Map<String, String> vocabulary = new HashMap<String, String>();
         vocabulary.put("QUIT", "Q");
         vocabulary.put("NORTH", "N");
@@ -25,8 +25,8 @@ public class Main {
         vocabulary.put("WEST", "W");
         vocabulary.put("EAST", "E");
 
-
-        int loc = 1;
+        int loc = 64;
+//        int loc = 1;
         while(true) {
             System.out.println(locations.get(loc).getDescription());
 
