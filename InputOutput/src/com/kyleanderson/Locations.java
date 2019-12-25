@@ -38,9 +38,7 @@ public class Locations implements Map<Integer, Location> {
 
     static {
 
-        Scanner scanner = null;
-        try {
-            scanner = new Scanner(new FileReader("locations_big.txt"));
+        try(Scanner scanner = new Scanner(new FileReader("locations_big.txt"))) {
             scanner.useDelimiter(",");
             while(scanner.hasNextLine()) {
                 int loc = scanner.nextInt();
@@ -53,15 +51,10 @@ public class Locations implements Map<Integer, Location> {
 
         } catch(IOException e) {
             e.printStackTrace();
-        } finally  {
-            if(scanner != null) {
-                scanner.close();
-            }
         }
 
         // Now read the exits
-        try {
-            scanner = new Scanner(new BufferedReader(new FileReader("directions_big.txt")));
+        try(Scanner scanner = new Scanner(new BufferedReader(new FileReader("directions_big.txt")))) {
             scanner.useDelimiter(",");
             while(scanner.hasNextLine()) {
 //                int loc = scanner.nextInt();
@@ -84,15 +77,7 @@ public class Locations implements Map<Integer, Location> {
             }
         } catch(IOException e) {
                 e.printStackTrace();
-        } finally {
-            if(scanner != null) {
-                scanner.close();
-            }
         }
-
-
-
-
 
 //        Map<String, Integer> tempExit = new HashMap<String, Integer>();
 //        locations.put(0, new Location(0, "You are sitting in front of a computer learning Java",tempExit));
@@ -121,7 +106,6 @@ public class Locations implements Map<Integer, Location> {
 //        tempExit.put("S", 1);
 //        tempExit.put("W", 2);
 //        locations.put(5, new Location(5, "You are in the forest",tempExit));
-
     }
 
     @Override
