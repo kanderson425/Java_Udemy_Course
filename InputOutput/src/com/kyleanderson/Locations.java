@@ -4,15 +4,16 @@ package com.kyleanderson;
 
 import java.io.FileWriter;
 import java.io.*;
+import java.nio.Buffer;
 import java.util.*;
 
 
 public class Locations implements Map<Integer, Location> {
-    private static Map<Integer, Location> locations = new HashMap<Integer, Location>();
+    private static Map<Integer, Location> locations = new LinkedHashMap<>();
 
-    public static void main(String[] args) throws IOException{
-        try(FileWriter locFile = new FileWriter("locations.txt");
-            FileWriter dirFile = new FileWriter("directions.txt")) {
+    public static void main(String[] args) throws IOException   {
+        try(BufferedWriter locFile = new BufferedWriter(new FileWriter("locations.txt"));
+            BufferedWriter dirFile = new BufferedWriter(new FileWriter("directions.txt"))) {
             for(Location location : locations.values()) {
                 locFile.write(location.getLocationID() + "," + location.getDescription() + "\n");
                 for(String direction : location.getExits().keySet()) {
@@ -23,35 +24,22 @@ public class Locations implements Map<Integer, Location> {
     }
 
     static {
-        try(BufferedReader locationsFileReader = new BufferedReader(new FileReader("locations_big.txt"))) {
-            String input;
-            while((input = locationsFileReader.readLine()) != null) {
-                String[] data = input.split(",");
-                int loc = Integer.parseInt(data[0]);
-                String description = data[1];
-                System.out.println(loc + ": " + description);
-                Location location = locations.get(loc);
+
+        try(Scanner scanner = new Scanner(new BufferedReader(new FileReader("locations_big.txt")))) {
+            scanner.useDelimiter(",");
+            while(scanner.hasNextInt()) {
+                int loc = scanner.nextInt();
+                scanner.skip(scanner.delimiter());
+                String description = scanner.nextLine();
+                System.out.println("Imported loc: " + loc + ": " + description);
                 Map<String, Integer> tempExit = new HashMap<>();
                 locations.put(loc, new Location(loc, description, tempExit));
             }
+
         } catch(IOException e) {
             e.printStackTrace();
         }
 
-//        try(Scanner scanner = new Scanner(new FileReader("locations_big.txt"))) {
-//            scanner.useDelimiter(",");
-//            while(scanner.hasNextLine()) {
-//                int loc = scanner.nextInt();
-//                scanner.skip(scanner.delimiter());
-//                String description = scanner.nextLine();
-//                System.out.println("Imported loc:" + loc + ": " + description);
-//                Map<String, Integer> tempExit = new HashMap<>();
-//                locations.put(loc, new Location(loc, description, tempExit));
-//            }
-//
-//        } catch(IOException e) {
-//            e.printStackTrace();
-//        }
 
         try(BufferedReader dirFile = new BufferedReader(new FileReader("directions_big.txt"))) {
             String input;
