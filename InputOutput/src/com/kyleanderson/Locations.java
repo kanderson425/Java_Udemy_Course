@@ -54,9 +54,9 @@ public class Locations implements Map<Integer, Location> {
         }
 
         // Now read the exits
-        try(Scanner scanner = new Scanner(new BufferedReader(new FileReader("directions_big.txt")))) {
-            scanner.useDelimiter(",");
-            while(scanner.hasNextLine()) {
+        try(BufferedReader dirFile = new BufferedReader(new FileReader("directions_big.txt"))) {
+            String input;
+            while((input = dirFile.readLine()) != null) {
 //                int loc = scanner.nextInt();
 //                scanner.skip(scanner.delimiter());
 //                String direction = scanner.next();
@@ -65,7 +65,6 @@ public class Locations implements Map<Integer, Location> {
 //                int destination = Integer.parseInt(dest);
 
                 //Adds a change into the code that utilizes the split method
-                String input = scanner.nextLine();
                 String[] data = input.split(",");
                 int loc = Integer.parseInt(data[0]);
                 String direction = data[1];
