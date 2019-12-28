@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d3cf63-2db2-4f90-b276-055900cf3815" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Locations.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,17 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Locations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="112" selection-start-line="33" selection-start-column="112" selection-end-line="33" selection-end-column="112" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/locations.dat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="99" lean-forward="true" selection-start-line="19" selection-start-column="99" selection-end-line="19" selection-end-column="99" />
+            <state relative-caret-position="289">
+              <caret line="53" column="58" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -79,8 +71,8 @@
         <option value="$PROJECT_DIR$/src/Location.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Main.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/ShiftInt.java" />
-        <option value="$PROJECT_DIR$/src/com/kyleanderson/Locations.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Location.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/Locations.java" />
       </list>
     </option>
   </component>
@@ -215,10 +207,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.11954023" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.06781609" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.3321839" visible="true" weight="0.23139535" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.48850575" visible="true" weight="0.23139535" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49613258" weight="0.32906976" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -227,7 +219,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.6678161" side_tool="true" weight="0.23139535" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5114943" side_tool="true" visible="true" weight="0.23139535" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -299,13 +291,6 @@
     <entry file="file://$PROJECT_DIR$/directions.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/locations.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="99" lean-forward="true" selection-start-line="19" selection-start-column="99" selection-end-line="19" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/ShiftInt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -334,10 +319,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/locations.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18872" lean-forward="true" selection-start-line="8" selection-start-column="18872" selection-end-line="8" selection-end-column="18872" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Locations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="112" selection-start-line="33" selection-start-column="112" selection-end-line="33" selection-end-column="112" />
+        <state relative-caret-position="289">
+          <caret line="53" column="58" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
         </state>
       </provider>
     </entry>
