@@ -11,10 +11,13 @@ public class Locations implements Map<Integer, Location> {
 
     public static void main(String[] args) throws IOException   {
 
-        try (ObjectOutputStream locFile = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream("locations.dat")))) {
-            for(Location location : locations.values()) {
-                locFile.writeObject(location);
-            }
+        try (RandomAccessFile  rao = new RandomAccessFile("locations_rand.dat", "rwd")) {
+            rao.writeInt(locations.size());
+            int indexSize = locations.size() * 3 * Integer.BYTES;
+            int locationStart = (int) (indexSize + rao.getFilePointer() + Integer.BYTES);
+            rao.writeInt(locationStart);
+            long indexStart = rao.getFilePointer();
+
         }
     }
     // 1. The first four bytes will contain the number of locations (bytes 0-3)
