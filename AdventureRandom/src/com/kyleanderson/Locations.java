@@ -8,6 +8,7 @@ import java.util.*;
 
 public class Locations implements Map<Integer, Location> {
     private static Map<Integer, Location> locations = new LinkedHashMap<>();
+    private static Map<Integer, IndexRecord> index = new LinkedHashMap<>();
 
     public static void main(String[] args) throws IOException   {
 
@@ -16,7 +17,32 @@ public class Locations implements Map<Integer, Location> {
             int indexSize = locations.size() * 3 * Integer.BYTES;
             int locationStart = (int) (indexSize + rao.getFilePointer() + Integer.BYTES);
             rao.writeInt(locationStart);
+
             long indexStart = rao.getFilePointer();
+
+            int startPointer = locationStart;
+            rao.seek(startPointer);
+            for(Location location : locations.values()) {
+                rao.writeInt(location.getLocationID());
+                rao.writeUTF(location.getDescription());
+                StringBuilder builder = new StringBuilder();
+                for(String direction : location.getExits().keySet()) {
+                    if(!direction.equalsIgnoreCase("Q")) {
+                        builder.append(direction);
+                        builder.append(",");
+                        builder.append(location.getExits().get(direction));
+                        builder.append(",");
+                    }
+                }
+                rao.writeUTF(builder.toString());
+
+                IndexRecord record = new IndexRecord(startPointer, (int) (rao.getFilePointer() - startPointer));
+                index.put(location.getLocationID(), record);
+
+                startPointer = (int) rao.getFilePointer();
+
+
+            }
 
         }
     }
