@@ -27,7 +27,7 @@ public class Main {
         vocabulary.put("EAST", "E");
 
 
-        Location currentLocation = locations.getLocation(64);
+        Location currentLocation = locations.getLocation(1);
         while(true) {
             System.out.println(currentLocation.getDescription());
 
@@ -60,6 +60,8 @@ public class Main {
                 System.out.println("You cannot go in that direction");
             }
         }
+
+        locations.close();
 
     }
 }
