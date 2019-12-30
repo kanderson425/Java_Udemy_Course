@@ -88,7 +88,7 @@ public class Locations implements Map<Integer, Location> {
         int id = ra.readInt();
         String description = ra.readUTF();
         String exits = ra.readUTF();
-        String[] exitPart = new String(exits).split(",");
+        String[] exitPart = exits.split(",");
 
         Location location = new Location(locationId, description, null);
 
