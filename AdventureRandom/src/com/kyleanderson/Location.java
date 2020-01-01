@@ -1,13 +1,10 @@
 package com.kyleanderson;
 
 import java.io.Serializable;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * Created by dev on 8/12/2015.
- */
+
 public class Location implements Serializable {
     private final int locationID;
     private final String description;

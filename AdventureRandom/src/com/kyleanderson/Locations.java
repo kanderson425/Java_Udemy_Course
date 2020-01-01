@@ -1,7 +1,4 @@
 package com.kyleanderson;
-
-
-
 import java.io.*;
 import java.util.*;
 
@@ -57,9 +54,6 @@ public class Locations implements Map<Integer, Location> {
     // 2. The next four bytes will contain the start offset of the locations section (bytes 4-7)
     // 3. the next section of the file will contain the index (the index is 1692 bytes long. It wills start at byte 8 and will end at byte 1699)
     // 4. The final section of the file will contain the location records (the data). It will start at byte 1700
-
-
-
 
     static {
         try {
