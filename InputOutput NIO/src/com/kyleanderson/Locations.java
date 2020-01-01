@@ -2,6 +2,7 @@ package com.kyleanderson;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
+import java.nio.Buffer;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -17,6 +18,22 @@ public class Locations implements Map<Integer, Location> {
 
         Path locPath = FileSystems.getDefault().getPath("locations_big.txt");
         Path dirPath = FileSystems.getDefault().getPath("directions_big.txt");
+        try(BufferedWriter locFile = Files.newBufferedWriter(locPath);
+            BufferedWriter dirFile = Files.newBufferedWriter(dirPath)) {
+
+            for(Location location : locations.values()) {
+                locFile.write(location.getLocationID() + "," + location.getDescription() + "\n");
+                for(String direction : location.getExits().keySet()) {
+                    if(!direction.equalsIgnoreCase("Q")) {
+                        dirFile.write(location.getLocationID() + "," + direction + ", " +
+                                location.getExits().get(direction) + "\n");
+                    }
+                }
+
+            }
+        } catch(IOException e) {
+            System.out.println("IOException: " + e.getMessage());
+        }
 
     }
 
