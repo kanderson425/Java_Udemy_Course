@@ -29,6 +29,12 @@ public class Main {
             numBytes = binChannel.write(intBuffer);
             System.out.println("numBytes written was: " + numBytes);
 
+            intBuffer.flip();
+            intBuffer.putInt(-98765);
+            intBuffer.flip();
+            numBytes = binChannel.write(intBuffer);
+            System.out.println("numBytes written was: " + numBytes);
+
 //            FileInputStream file = new FileInputStream("data.txt");
 //            FileChannel channel = file.getChannel();
 //            Path dataPath = FileSystems.getDefault().getPath("data.txt");
