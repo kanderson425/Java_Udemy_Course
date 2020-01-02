@@ -1,5 +1,6 @@
 package com.kyleanderson;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.Buffer;
@@ -42,12 +43,12 @@ public class Locations implements Map<Integer, Location> {
         Path locPath = FileSystems.getDefault().getPath("locations_big.txt");
         Path dirPath = FileSystems.getDefault().getPath("directions_big.txt");
 
-        try (Scanner scanner = new Scanner(Files.newBufferedReader(locPath))) {
+        try(Scanner scanner = new Scanner(Files.newBufferedReader(locPath))) {
             scanner.useDelimiter(",");
             while(scanner.hasNextLine()) {
                 int loc = scanner.nextInt();
                 scanner.skip(scanner.delimiter());
-                String description = scanner.nextLine();
+                String description = scanner.next();
                 System.out.println("Imported loc: " + loc + ": " + description);
                 locations.put(loc, new Location(loc, description, null));
             }
@@ -55,7 +56,21 @@ public class Locations implements Map<Integer, Location> {
             e.printStackTrace();
         }
 
+        try (BufferedReader dirFile = Files.newBufferedReader(dirPath)) {
+            String input;
 
+            while((input = dirFile.readLine()) != null) {
+                String[] data = input.split(",");
+                int loc = Integer.parseInt(data[0]);
+                String direction = data[1];
+                int destination = Integer.parseInt(data[2]);
+                System.out.println(loc + ": " + direction + ": " + destination);
+                Location location = locations.get(loc);
+                location.addExit(direction, destination);
+            }
+        } catch(IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
