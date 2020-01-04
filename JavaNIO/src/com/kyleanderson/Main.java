@@ -40,6 +40,25 @@ public class Main {
             if(buffer.hasArray()) {
                 System.out.println("byte buffer = " + new String(buffer.array()));
             }
+            // Absolute Read
+            intBuffer.flip();
+            numBytesRead = channel.read(intBuffer);
+            System.out.println(intBuffer.getInt(0));
+            intBuffer.flip();
+            numBytesRead = channel.read(intBuffer);
+            System.out.println(intBuffer.getInt(0));
+            // Relative Read
+            //            intBuffer.flip();
+            //            numBytesRead = channel.read(intBuffer);
+            //            intBuffer.flip();
+            //            System.out.println(intBuffer.getInt());
+            //            intBuffer.flip();
+            //            numBytesRead = channel.read(intBuffer);
+            //            intBuffer.flip();
+            //            System.out.println(intBuffer.getInt());
+            channel.close();
+            ra.close();
+
 
 //            System.out.println("outputBytes = " + new String(outputBytes));
 
