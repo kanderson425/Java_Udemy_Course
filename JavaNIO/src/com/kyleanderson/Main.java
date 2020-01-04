@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
-import java.util.Random;
 
 public class Main {
 
@@ -15,7 +14,9 @@ public class Main {
             FileChannel binChannel = binFile.getChannel()) {
 
             byte[] outputBytes = "Hello World!".getBytes();
-            ByteBuffer buffer = ByteBuffer.wrap(outputBytes);
+            ByteBuffer buffer = ByteBuffer.allocate(outputBytes.length);
+            buffer.put(outputBytes);
+
             int numBytes = binChannel.write(buffer);
             System.out.println("numBytes written was: " + numBytes);
 
@@ -40,13 +41,18 @@ public class Main {
             if(buffer.hasArray()) {
                 System.out.println("byte buffer = " + new String(buffer.array()));
             }
+
             // Absolute Read
             intBuffer.flip();
             numBytesRead = channel.read(intBuffer);
             System.out.println(intBuffer.getInt(0));
             intBuffer.flip();
             numBytesRead = channel.read(intBuffer);
+            intBuffer.flip();
             System.out.println(intBuffer.getInt(0));
+            System.out.println(intBuffer.getInt());
+
+
             // Relative Read
             //            intBuffer.flip();
             //            numBytesRead = channel.read(intBuffer);
