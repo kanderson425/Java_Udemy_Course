@@ -51,18 +51,36 @@ public class Main {
             RandomAccessFile ra = new RandomAccessFile("data.dat", "rwd");
             FileChannel channel = ra.getChannel();
 
-            ByteBuffer readBuffer = ByteBuffer.allocate(100);
+            ByteBuffer readBuffer = ByteBuffer.allocate(Integer.BYTES);
+            channel.position(int3Pos);
             channel.read(readBuffer);
             readBuffer.flip();
-            byte[] inputString = new byte[outputBytes.length];
-            readBuffer.get(inputString);
-            System.out.println("inputString = " + new String(inputString));
-            System.out.println("int1 = " + readBuffer.getInt());
-            System.out.println("int2 = " + readBuffer.getInt());
-            byte[] inputString2 = new byte[outputBytes2.length];
-            readBuffer.get(inputString2);
-            System.out.println("inputString2 = " + new String(inputString2));
             System.out.println("int3 = " + readBuffer.getInt());
+
+            readBuffer.flip();
+            channel.position(int2Pos);
+            channel.read(readBuffer);
+            readBuffer.flip();
+            System.out.println("int2 = " + readBuffer.getInt());
+            channel.position(int1Pos);
+            readBuffer.flip();
+            channel.read(readBuffer);
+            readBuffer.flip();
+            System.out.println("int1 = " + readBuffer.getInt());
+
+
+//            ByteBuffer readBuffer = ByteBuffer.allocate(100);
+//            channel.read(readBuffer);
+//            readBuffer.flip();
+//            byte[] inputString = new byte[outputBytes.length];
+//            readBuffer.get(inputString);
+//            System.out.println("inputString = " + new String(inputString));
+//            System.out.println("int1 = " + readBuffer.getInt());
+//            System.out.println("int2 = " + readBuffer.getInt());
+//            byte[] inputString2 = new byte[outputBytes2.length];
+//            readBuffer.get(inputString2);
+//            System.out.println("inputString2 = " + new String(inputString2));
+//            System.out.println("int3 = " + readBuffer.getInt());
 
 
         } catch (IOException e) {
