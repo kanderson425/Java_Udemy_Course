@@ -96,6 +96,11 @@ public class Main {
             binChannel.position(newInt3Pos);
             binChannel.write(intBuffer);
 
+            binChannel.position(str1Pos);
+            binChannel.write(ByteBuffer.wrap(outputString));
+            binChannel.position(str2Pos);
+            binChannel.write(ByteBuffer.wrap(outputString2));
+
 
 
         } catch (IOException e) {
