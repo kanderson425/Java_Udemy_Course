@@ -73,6 +73,7 @@ public class Main {
 
             RandomAccessFile copyFile = new RandomAccessFile("datacopy.dat", "rw");
             FileChannel copyChannel = copyFile.getChannel();
+            channel.position(0);
             long numTransferred = copyChannel.transferFrom(channel, 0, channel.size());
             System.out.println("Num transferred = " + numTransferred);
 
