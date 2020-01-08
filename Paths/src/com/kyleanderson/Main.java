@@ -5,13 +5,22 @@ import java.io.IOException;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class Main {
 
     public static void main(String[] args) {
         Path path = FileSystems.getDefault().getPath("workingDirectoryFile.txt");
         printFile(path);
+//        Path filePath = FileSystems.getDefault().getPath("files", "SubdirectoryFile.txt");
+        Path filePath = Paths.get(".","files", "SubdirectoryFile.txt");
+        printFile(filePath);
+//        filePath = Paths.get("/Users/kyleanderson/Code/Java/Java_Udemy_Course/OutThere.txt ");
+        filePath = Paths.get("/Users/kyleanderson/Code","/Java/Java_Udemy_Course","OutThere.txt");
+        printFile(filePath);
 
+        filePath = Paths.get(".");
+        System.out.println(filePath.toAbsolutePath());
     }
 
     private static void printFile(Path path) {

@@ -1,5 +1,5 @@
-File within the working directory.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Ut suscipit eu lectus non volutpat.
-In consequat ac lacus vitae ornare.
-Vestibulum cursus urna tellus, vitae placerat elit euismod in.
+File in some random location on the file system.
+Quisque at pellentesque neque.
+Etiam mollis dolor et congue congue.
+Curabitur eleifend lacinia sapien, et dictum nibh.
+Integer id finibus ex, at gravida leo.
