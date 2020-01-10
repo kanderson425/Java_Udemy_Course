@@ -9,9 +9,18 @@ public class Main {
 
     public static void main(String[] args) {
         try {
+            //Creates a File
+//            Path fileToCreate = FileSystems.getDefault().getPath("Examples","file2.txt");
+//            Files.createFile(fileToCreate);
+            //Creates a Directory
+//            Path dirToCreate = FileSystems.getDefault().getPath("Examples","Dir4");
+//            Files.createDirectory(dirToCreate);
+            Path dirToCreate = FileSystems.getDefault().getPath("Examples/Dir2/Dir3/Dir4/Dir5/Dir6/Dir7");
+            Files.createDirectories(dirToCreate);
+
             //Deleting File
-            Path fileToDelete = FileSystems.getDefault().getPath("Examples","Dir1","file1copy.txt");
-            Files.delete(fileToDelete);
+//            Path fileToDelete = FileSystems.getDefault().getPath("Examples","Dir1","file1copy.txt");
+//            Files.deleteIfExists(fileToDelete);
 
             //Renaming File
 //            Path fileToMove = FileSystems.getDefault().getPath("Examples","file1.txt");

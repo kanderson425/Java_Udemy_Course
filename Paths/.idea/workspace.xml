@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d33a055a-a0de-4a9d-81c8-4bf360b3ecc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Examples/file1copy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,10 +21,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="135">
+              <caret line="12" selection-start-line="11" selection-end-line="12" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Examples/file2.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -42,9 +47,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="724" />
+    <option name="x" value="837" />
     <option name="y" value="23" />
-    <option name="width" value="956" />
+    <option name="width" value="843" />
     <option name="height" value="975" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -77,6 +82,36 @@
             <path>
               <item name="Paths" type="b2602c69:ProjectViewProjectNode" />
               <item name="Paths" type="462c0819:PsiDirectoryNode" />
+              <item name="Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="Dir2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paths" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Paths" type="462c0819:PsiDirectoryNode" />
+              <item name="Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="Dir2" type="462c0819:PsiDirectoryNode" />
+              <item name="Dir3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paths" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Paths" type="462c0819:PsiDirectoryNode" />
+              <item name="Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="Dir2" type="462c0819:PsiDirectoryNode" />
+              <item name="Dir3" type="462c0819:PsiDirectoryNode" />
+              <item name="Dir4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paths" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Paths" type="462c0819:PsiDirectoryNode" />
+              <item name="Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="Dir2" type="462c0819:PsiDirectoryNode" />
+              <item name="Dir3" type="462c0819:PsiDirectoryNode" />
+              <item name="Dir4" type="462c0819:PsiDirectoryNode" />
+              <item name="Dir5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paths" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Paths" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -95,16 +130,16 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Examples/Dir2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Examples/Dir1" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Examples/Dir1" />
       <recent name="$PROJECT_DIR$/Examples/Dir2" />
       <recent name="$PROJECT_DIR$/Examples/Dir2/Dir3" />
-      <recent name="$PROJECT_DIR$/Examples/Dir1" />
       <recent name="$PROJECT_DIR$/Examples" />
     </key>
   </component>
@@ -151,18 +186,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="724" y="23" width="956" height="975" extended-state="0" />
-    <editor active="true" />
+    <frame x="837" y="23" width="843" height="975" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2713348" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.12734082" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4354486" visible="true" weight="0.37558138" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.43570536" visible="true" weight="0.37558138" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -171,7 +205,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5645514" side_tool="true" visible="true" weight="0.37558138" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.56429464" side_tool="true" visible="true" weight="0.37558138" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -231,10 +265,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/Dir1/file1copy.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/file2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="135">
+          <caret line="12" selection-start-line="11" selection-end-line="12" />
         </state>
       </provider>
     </entry>
