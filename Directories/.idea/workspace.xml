@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cb21c7b-5c8a-4d31-9588-7996985bba25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FileTree/Dir1/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileTree/Dir1/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileTree/Dir2/Dir3/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileTree/Dir2/Dir3/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileTree/Dir2/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileTree/Dir2/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileTree/Dir2/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileTree/Dir4/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileTree/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileTree/file2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Paths/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Paths/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+            <state relative-caret-position="135">
+              <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -87,7 +78,7 @@
               <item name="Directories" type="b2602c69:ProjectViewProjectNode" />
               <item name="Directories" type="462c0819:PsiDirectoryNode" />
               <item name="FileTree" type="462c0819:PsiDirectoryNode" />
-              <item name="Dir1" type="462c0819:PsiDirectoryNode" />
+              <item name="Dir2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Directories" type="b2602c69:ProjectViewProjectNode" />
@@ -108,6 +99,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/FileTree" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -164,8 +156,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="837" y="23" width="843" height="975" extended-state="0" />
-    <editor active="true" />
+    <frame x="837" y="24" width="843" height="975" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -175,7 +166,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2122347" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32972324" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4993758" visible="true" weight="0.32906976" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -184,7 +175,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" side_tool="true" visible="true" weight="0.32946634" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.50062424" side_tool="true" visible="true" weight="0.32906976" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -214,7 +205,7 @@
     <entry file="file://$PROJECT_DIR$/FileTree/Dir2/file2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileTree/Dir2/file3.txt">
+    <entry file="file://$PROJECT_DIR$/FileTree/Dir2/file3.dat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/FileTree/Dir4/file3.txt">
@@ -228,10 +219,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+        <state relative-caret-position="135">
+          <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
