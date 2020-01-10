@@ -9,14 +9,22 @@ public class Main {
 
     public static void main(String[] args) {
         try {
+            //Size
+            Path filePath = FileSystems.getDefault().getPath("Examples","Dir1/file1.txt");
+            long size = Files.size(filePath);
+            System.out.println("Size = "+ size);
+            System.out.println("Last modified = "+ Files.getLastModifiedTime(filePath));
+
+
             //Creates a File
 //            Path fileToCreate = FileSystems.getDefault().getPath("Examples","file2.txt");
 //            Files.createFile(fileToCreate);
+
             //Creates a Directory
 //            Path dirToCreate = FileSystems.getDefault().getPath("Examples","Dir4");
 //            Files.createDirectory(dirToCreate);
-            Path dirToCreate = FileSystems.getDefault().getPath("Examples/Dir2/Dir3/Dir4/Dir5/Dir6/Dir7");
-            Files.createDirectories(dirToCreate);
+//            Path dirToCreate = FileSystems.getDefault().getPath("Examples/Dir2/Dir3/Dir4/Dir5/Dir6/Dir7");
+//            Files.createDirectories(dirToCreate);
 
             //Deleting File
 //            Path fileToDelete = FileSystems.getDefault().getPath("Examples","Dir1","file1copy.txt");
