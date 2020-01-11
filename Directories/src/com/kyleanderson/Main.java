@@ -1,5 +1,6 @@
 package com.kyleanderson;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.*;
 
@@ -15,7 +16,8 @@ public class Main {
 //                };
 
 //        //This utilizes a lambda expression to achieve the same filter
-//        DirectoryStream.Filter<Path> filter = p -> Files.isRegularFile(p);
+        DirectoryStream.Filter<Path> filter = p -> Files.isRegularFile(p);
+
         Path directory = FileSystems.getDefault().getPath("FileTree/Dir2");
         try (DirectoryStream<Path> contents = Files.newDirectoryStream(directory, filter)) {
             for(Path file: contents) {
@@ -25,5 +27,10 @@ public class Main {
         }catch(IOException | DirectoryIteratorException e) {
             System.out.println(e.getMessage());
         }
+
+        String separator = File.separator;
+        System.out.println(separator);
+        separator = FileSystems.getDefault().getSeparator();
+        System.out.println(separator);
     }
 }
