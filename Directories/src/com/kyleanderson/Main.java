@@ -14,8 +14,8 @@ public class Main {
 //                    }
 //                };
 
-        //This utilizes a lambda expression to achieve the same filter
-        DirectoryStream.Filter<Path> filter = p -> Files.isRegularFile(p);
+//        //This utilizes a lambda expression to achieve the same filter
+//        DirectoryStream.Filter<Path> filter = p -> Files.isRegularFile(p);
         Path directory = FileSystems.getDefault().getPath("FileTree/Dir2");
         try (DirectoryStream<Path> contents = Files.newDirectoryStream(directory, filter)) {
             for(Path file: contents) {
