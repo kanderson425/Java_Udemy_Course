@@ -18,7 +18,8 @@ public class Main {
 //        //This utilizes a lambda expression to achieve the same filter
         DirectoryStream.Filter<Path> filter = p -> Files.isRegularFile(p);
 
-        Path directory = FileSystems.getDefault().getPath("FileTree/Dir2");
+        Path directory = FileSystems.getDefault().getPath("FileTree" + File.separator + "Dir2");
+//        Path directory = FileSystems.getDefault().getPath("FileTree/Dir2");
         try (DirectoryStream<Path> contents = Files.newDirectoryStream(directory, filter)) {
             for(Path file: contents) {
                 System.out.println(file.getFileName());
@@ -32,5 +33,18 @@ public class Main {
         System.out.println(separator);
         separator = FileSystems.getDefault().getSeparator();
         System.out.println(separator);
+
+        try {
+            Path tempFile = Files.createTempFile("myapp",".appext");
+            System.out.println("Temporary file path = " + tempFile.toAbsolutePath());
+
+        } catch(IOException e) {
+            System.out.println(e.getMessage());
+        }
+
+        Iterable<FileStore> stores = FileSystems.getDefault().getFileStores();
+        for(FileStore store : stores) {
+            System.out.println(store.name());
+        }
     }
 }
