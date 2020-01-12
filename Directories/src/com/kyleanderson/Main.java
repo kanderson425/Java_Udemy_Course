@@ -70,5 +70,25 @@ public class Main {
         } catch(IOException e) {
             System.out.println(e.getMessage());
         }
+
+        File file = new File("/Examples/file.txt");
+        Path convertedPath = file.toPath();
+        System.out.println("convertedPath = " + convertedPath);
+
+        //Passing only the child as a string
+        File parent = new File("/Examples");
+        File resolvedFile = new File(parent, "dir/file.txt");
+        System.out.println(resolvedFile.toPath());
+
+        //Passing parent and child as strings
+        resolvedFile = new File("/Examples", "dir/file.txt");
+        System.out.println(resolvedFile.toPath());
+
+        Path parentPath = Paths.get("/Examples");
+        Path childRelativePath = Paths.get("dir/file.txt");
+        System.out.println(parentPath.resolve(childRelativePath));
+
+        File workingDirectory = new File("").getAbsoluteFile();
+        System.out.println("Working directory = " + workingDirectory.getAbsolutePath());
     }
 }
