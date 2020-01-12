@@ -90,5 +90,18 @@ public class Main {
 
         File workingDirectory = new File("").getAbsoluteFile();
         System.out.println("Working directory = " + workingDirectory.getAbsolutePath());
+
+        System.out.println("--- print Dir2 contents using list() method ---");
+        File dir2File = new File(workingDirectory, "/FileTree/Dir2");
+        String[] dir2Contents = dir2File.list();
+        for(int i =0; i < dir2Contents.length; i++) {
+            System.out.println("i= " + i + ": " + dir2Contents[i]);
+        }
+
+        System.out.println("--- print Dir2 contents using listFiles() ---");
+        File[] dir2Files = dir2File.listFiles();
+        for(int i =0; i < dir2Files.length; i++) {
+            System.out.println("i= " + i + ": " + dir2Files[i].getName());
+        }
     }
 }
