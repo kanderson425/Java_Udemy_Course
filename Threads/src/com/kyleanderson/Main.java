@@ -10,6 +10,7 @@ public class Main {
         System.out.println(ANSI_PURPLE+"Hello from the main thread.");
 
         Thread anotherThread = new AnotherThread();
+        anotherThread.setName("== Another Thread ==");
         anotherThread.start();
 
         new Thread() {
