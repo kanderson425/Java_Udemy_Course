@@ -18,7 +18,7 @@ public class Main {
     class Countdown {
         private int i;
 
-        public void doCountdown() {
+        public synchronized void doCountdown() {
             String color;
 
             switch(Thread.currentThread().getName()) {
