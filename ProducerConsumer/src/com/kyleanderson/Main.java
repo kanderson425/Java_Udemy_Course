@@ -1,20 +1,26 @@
 package com.kyleanderson;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import static com.kyleanderson.Main.EOF;
 
 public class Main {
+    public static final String EOF = "EOF";
 
     public static void main(String[] args) {
-	// write your code here
+        List<String> buffer = new ArrayList<String>();
+        MyProducer producer = new MyProducer(buffer, ThreadColor.ANSI_YELLOW);
+        MyConsumer consumer1 = new MyConsumer(buffer, ThreadColor.ANSI_PURPLE);
+        MyConsumer consumer2 = new MyConsumer(buffer, ThreadColor.ANSI_CYAN);
     }
 }
 
-class myProducer implements Runnable {
+class MyProducer implements Runnable {
     private List<String> buffer;
     private String color;
 
-    public myProducer(List<String> buffer, String color) {
+    public MyProducer(List<String> buffer, String color) {
         this.buffer = buffer;
         this.color = color;
     }
@@ -35,5 +41,29 @@ class myProducer implements Runnable {
         }
         System.out.println(color + "Adding EOF and exiting....");
         buffer.add("EOF");
+    }
+}
+
+class MyConsumer implements Runnable {
+    private List<String> buffer;
+    private String color;
+
+    public MyConsumer(List<String> buffer, String color) {
+        this.buffer = buffer;
+        this.color = color;
+    }
+
+    public void run() {
+        while(true) {
+            if(buffer.isEmpty()) {
+                continue;
+            }
+            if(buffer.get(0).equals(EOF)) {
+                System.out.println(color + "Exiting");
+                break;
+            } else {
+                System.out.println(color + "Removed " + buffer.remove(0));
+            }
+        }
     }
 }
