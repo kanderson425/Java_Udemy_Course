@@ -68,16 +68,19 @@ class MyConsumer implements Runnable {
     public MyConsumer(List<String> buffer, String color, ReentrantLock bufferLock) {
         this.buffer = buffer;
         this.color = color;
+        this.bufferLock = bufferLock;
     }
 
     public void run() {
         while(true) {
             bufferLock.lock();
             if(buffer.isEmpty()) {
+                bufferLock.unlock();
                 continue;
             }
             if(buffer.get(0).equals(EOF)) {
                 System.out.println(color + "Exiting");
+                bufferLock.unlock();
                 break;
             } else {
                 System.out.println(color + "Removed " + buffer.remove(0));
