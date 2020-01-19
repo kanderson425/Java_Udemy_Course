@@ -3,6 +3,8 @@ package com.kyleanderson;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.locks.ReentrantLock;
 
 import static com.kyleanderson.Main.EOF;
@@ -13,13 +15,20 @@ public class Main {
     public static void main(String[] args) {
         List<String> buffer = new ArrayList<String>();
         ReentrantLock bufferLock = new ReentrantLock();
+
+        ExecutorService executorService = Executors.newFixedThreadPool(3);
+
         MyProducer producer = new MyProducer(buffer, ThreadColor.ANSI_YELLOW, bufferLock);
         MyConsumer consumer1 = new MyConsumer(buffer, ThreadColor.ANSI_PURPLE, bufferLock);
         MyConsumer consumer2 = new MyConsumer(buffer, ThreadColor.ANSI_CYAN, bufferLock);
 
-        new Thread(producer).start();
-        new Thread(consumer1).start();
-        new Thread(consumer2).start();
+        executorService.execute(producer);
+        executorService.execute(consumer1);
+        executorService.execute(consumer2);
+
+        executorService.shutdown();
+
+
     }
 }
 
@@ -76,20 +85,29 @@ class MyConsumer implements Runnable {
     }
 
     public void run() {
+
+        int counter = 0;
+
         while(true) {
-            bufferLock.lock();
-            try {
-                if(buffer.isEmpty()) {
-                    continue;
+            if(bufferLock.tryLock()) {
+                try {
+                    if(buffer.isEmpty()) {
+                        continue;
+                    }
+                    System.out.println(color + "The Counter = " + counter);
+                    counter = 0;
+
+                    if(buffer.get(0).equals(EOF)) {
+                        System.out.println(color + "Exiting");
+                        break;
+                    } else {
+                        System.out.println(color + "Removed " + buffer.remove(0));
+                    }
+                } finally {
+                    bufferLock.unlock();
                 }
-                if(buffer.get(0).equals(EOF)) {
-                    System.out.println(color + "Exiting");
-                    break;
-                } else {
-                    System.out.println(color + "Removed " + buffer.remove(0));
-                }
-            } finally {
-                bufferLock.unlock();
+            } else {
+                counter ++;
             }
         }
     }
