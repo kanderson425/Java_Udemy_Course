@@ -45,7 +45,7 @@ public class Main {
                 }
                 System.out.println("Thread 2: Released lock2");
             }
-            System.out.println("Thread 2: released lock1. Exiting...");
+            System.out.println("Thread 2: Released lock1. Exiting...");
         }
     }
 }
