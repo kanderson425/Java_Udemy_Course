@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c168d2e1-67e6-40e6-93f4-20b2999bb368" name="Default Changelist" comment="" />
+    <list default="true" id="f72277f3-1438-477f-aa07-a09ee9bb598e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/kyleanderson/SharedResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kyleanderson/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Starvation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Starvation/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +19,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/SharedResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Worker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -39,8 +61,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/kyleanderson/ThreadColor.java" />
-        <option value="$PROJECT_DIR$/src/com/kyleanderson/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/Worker.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/SharedResource.java" />
       </list>
     </option>
   </component>
@@ -54,45 +76,47 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="848" />
-    <option name="y" value="26" />
+    <option name="y" value="23" />
     <option name="width" value="824" />
     <option name="height" value="975" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Starvation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Starvation" type="462c0819:PsiDirectoryNode" />
+              <item name="PoliteWorker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliteWorker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Starvation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Starvation" type="462c0819:PsiDirectoryNode" />
+              <item name="PoliteWorker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliteWorker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Starvation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Starvation" type="462c0819:PsiDirectoryNode" />
+              <item name="PoliteWorker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliteWorker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="kyleanderson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PoliteWorker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -109,7 +133,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.kyleanderson.Main" />
-      <module name="Starvation" />
+      <module name="PoliteWorker" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -117,37 +141,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c168d2e1-67e6-40e6-93f4-20b2999bb368" name="Default Changelist" comment="" />
-      <created>1579662239518</created>
+      <changelist id="f72277f3-1438-477f-aa07-a09ee9bb598e" name="Default Changelist" comment="" />
+      <created>1579749566628</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579662239518</updated>
+      <updated>1579749566628</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="848" y="26" width="824" height="975" extended-state="0" />
+    <frame x="848" y="23" width="824" height="975" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.09207161" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.10613811" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49872124" visible="true" weight="0.32906976" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32972324" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -156,7 +176,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.50127876" side_tool="true" weight="0.32906976" />
+      <window_info active="true" anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" side_tool="true" visible="true" weight="0.32946634" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -168,17 +188,24 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/ThreadColor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/SharedResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        <state relative-caret-position="210">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
