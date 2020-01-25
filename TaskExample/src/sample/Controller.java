@@ -5,6 +5,7 @@ import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
+import javafx.scene.control.ProgressBar;
 
 public class Controller {
 
@@ -13,33 +14,40 @@ public class Controller {
     @FXML
     private ListView listView;
 
+    @FXML
+    private ProgressBar progressBar;
+
     public void initialize() {
         task = new Task<ObservableList<String>>() {
             @Override
             protected ObservableList<String> call() throws Exception {
-                Thread.sleep(1000);
 
-                ObservableList<String> employees = FXCollections.observableArrayList(
-                        "Tim Buchalka",
+                String[] names = {"Tim Buchalka",
                         "Bill Rogers",
                         "Jack Jill",
                         "Jane Andrews",
                         "Mary Johnson",
-                        "Bob McDonald");
+                        "Bob McDonald" };
 
+                ObservableList<String> employees = FXCollections.observableArrayList();
+
+                for(int i =0; i<6; i++) {
+                    employees.add(names[i]);
+                    updateProgress(i + 1, 6);
+                    Thread.sleep(200);
+                }
                 return employees;
             };
         };
 
+        progressBar.progressProperty().bind(task.progressProperty());
         listView.itemsProperty().bind(task.valueProperty());
+
     }
 
     @FXML
     public void buttonPressed() {
             new Thread(task).start();
     }
-
-
-
 
 }
