@@ -55,22 +55,28 @@ public class Controller {
         progressLabel.textProperty().bind(service.messageProperty());
         listView.itemsProperty().bind(service.valueProperty());
 
-        service.setOnRunning(new EventHandler<WorkerStateEvent>() {
-            @Override
-            public void handle(WorkerStateEvent workerStateEvent) {
-                progressBar.setVisible(true);
-                progressLabel.setVisible(true);
-            }
-        });
+//        service.setOnRunning(new EventHandler<WorkerStateEvent>() {
+//            @Override
+//            public void handle(WorkerStateEvent workerStateEvent) {
+//                progressBar.setVisible(true);
+//                progressLabel.setVisible(true);
+//            }
+//        });
+//
+//        service.setOnSucceeded(new EventHandler<WorkerStateEvent>() {
+//            @Override
+//            public void handle(WorkerStateEvent workerStateEvent) {
+//                progressBar.setVisible(false);
+//                progressLabel.setVisible(false);
+//            }
+//        });
 
-        service.setOnSucceeded(new EventHandler<WorkerStateEvent>() {
-            @Override
-            public void handle(WorkerStateEvent workerStateEvent) {
-                progressBar.setVisible(false);
-                progressLabel.setVisible(false);
-            }
-        });
 
+//        progressBar.setVisible(false);
+//        progressLabel.setVisible(false);
+
+        progressBar.visibleProperty().bind(service.runningProperty());
+        progressLabel.visibleProperty().bind(service.runningProperty());
 
     }
 
