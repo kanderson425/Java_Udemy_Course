@@ -12,4 +12,5 @@
             GridPane.columnIndex="0"/>
     <ListView fx:id="listView" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
     <ProgressBar fx:id="progressBar" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <Label fx:id="progressLabel" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
 </GridPane>
