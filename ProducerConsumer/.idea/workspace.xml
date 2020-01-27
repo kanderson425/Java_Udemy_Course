@@ -4,7 +4,6 @@
     <list default="true" id="943072ee-c934-48ee-8bf2-fe5e59baa0e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ThreadChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadChallenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadChallenge/src/com/kyleanderson/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadChallenge/src/com/kyleanderson/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ThreadChallenge/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadChallenge/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,7 +22,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
+            <state relative-caret-position="1095">
               <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
             </state>
           </provider>
@@ -66,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="39" />
     <option name="y" value="23" />
     <option name="width" value="1641" />
@@ -156,8 +155,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="23" width="1641" height="975" extended-state="1" />
-    <editor active="true" />
+    <frame x="39" y="23" width="1641" height="975" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -190,7 +188,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
+        <state relative-caret-position="1095">
           <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
         </state>
       </provider>
