@@ -10,7 +10,7 @@ public class BankAccount {
         this.accountNumber = accountNumber;
     }
 
-    public void deposite(double amount) {
+    public void deposit(double amount) {
         balance += amount;
     }
 
