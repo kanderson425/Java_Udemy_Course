@@ -29,19 +29,17 @@ public class Main {
         // Tim's Solution
         Thread trThread1 = new Thread() {
             public void run() {
-                synchronized (account) {
                     account.deposit(300.00);
                     account.withdraw(50.00);
-                }
+                    account.printAccountNumber();
             }
         };
 
         Thread trThread2 = new Thread() {
             public void run() {
-                synchronized (account) {
                     account.deposit(203.75);
                     account.withdraw(10.00);
-                }
+                    account.printAccountNumber();
             }
         };
 
