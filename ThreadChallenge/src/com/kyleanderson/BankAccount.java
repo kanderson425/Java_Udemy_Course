@@ -12,9 +12,11 @@ public class BankAccount {
 
     public void deposit(double amount) {
         balance += amount;
+        System.out.println("The new balance after deposit is " + balance);
     }
 
     public void withdraw(double amount) {
         balance -= amount;
+        System.out.println("The new balance after withdrawal is " + balance);
     }
 }
