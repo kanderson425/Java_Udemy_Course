@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f72277f3-1438-477f-aa07-a09ee9bb598e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Challenge7/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Challenge7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Challenge7/Challenge7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Challenge7/src/com/kyleanderson/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThreadChallenge/src/com/kyleanderson/Challenge7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProducerConsumer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProducerConsumer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadChallenge/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadChallenge/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge7/src/com/kyleanderson/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge7/src/com/kyleanderson/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ThreadChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadChallenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThreadChallenge/src/com/kyleanderson/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadChallenge/src/com/kyleanderson/BankAccount.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

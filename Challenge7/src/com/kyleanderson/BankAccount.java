@@ -16,14 +16,18 @@ public class BankAccount {
         public boolean withdraw(double amount) {
             if (lock.tryLock()) {
                 try {
-                    // Simulate database access
-                    Thread.sleep(100);
+                    try {
+                        // Simulate database access
+                        Thread.sleep(100);
+                    }
+                    catch (InterruptedException e) {
+                    }
+                    balance -= amount;
+                    System.out.printf("%s: Withdrew %f\n", Thread.currentThread().getName(), amount);
+                    return true;
+                } finally {
+                    lock.unlock();
                 }
-                catch (InterruptedException e) {
-                }
-                balance -= amount;
-                System.out.printf("%s: Withdrew %f\n", Thread.currentThread().getName(), amount);
-                return true;
             }
             return false;
         }
@@ -31,14 +35,19 @@ public class BankAccount {
         public boolean deposit(double amount) {
             if (lock.tryLock()) {
                 try {
-                    // Simulate database access
-                    Thread.sleep(100);
+                    try {
+                        // Simulate database access
+                        Thread.sleep(100);
+
+                    }
+                    catch (InterruptedException e) {
+                    }
+                    balance += amount;
+                    System.out.printf("%s: Deposited %f\n", Thread.currentThread().getName(), amount);
+                    return true;
+                } finally {
+                    lock.unlock();
                 }
-                catch (InterruptedException e) {
-                }
-                balance += amount;
-                System.out.printf("%s: Deposited %f\n", Thread.currentThread().getName(), amount);
-                return true;
             }
             return false;
         }
