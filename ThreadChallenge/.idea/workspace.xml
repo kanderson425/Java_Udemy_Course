@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../Challenge7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Challenge8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PoliteWorker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PoliteWorker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="802" />
     <option name="y" value="23" />
     <option name="width" value="878" />
@@ -158,7 +157,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="802" y="23" width="878" height="974" extended-state="1" />
+    <frame x="802" y="23" width="878" height="974" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -178,7 +177,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.52870816" side_tool="true" visible="true" weight="0.31082654" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.52870816" side_tool="true" weight="0.31082654" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
