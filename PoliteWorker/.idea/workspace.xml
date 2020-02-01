@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f72277f3-1438-477f-aa07-a09ee9bb598e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Challenge7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Challenge7/src/com/kyleanderson/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge7/src/com/kyleanderson/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenge8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Challenge8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ThreadChallenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadChallenge/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -167,6 +168,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1199" height="975" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
