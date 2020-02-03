@@ -34,7 +34,7 @@ public class Main {
 //            }
 //        });
 
-        Collections.sort(employees, (Employee employee1, Employee employee2) ->
+        Collections.sort(employees, (employee1, employee2) ->
                     employee1.getName().compareTo(employee2.getName()));
 
         for(Employee employee : employees) {
