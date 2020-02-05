@@ -1,10 +1,6 @@
 package com.kyleanderson;
-
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -101,14 +97,34 @@ interface UpperConcat {
 class AnotherClass {
 
     public String doSomething() {
-        System.out.println("The AnotherClass class' name is: " + getClass().getSimpleName());
-        return Main.doStringStuff(new UpperConcat() {
-            @Override
-            public String upperAndConcat(String s1, String s2) {
-                System.out.println("The Anonymous class' name is: " + getClass().getSimpleName());
-                return s1.toUpperCase() + s2.toUpperCase();
-            }
-        }, "String1", "String2");
+//        UpperConcat uc = (s1, s2) -> {
+//            System.out.println("The Lambda expression's class is " + getClass().getSimpleName());
+//            String result = s1.toUpperCase() + s2.toUpperCase();
+//            return result;
+//        };
+        final int i = 0;
+        {
+            UpperConcat uc = new UpperConcat() {
+                @Override
+                public String upperAndConcat(String s1, String s2) {
+                    System.out.println("i (within anonymous class) = " + i);
+                    return s1.toUpperCase() + s2.toUpperCase();
+                }
+            };
+
+            System.out.println("The AnotherClass class' name is " + getClass().getSimpleName());
+//            i++;
+            System.out.println("i = " + i);
+            return Main.doStringStuff(uc, "String1", "String2");
+        }
+//        System.out.println("The AnotherClass class' name is: " + getClass().getSimpleName());
+//        return Main.doStringStuff(new UpperConcat() {
+//            @Override
+//            public String upperAndConcat(String s1, String s2) {
+//                System.out.println("The Anonymous class' name is: " + getClass().getSimpleName());
+//                return s1.toUpperCase() + s2.toUpperCase();
+//            }
+//        }, "String1", "String2");
     }
 }
 
