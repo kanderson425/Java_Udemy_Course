@@ -50,9 +50,16 @@ public class Main {
 //                employees.get(0).getName(), employees.get(1).getName());
 //                System.out.println(sillyString);
 
-        UpperConcat uc = (s1, s2) -> s1.toUpperCase() + s2.toUpperCase();
-        String sillyString = doStringStuff(uc, employees.get(0).getName(), employees.get(1).getName());
-        System.out.println(sillyString);
+//        UpperConcat uc = (s1, s2) -> {
+//            String result = s1.toUpperCase() + s2.toUpperCase();
+//            return result;
+//        };
+//        String sillyString = doStringStuff(uc, employees.get(0).getName(), employees.get(1).getName());
+//        System.out.println(sillyString);
+
+        AnotherClass anotherClass = new AnotherClass();
+        String s = anotherClass.doSomething();
+        System.out.println(s);
     }
 
     public final static String doStringStuff(UpperConcat uc, String s1, String s2) {
@@ -89,6 +96,20 @@ class Employee {
 
 interface UpperConcat {
     public String upperAndConcat(String s1, String s2);
+}
+
+class AnotherClass {
+
+    public String doSomething() {
+        System.out.println("The AnotherClass class' name is: " + getClass().getSimpleName());
+        return Main.doStringStuff(new UpperConcat() {
+            @Override
+            public String upperAndConcat(String s1, String s2) {
+                System.out.println("The Anonymous class' name is: " + getClass().getSimpleName());
+                return s1.toUpperCase() + s2.toUpperCase();
+            }
+        }, "String1", "String2");
+    }
 }
 
 
