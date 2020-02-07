@@ -31,6 +31,14 @@ public class Main {
             }
         });
 
+        System.out.println("\nEmployees 30 and younger:");
+        System.out.println("===========================");
+        employees.forEach(employee -> {
+            if(employee.getAge() <= 30) {
+                System.out.println(employee.getName());
+            }
+        });
+
 //        for(Employee employee : employees) {
 //            if(employee.getAge() > 30) {
 //                System.out.println(employee.getName());
