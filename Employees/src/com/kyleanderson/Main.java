@@ -24,12 +24,18 @@ public class Main {
         employees.add(charming);
 
         System.out.println("Employees over 30:");
-        System.out.println("======================");
-        for(Employee employee : employees) {
+        System.out.println("===================");
+        employees.forEach(employee -> {
             if(employee.getAge() > 30) {
                 System.out.println(employee.getName());
             }
-        }
+        });
+
+//        for(Employee employee : employees) {
+//            if(employee.getAge() > 30) {
+//                System.out.println(employee.getName());
+//            }
+//        }
 
     }
 }
