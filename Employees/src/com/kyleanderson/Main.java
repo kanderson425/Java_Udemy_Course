@@ -2,6 +2,7 @@ package com.kyleanderson;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class Main {
 
@@ -23,27 +24,15 @@ public class Main {
         employees.add(red);
         employees.add(charming);
 
-        System.out.println("Employees over 30:");
+    }
+
+    private static void printEmployeesByAge(List<Employee> employees, String ageText, Predicate<Employee> ageCondition) {
+        System.out.println(ageText);
         System.out.println("===================");
-        employees.forEach(employee -> {
-            if(employee.getAge() > 30) {
+        for(Employee employee : employees) {
+            if(ageCondition.test(employee)) {
                 System.out.println(employee.getName());
             }
-        });
-
-        System.out.println("\nEmployees 30 and younger:");
-        System.out.println("===========================");
-        employees.forEach(employee -> {
-            if(employee.getAge() <= 30) {
-                System.out.println(employee.getName());
-            }
-        });
-
-//        for(Employee employee : employees) {
-//            if(employee.getAge() > 30) {
-//                System.out.println(employee.getName());
-//            }
-//        }
-
+        }
     }
 }
