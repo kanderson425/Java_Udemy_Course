@@ -2,6 +2,7 @@ package com.kyleanderson;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.IntPredicate;
 import java.util.function.Predicate;
 
 public class Main {
@@ -34,6 +35,15 @@ public class Main {
                 return employee.getAge() < 25;
             }
         });
+
+        IntPredicate greaterThan15 = i -> i > 15;
+        IntPredicate lessThan100 = i -> i < 100;
+
+        System.out.println(greaterThan15.test(10));
+        int a = 20;
+        System.out.println(greaterThan15.test(a + 5));
+
+        System.out.println(greaterThan15.and(lessThan100).test(50));
 
     }
 
