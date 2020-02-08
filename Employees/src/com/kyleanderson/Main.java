@@ -24,6 +24,17 @@ public class Main {
         employees.add(red);
         employees.add(charming);
 
+        printEmployeesByAge(employees, "Employees over 30", employee -> employee.getAge() > 30);
+        printEmployeesByAge(employees, "\nEmployees 30 and under", employee -> employee.getAge() <= 30);
+
+        //Uses an anonymous class to print employess under 25
+        printEmployeesByAge(employees, "\nEmployees younger than 25", new Predicate<Employee>() {
+            @Override
+            public boolean test(Employee employee) {
+                return employee.getAge() < 25;
+            }
+        });
+
     }
 
     private static void printEmployeesByAge(List<Employee> employees, String ageText, Predicate<Employee> ageCondition) {
