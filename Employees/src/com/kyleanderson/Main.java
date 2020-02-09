@@ -62,6 +62,10 @@ public class Main {
         IntUnaryOperator incBy5 = i -> i + 5;
         System.out.println(incBy5.applyAsInt(10));
 
+        Consumer<String> c1 = s -> s.toUpperCase();
+        Consumer<String> c2 = s -> System.out.println(s);
+        c1.andThen(c2).accept("Hello, World!");
+
     }
 
     private static String getAName(Function<Employee, String> getName, Employee employee) {
