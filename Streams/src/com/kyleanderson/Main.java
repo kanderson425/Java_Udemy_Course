@@ -3,6 +3,7 @@ package com.kyleanderson;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Main {
@@ -64,5 +65,16 @@ public class Main {
                 .flatMap(department -> department.getEmployees().stream())
                 .forEach(System.out::println);
 
+        System.out.println("--------------------------");
+        List<String> sortedGNumbers = someBingoNumbers
+                .stream()
+                .map(String::toUpperCase)
+                .filter(s -> s.startsWith("G"))
+                .sorted()
+                .collect(Collectors.toList());
+
+        for(String s : sortedGNumbers) {
+            System.out.println(s);
+        }
     }
 }
