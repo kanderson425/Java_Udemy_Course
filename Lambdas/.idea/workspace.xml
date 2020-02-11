@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5bdc592-ab62-4234-bebe-162eabc61b80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Streams/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Streams/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Streams/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Streams/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
@@ -134,6 +135,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="808" y="198" width="872" height="973" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
