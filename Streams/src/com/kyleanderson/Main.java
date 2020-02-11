@@ -56,9 +56,13 @@ public class Main {
         Department accounting = new Department("Accounting");
         accounting.addEmployee(john);
 
+        List<Department> departments = new ArrayList<>();
+        departments.add(hr);
+        departments.add(accounting);
 
-
-
+        departments.stream()
+                .flatMap(department -> department.getEmployees().stream())
+                .forEach(System.out::println);
 
     }
 }
