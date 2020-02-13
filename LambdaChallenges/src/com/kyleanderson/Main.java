@@ -29,7 +29,7 @@ public class Main {
 
 
         //Challenge 2 Solution
-        Function<String, String> lambdaFunction=  s -> {
+        Function<String, String> lambdaFunction =  s -> {
             StringBuilder returnVal = new StringBuilder();
             for(int i = 0; i < s.length(); i++) {
                 if(i % 2 == 1) {
@@ -38,7 +38,14 @@ public class Main {
             }
             return returnVal.toString();
         };
+
+        //Challenge 3 Solution
+        System.out.println(lambdaFunction.apply("1234567890"));
+
     }
+
+
+
 
     //Challenge 2
     public static String everySecondChar(String source) {
@@ -50,6 +57,7 @@ public class Main {
         }
         return returnVal.toString();
     }
+
 
 }
 

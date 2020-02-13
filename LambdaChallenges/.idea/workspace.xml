@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="549cd4bf-ae8e-43da-8b7e-f1840c37021d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lambdas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lambdas/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Streams/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Streams/.idea/workspace.xml" afterDir="false" />
@@ -22,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+            <state relative-caret-position="297">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -49,7 +50,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="878" />
+    <option name="x" value="756" />
     <option name="y" value="23" />
     <option name="width" value="772" />
     <option name="height" value="973" />
@@ -111,7 +112,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="878" y="23" width="772" height="973" extended-state="0" />
+    <frame x="196" y="23" width="772" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -119,10 +120,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21232876" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21232876" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49863014" visible="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49863014" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -145,8 +146,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        <state relative-caret-position="297">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
         </state>
       </provider>
     </entry>
