@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="549cd4bf-ae8e-43da-8b7e-f1840c37021d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lambdas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lambdas/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Streams/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Streams/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -21,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            <state relative-caret-position="379">
+              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -39,9 +40,17 @@
       </list>
     </option>
   </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="24" />
+    <option name="x" value="878" />
+    <option name="y" value="23" />
     <option name="width" value="772" />
     <option name="height" value="973" />
   </component>
@@ -55,6 +64,9 @@
       <pane id="Scope" />
       <pane id="ProjectPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -99,7 +111,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="24" width="772" height="973" extended-state="0" />
+    <frame x="878" y="23" width="772" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -110,7 +122,7 @@
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21232876" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32972324" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49863014" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -119,7 +131,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" side_tool="true" weight="0.32946634" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.50136983" side_tool="true" visible="true" weight="0.32867134" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -133,8 +145,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        <state relative-caret-position="379">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
         </state>
       </provider>
     </entry>
