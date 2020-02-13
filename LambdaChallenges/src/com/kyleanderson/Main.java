@@ -55,9 +55,8 @@ public class Main {
             return returnVal.toString();
         };
 
-        everySecondChar("1234567890", lambdaFunction);
+        everySecondChar(lambdaFunction);
     }
-
 
 
     //Challenge 2
@@ -73,8 +72,8 @@ public class Main {
 
 
 
-    public static String everySecondChar(String source, Function<String,String> lambdaFunction) {
-        return lambdaFunction.apply(source);
+    public static String everySecondChar(Function<String,String> func) {
+        return func.apply("1234567890");
     }
 
 }
