@@ -61,8 +61,12 @@ public class Main {
 //        System.out.println(result);
 
         //Challenge 6
-        Supplier<String> challengeSix = () -> new String("I love java");
-        System.out.println(challengeSix.get());
+//        Supplier<String> iLoveJava = () -> "I love Java!";
+        Supplier<String> iLoveJava = () ->  { return "I love Java!"; };
+
+        //Challenge 7
+        String supplierResult = iLoveJava.get();
+        System.out.println(supplierResult);
     }
 
 
