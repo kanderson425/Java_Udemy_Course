@@ -1,6 +1,7 @@
 package com.kyleanderson;
 
 import java.util.function.Function;
+import java.util.function.Supplier;
 
 public class Main {
 
@@ -44,18 +45,24 @@ public class Main {
 
 
         //Challenge 4 Solution
-        Function<String, String> lambdaFunction =  (s) -> {
-            StringBuilder returnVal = new StringBuilder();
-            for(int i = 0; i < s.length(); i++) {
-                if(i % 2 == 1) {
-                    returnVal.append(s.charAt(i));
-                }
-            }
-            System.out.println(returnVal.toString());
-            return returnVal.toString();
-        };
+//        Function<String, String> lambdaFunction =  (s) -> {
+//            StringBuilder returnVal = new StringBuilder();
+//            for(int i = 0; i < s.length(); i++) {
+//                if(i % 2 == 1) {
+//                    returnVal.append(s.charAt(i));
+//                }
+//            }
+//            return returnVal.toString();
+//        };
 
-        everySecondChar(lambdaFunction);
+        //Challenge 5
+//        System.out.println(everySecondChar(lambdaFunction, "1234567890"));
+//        String result = everySecondChar(lambdaFunction, "1234567890");
+//        System.out.println(result);
+
+        //Challenge 6
+        Supplier<String> challengeSix = () -> new String("I love java");
+        System.out.println(challengeSix.get());
     }
 
 
@@ -71,10 +78,10 @@ public class Main {
 //    }
 
 
-
-    public static String everySecondChar(Function<String,String> func) {
-        return func.apply("1234567890");
-    }
+    //Challenge 5
+//    public static String everySecondChar(Function<String,String> func, String source) {
+//        return func.apply(source);
+//    }
 
 }
 
