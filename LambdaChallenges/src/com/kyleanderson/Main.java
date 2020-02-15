@@ -1,7 +1,11 @@
 package com.kyleanderson;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Function;
 import java.util.function.Supplier;
+import java.util.stream.Collectors;
 
 public class Main {
 
@@ -62,11 +66,39 @@ public class Main {
 
         //Challenge 6
 //        Supplier<String> iLoveJava = () -> "I love Java!";
-        Supplier<String> iLoveJava = () ->  { return "I love Java!"; };
+//        Supplier<String> iLoveJava = () ->  { return "I love Java!"; };
 
         //Challenge 7
-        String supplierResult = iLoveJava.get();
-        System.out.println(supplierResult);
+//        String supplierResult = iLoveJava.get();
+//        System.out.println(supplierResult);
+
+        //Challenge 9
+        List<String> topNames2015 = Arrays.asList(
+                "Amelia",
+                "Olivia",
+                "emily",
+                "Isla",
+                "Ava",
+                "oliver",
+                "Jack",
+                "Charlie",
+                "harry",
+                "Jacob"
+        );
+
+        List<String> firstUpperCaseList = new ArrayList<>();
+
+        topNames2015.forEach(name ->
+                firstUpperCaseList.add(name.substring(0,1).toUpperCase() + name.substring(1)));
+        firstUpperCaseList.sort((s1, s2) -> s1.compareTo(s2));
+        firstUpperCaseList.forEach(s  -> System.out.println(s));
+
+//        topNames2015.sort((String s1, String s2) -> s1.compareTo(s2));
+//        topNames2015.replaceAll(s -> Character.isUpperCase(s.charAt(0)) ?
+//                s : Character.toUpperCase(s.charAt(0))+ s.substring(1));
+
+
+
     }
 
 

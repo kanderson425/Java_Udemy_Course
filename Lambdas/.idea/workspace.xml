@@ -4,6 +4,8 @@
     <list default="true" id="d5bdc592-ab62-4234-bebe-162eabc61b80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../LambdaChallenges/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LambdaChallenges/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LambdaChallenges/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LambdaChallenges/src/com/kyleanderson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Streams/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Streams/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +22,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="1103">
               <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
             </state>
           </provider>
@@ -39,7 +41,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="851" />
+    <option name="x" value="850" />
     <option name="y" value="23" />
     <option name="width" value="814" />
     <option name="height" value="973" />
@@ -133,7 +135,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="851" y="23" width="814" height="973" extended-state="0" />
+    <frame x="850" y="23" width="814" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -174,7 +176,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
+        <state relative-caret-position="1103">
           <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
