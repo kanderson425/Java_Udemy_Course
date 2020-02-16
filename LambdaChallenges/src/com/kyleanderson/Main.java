@@ -93,10 +93,11 @@ public class Main {
         firstUpperCaseList.sort((s1, s2) -> s1.compareTo(s2));
         firstUpperCaseList.forEach(s  -> System.out.println(s));
 
-//        topNames2015.sort((String s1, String s2) -> s1.compareTo(s2));
-//        topNames2015.replaceAll(s -> Character.isUpperCase(s.charAt(0)) ?
-//                s : Character.toUpperCase(s.charAt(0))+ s.substring(1));
-
+        //Challenge 10
+        topNames2015.forEach(name ->
+                firstUpperCaseList.add(name.substring(0,1).toUpperCase() + name.substring(1)));
+        firstUpperCaseList.sort(String::compareTo);
+        firstUpperCaseList.forEach(System.out::println);
 
 
     }
