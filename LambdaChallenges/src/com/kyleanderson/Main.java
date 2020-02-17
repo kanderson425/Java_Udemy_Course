@@ -106,13 +106,22 @@ public class Main {
 //                .forEach(System.out::println);
 
         //Challenge 12
-        long count = topNames2015
-                .stream()
-                .map(name -> name.substring(0,1).toUpperCase())
-                .filter(s->s.startsWith("A"))
-                .count();
+//        long namesBeginningWithA = topNames2015
+//                .stream()
+//                .map(name -> name.substring(0,1).toUpperCase() + name.substring(1))
+//                .filter(s->s.startsWith("A"))
+//                .count();
+//
+//        System.out.println("Number of names beginning with A is: " + namesBeginningWithA);
 
-        System.out.println(count);
+        //Challenge 13
+        topNames2015
+                .stream()
+                .map(name -> name.substring(0,1).toUpperCase() + name.substring(1))
+                .peek(System.out::println)
+                .sorted(String::compareTo)
+                .collect(Collectors.toList());
+
 
     }
 
