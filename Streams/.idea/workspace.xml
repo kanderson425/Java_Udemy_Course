@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2eafd3d9-e1da-4e16-a6c8-3154de5bed5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../LambdaChallenges/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LambdaChallenges/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LambdaChallenges/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LambdaChallenges/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -176,7 +175,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.50136983" side_tool="true" visible="true" weight="0.32867134" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.50136983" side_tool="true" weight="0.32867134" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />

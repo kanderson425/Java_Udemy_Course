@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d5bdc592-ab62-4234-bebe-162eabc61b80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../LambdaChallenges/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LambdaChallenges/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LambdaChallenges/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LambdaChallenges/src/com/kyleanderson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Streams/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Streams/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1103">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
             </state>
           </provider>
         </entry>
@@ -38,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="850" />
     <option name="y" value="23" />
     <option name="width" value="814" />
@@ -133,8 +134,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="850" y="23" width="814" height="973" extended-state="1" />
-    <editor active="true" />
+    <frame x="850" y="23" width="814" height="973" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -153,7 +153,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5168394" side_tool="true" visible="true" weight="0.32983682" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5168394" side_tool="true" weight="0.32983682" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -175,7 +175,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1103">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>
