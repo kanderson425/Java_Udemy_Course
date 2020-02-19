@@ -25,5 +25,12 @@ public class Main {
         System.out.println(alphanumeric.replaceAll("[aei]", "I replaced a letter here"));
         System.out.println(alphanumeric.replaceAll("[aei][Fj]", "X"));
 
+        System.out.println("harry".replaceAll("[Hh]arry", "Harry"));
+
+        String newAlphanumeric = "abcDeeeF12Ghhiiiijkl99z";
+        System.out.println(newAlphanumeric.replaceAll("[^ej]", "X"));
+        System.out.println(newAlphanumeric.replaceAll("[abcdef345678]", "X"));
+        System.out.println(newAlphanumeric.replaceAll("[a-f3-8]", "X"));
+
     }
 }
