@@ -45,5 +45,13 @@ public class Main {
         System.out.println(hasWhiteSpace.replaceAll("\\w", "X"));
         System.out.println(hasWhiteSpace.replaceAll("\\b", "X"));
 
+        String thirdAlphaNumericString = "abcDeeeF12Ghhiiiijkl99z";
+        System.out.println(thirdAlphaNumericString.replaceAll("^abcDe{3}", "YYY"));
+
+
+
+
+
+
     }
 }
