@@ -74,10 +74,15 @@ public class Main {
             System.out.println("Occurrence " + count + " : " + matcher.start() + " to " + matcher.end());
         }
 
-        String h2GroupPattern = "(<h2>)";
+        String h2GroupPattern = "(<h2>.*?</h2>)";
         Pattern groupPattern = Pattern.compile(h2GroupPattern);
         Matcher groupMatcher = groupPattern.matcher(htmlText);
         System.out.println(matcher.matches());
+        groupMatcher.reset();
+
+        while(groupMatcher.find()) {
+            System.out.println("Ocurrences: " + groupMatcher.group(1));
+        }
 
 
 
