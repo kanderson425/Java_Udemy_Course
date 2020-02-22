@@ -84,6 +84,17 @@ public class Main {
             System.out.println("Ocurrences: " + groupMatcher.group(1));
         }
 
+        System.out.println("********************");
+
+        String h2TextGroups = "(<h2>)(.+?)(</h2>)";
+        Pattern h2TextPattern = Pattern.compile(h2TextGroups);
+        Matcher h2TextMatcher = h2TextPattern.matcher(htmlText);
+
+        while(h2TextMatcher.find()) {
+            System.out.println("Ocurrences: " + h2TextMatcher.group(2));
+        }
+
+
 
 
     }
