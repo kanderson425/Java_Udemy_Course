@@ -126,6 +126,18 @@ public class Main {
         System.out.println("phone3 = " + phone3.matches("^([\\(]{1}[0-9]{3}[\\)]{1}[ ]{1}[0-9]{3}[\\-]{1}[0-9]{4})$"));
         System.out.println("phone4 = " + phone4.matches("^([\\(]{1}[0-9]{3}[\\)]{1}[ ]{1}[0-9]{3}[\\-]{1}[0-9]{4})$"));
 
+        //Visa Card Number Validation
+        //^4[0-9]{12}([0-9]{3})?$
+
+        String visa1 = "4444444444444"; // should match
+        String visa2 = "5444444444444"; // shouldn't match
+        String visa3 = "4444444444444444";  // should match
+        String visa4 = "4444";  // shouldn't match
+
+        System.out.println("visa1 " + visa1.matches("^4[0-9]{12}([0-9]{3})?$"));
+        System.out.println("visa2 " + visa2.matches("^4[0-9]{12}([0-9]{3})?$"));
+        System.out.println("visa3 " + visa3.matches("^4[0-9]{12}([0-9]{3})?$"));
+        System.out.println("visa4 " + visa4.matches("^4[0-9]{12}([0-9]{3})?$"));
 
     }
 }
