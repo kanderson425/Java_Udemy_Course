@@ -27,8 +27,11 @@ public class Main {
         //Challenge 3
         String regExp3 = "I want a \\w+.";
         Pattern pattern = Pattern.compile(regExp3);
-        Matcher matcher = pattern.matcher(challenge2);
+        Matcher matcher = pattern.matcher(challenge1);
         System.out.println(matcher.matches());
 
+        //Challenge 4
+        String challenge4 = "Replace all blanks with underscores.";
+        System.out.println(challenge4.replaceAll(" ", "_"));
     }
 }

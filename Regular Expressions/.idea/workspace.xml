@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="334d7710-4ec0-49ac-8f4c-f88c76d4c93a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Regular Expressions Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Regular Expressions Challenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Regular Expressions Challenge/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Regular Expressions Challenge/src/com/kyleanderson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +21,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
+            <state relative-caret-position="1193">
               <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
             </state>
           </provider>
@@ -39,8 +39,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="840" />
     <option name="y" value="23" />
     <option name="width" value="840" />
     <option name="height" value="973" />
@@ -103,7 +103,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="23" width="840" height="973" extended-state="0" />
+    <frame x="840" y="23" width="840" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -134,10 +134,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Regular_Expressions$Main.ic" NAME="Main Coverage Results" MODIFIED="1582569003706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
+        <state relative-caret-position="1193">
           <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
         </state>
       </provider>
