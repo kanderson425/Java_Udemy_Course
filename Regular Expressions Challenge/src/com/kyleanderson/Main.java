@@ -33,5 +33,11 @@ public class Main {
         //Challenge 4
         String challenge4 = "Replace all blanks with underscores.";
         System.out.println(challenge4.replaceAll(" ", "_"));
+        System.out.println(challenge4.replaceAll("\\s", "_"));
+
+        //Challenge 5
+        String challenge5 = "aaabccccccccdddefffg";
+        String regExp5 = "^[a]{3}b[c]{8}[d]{3}e[f]{3}g";
+        System.out.println(challenge5.matches(regExp5));
     }
 }
