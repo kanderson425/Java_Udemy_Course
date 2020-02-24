@@ -37,7 +37,19 @@ public class Main {
 
         //Challenge 5
         String challenge5 = "aaabccccccccdddefffg";
-        String regExp5 = "^[a]{3}b[c]{8}[d]{3}e[f]{3}g";
+        String regExp5 = "[a-g]*";
+        String regExp52= "[abcdefg]+";
         System.out.println(challenge5.matches(regExp5));
+
+        //Challenge 6
+        String challenge6 = "aaabccccccccdddefffg";
+        String regExp6 = "^[a]{3}bc{8}[d]{3}e[f]{3}g$";
+        System.out.println(challenge6.matches(regExp6));
+        System.out.println(challenge6.replaceAll("^a{3}bc{8}d{3}ef{3}g$","REPLACED"));
+
+        //Challenge 7
+        String challenge7 = "abcd.125";
+        String regExp7 = " ";
+
     }
 }
