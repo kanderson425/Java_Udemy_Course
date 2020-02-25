@@ -48,9 +48,25 @@ public class Main {
         System.out.println(challenge6.replaceAll("^a{3}bc{8}d{3}ef{3}g$","REPLACED"));
 
         //Challenge 7
-        String challenge7 = "abcd.125";
+        String challenge7 = "abcd.135";
+        String wrongChallenge7 = "f5.12a";
         String regExp7 = "^[a-zA-Z]+.[0-9]+";
-        System.out.println(challenge7.matches(regExp7));
+        String solutionRegExp7 = "^[A-Z][a-z]+\\.\\d+$"; //solution from the lesson, however didn't work
+        System.out.println(challenge7.matches(solutionRegExp7));
+        System.out.println(wrongChallenge7.matches(regExp7));
+
+        //Challenge 8
+        System.out.println("***********************");
+        String challenge8 = "abcd.135uvqz.7tzik.999";
+        String regExp8GroupPattern = "(\\d+)";
+        Pattern pattern8 = Pattern.compile(regExp8GroupPattern);
+        Matcher matcher8 = pattern8.matcher(challenge8);
+        matcher8.reset();
+
+        while(matcher8.find()) {
+            System.out.println("Occurrences: " + matcher8.group(1));
+        }
+
 
     }
 }
