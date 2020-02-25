@@ -49,7 +49,8 @@ public class Main {
 
         //Challenge 7
         String challenge7 = "abcd.125";
-        String regExp7 = " ";
+        String regExp7 = "^[a-zA-Z]+.[0-9]+";
+        System.out.println(challenge7.matches(regExp7));
 
     }
 }
