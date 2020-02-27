@@ -124,6 +124,10 @@ public class Main {
         String regExp13 = "^\\d{5}-\\d{4}$";
         System.out.println(challenge13.matches(regExp13));
 
+        //Challenge14
+        String regExp14 = "^(\\d{5}|\\d{5}-\\d{4})$";
+        System.out.println("Does challenge12 match? " + challenge12.matches(regExp14));
+        System.out.println("Does challenge13 match? " + challenge13.matches(regExp14));
 
 
     }
