@@ -88,7 +88,22 @@ public class Main {
         Matcher matcher10 = pattern9.matcher(challenge10);
 
         while(matcher10.find())  {
-            System.out.println("Occurrences ending index: " + (matcher10.end(1) - 1));
+            System.out.println("Occurrences ending index: " +  matcher10.start(1) +  " end: " + (matcher10.end(1) - 1));
         }
+
+        //Challenge11
+        String challenge11 = "{0,2}, {0,5}, {1,3}, {2,4}";
+//        String regExp11GroupPattern = "(\\{(.*?)\\})";
+        String regExp11GroupPattern = "(\\d,\\d)";
+        String regExp11GroupPatternSolution = "\\{(.+?)\\}";
+        Pattern pattern11 = Pattern.compile(regExp11GroupPatternSolution);
+        Matcher matcher11 = pattern11.matcher(challenge11);
+
+        while (matcher11.find()) {
+            System.out.println("Occurrences: " + matcher11.group(1));
+        }
+
+
+
     }
 }
