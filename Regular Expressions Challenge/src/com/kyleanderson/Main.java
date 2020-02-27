@@ -79,5 +79,16 @@ public class Main {
         while(matcher9.find()) {
             System.out.println("Occurrences: " + matcher9.group(1));
         }
+
+        //Challenge10
+        System.out.println("***********************");
+        String challenge10 = "abcd.135\tuvqz.7\ttzik.999\n";
+        String regExp10GroupPattern = "[A-Za-z]+\\.(\\d+)\\s";
+        Pattern pattern10 = Pattern.compile(regExp10GroupPattern);
+        Matcher matcher10 = pattern9.matcher(challenge10);
+
+        while(matcher10.find())  {
+            System.out.println("Occurrences ending index: " + (matcher10.end(1) - 1));
+        }
     }
 }

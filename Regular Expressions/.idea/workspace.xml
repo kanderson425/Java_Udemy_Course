@@ -4,7 +4,6 @@
     <list default="true" id="334d7710-4ec0-49ac-8f4c-f88c76d4c93a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Regular Expressions Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Regular Expressions Challenge/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Regular Expressions Challenge/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Regular Expressions Challenge/src/com/kyleanderson/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="93" column="72" lean-forward="true" selection-start-line="93" selection-start-column="72" selection-end-line="93" selection-end-column="72" />
+            <state relative-caret-position="167">
+              <caret line="111" column="111" selection-start-line="111" selection-start-column="107" selection-end-line="111" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -33,6 +32,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>group</find>
+      <find>.end</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,8 +146,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="93" column="72" lean-forward="true" selection-start-line="93" selection-start-column="72" selection-end-line="93" selection-end-column="72" />
+        <state relative-caret-position="167">
+          <caret line="111" column="111" selection-start-line="111" selection-start-column="107" selection-end-line="111" selection-end-column="111" />
         </state>
       </provider>
     </entry>
