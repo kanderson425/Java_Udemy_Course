@@ -116,8 +116,14 @@ public class Main {
 
         //Challenge12
         String challenge12 = "11111";
-        String regExp12 = "\\d{5}";
+        String regExp12 = "^\\d{5}$";
         System.out.println(challenge12.matches(regExp12));
+
+        //Challenge13
+        String challenge13 = "11111-1111";
+        String regExp13 = "^\\d{5}-\\d{4}$";
+        System.out.println(challenge13.matches(regExp13));
+
 
 
     }

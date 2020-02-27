@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="334d7710-4ec0-49ac-8f4c-f88c76d4c93a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Regular Expressions Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Regular Expressions Challenge/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Regular Expressions Challenge/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Regular Expressions Challenge/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
