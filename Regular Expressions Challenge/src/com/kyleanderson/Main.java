@@ -114,6 +114,11 @@ public class Main {
             System.out.println("Occurrences: " + matcher11a.group(1));
         }
 
+        //Challenge12
+        String challenge12 = "11111";
+        String regExp12 = "\\d{5}";
+        System.out.println(challenge12.matches(regExp12));
+
 
     }
 }
