@@ -103,6 +103,16 @@ public class Main {
             System.out.println("Occurrences: " + matcher11.group(1));
         }
 
+        //Challenge11A
+        System.out.println("*****************");
+        String challenge11a = "{0,2}, {0,5}, {1,3}, {2,4} {x,y}, {6,34}, {11,12}";
+        String regExp11aGroupPatternSolution = "\\{(\\d+,\\d+)\\}";
+        Pattern pattern11a = Pattern.compile(regExp11aGroupPatternSolution);
+        Matcher matcher11a = pattern11a.matcher(challenge11a);
+
+        while (matcher11a.find()) {
+            System.out.println("Occurrences: " + matcher11a.group(1));
+        }
 
 
     }
