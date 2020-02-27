@@ -59,7 +59,8 @@ public class Main {
         System.out.println("***********************");
         String challenge8 = "abcd.135uvqz.7tzik.999";
         String regExp8GroupPattern = "(\\d+)";
-        Pattern pattern8 = Pattern.compile(regExp8GroupPattern);
+        String regExp8GroupPatternSolution = "[A-za-z]+\\.(\\d+)";
+        Pattern pattern8 = Pattern.compile(regExp8GroupPatternSolution);
         Matcher matcher8 = pattern8.matcher(challenge8);
         matcher8.reset();
 
@@ -67,6 +68,16 @@ public class Main {
             System.out.println("Occurrences: " + matcher8.group(1));
         }
 
+        //Challenge9
+        System.out.println("***********************");
+        String challenge9 = "abcd.135\tuvqz.7\ttzik.999\n";
+        String regExp9GroupPattern = "[A-Za-z]+\\.(\\d+)\\s";
+        String regExp9GroupPatternSolution = "";
+        Pattern pattern9 = Pattern.compile(regExp9GroupPattern);
+        Matcher matcher9 = pattern9.matcher(challenge9);
 
+        while(matcher9.find()) {
+            System.out.println("Occurrences: " + matcher9.group(1));
+        }
     }
 }
