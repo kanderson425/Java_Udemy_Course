@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f78fefc1-fae0-42e3-afe1-3699d2bc6de1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Banking.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/BankAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BankAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="345">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -145,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BankAccountTest.dummyTest">
+  <component name="RunManager" selected="JUnit.BankAccountTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.kyleanderson.Main" />
       <module name="Banking" />
@@ -173,30 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountTest.dummyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Banking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kyleanderson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kyleanderson" />
-      <option name="MAIN_CLASS_NAME" value="com.kyleanderson.BankAccountTest" />
-      <option name="METHOD_NAME" value="dummyTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.BankAccountTest" />
-      <item itemvalue="JUnit.BankAccountTest.dummyTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BankAccountTest.dummyTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -219,6 +199,18 @@
       <configuration name="BankAccountTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BankAccountTest - 2020.02.29 at 07h 30m 30s.xml">
+      <configuration name="BankAccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankAccountTest_dummyTest - 2020.02.29 at 07h 33m 46s.xml">
+      <configuration name="BankAccountTest.dummyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankAccountTest_dummyTest - 2020.02.29 at 07h 41m 04s.xml">
+      <configuration name="BankAccountTest.dummyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankAccountTest - 2020.02.29 at 07h 41m 20s.xml">
+      <configuration name="BankAccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankAccountTest - 2020.02.29 at 07h 41m 46s.xml">
       <configuration name="BankAccountTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -271,8 +263,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BankAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="345">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
