@@ -27,6 +27,10 @@ public class BankAccount {
     //Branch argument is true if the customer is performing the transaction at a branch with a teller
     //It's false if they're performing the transaction at an ATM
     public double withdraw(double amount, boolean branch) {
+        if((amount > 500.00) && !branch) {
+            throw new IllegalArgumentException();
+        }
+
         balance -= amount;
         return balance;
     }

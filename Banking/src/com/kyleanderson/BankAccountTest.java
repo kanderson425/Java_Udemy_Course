@@ -5,15 +5,16 @@ import static org.junit.Assert.*;
 public class BankAccountTest {
 
     private BankAccount account;
+    private static int count;
 
     @org.junit.BeforeClass
     public static void beforeClass() {
-        System.out.println("This executes before any test cases.");
+        System.out.println("This executes before any test cases. Count = " + count++);
     }
 
     @org.junit.Before
     public void setup() {
-        BankAccount account = new BankAccount("Kyle", "Anderson", 1000.00, BankAccount.CHECKING);
+        account = new BankAccount("Kyle", "Anderson", 1000.00, BankAccount.CHECKING);
         System.out.println("Running a test...");
     }
 
@@ -26,7 +27,8 @@ public class BankAccountTest {
 
     @org.junit.Test
     public void withdraw() {
-        fail("This test is yet to be implemented");
+        double balance = account.withdraw(600.00, true);
+        assertEquals(400.00, balance, 0);
 
     }
 
@@ -50,7 +52,12 @@ public class BankAccountTest {
 
     @org.junit.AfterClass
     public static void afterClass() {
-        System.out.println("This executes after any test cases");
+        System.out.println("This executes after any test cases. Count = " + count++);
+    }
+
+    @org.junit.After
+    public void tearDown() {
+        System.out.println("Count= " + count++);
     }
 
 }
