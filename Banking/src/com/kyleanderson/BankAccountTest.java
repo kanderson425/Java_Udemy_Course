@@ -48,5 +48,10 @@ public class BankAccountTest {
 
     }
 
+    @org.junit.AfterClass
+    public static void afterClass() {
+        System.out.println("This executes after any test cases");
+    }
+
 }
 
