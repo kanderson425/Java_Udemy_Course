@@ -6,6 +6,11 @@ public class BankAccountTest {
 
     private BankAccount account;
 
+    @org.junit.BeforeClass
+    public static void beforeClass() {
+        System.out.println("This executes before any test cases.");
+    }
+
     @org.junit.Before
     public void setup() {
         BankAccount account = new BankAccount("Kyle", "Anderson", 1000.00, BankAccount.CHECKING);
