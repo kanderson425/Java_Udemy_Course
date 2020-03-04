@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f78fefc1-fae0-42e3-afe1-3699d2bc6de1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/BankAccountTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="294">
               <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
             </state>
           </provider>
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BankAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="109">
+              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -68,9 +68,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="828" />
+    <option name="x" value="782" />
     <option name="y" value="23" />
-    <option name="width" value="852" />
+    <option name="width" value="898" />
     <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -195,21 +195,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BankAccountTest - 2020.02.29 at 07h 41m 46s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankAccountTest - 2020.02.29 at 07h 43m 29s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankAccountTest - 2020.02.29 at 07h 44m 27s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankAccountTest - 2020.02.29 at 07h 49m 27s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankAccountTest - 2020.02.29 at 07h 50m 19s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BankAccountTest - 2020.02.29 at 07h 50m 29s.xml">
       <configuration name="BankAccountTest" configurationId="JUnit" />
     </history-entry>
@@ -225,9 +210,24 @@
     <history-entry file="BankAccountTest - 2020.03.03 at 12h 44m 31s.xml">
       <configuration name="BankAccountTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BankAccountTest - 2020.03.03 at 12h 57m 39s.xml">
+      <configuration name="BankAccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankAccountTest - 2020.03.03 at 12h 58m 13s.xml">
+      <configuration name="BankAccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankAccountTest - 2020.03.03 at 13h 03m 22s.xml">
+      <configuration name="BankAccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankAccountTest - 2020.03.04 at 13h 45m 35s.xml">
+      <configuration name="BankAccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BankAccountTest - 2020.03.04 at 13h 48m 36s.xml">
+      <configuration name="BankAccountTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="828" y="23" width="852" height="972" extended-state="0" />
+    <frame x="782" y="23" width="898" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -235,10 +235,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.086419754" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.0817757" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.38395062" weight="0.32905483" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.38317758" weight="0.32905483" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -247,7 +247,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5012346" side_tool="true" visible="true" weight="0.3990665" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.6168224" side_tool="true" visible="true" weight="0.32905483" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -268,15 +268,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="294">
           <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BankAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="109">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
         </state>
       </provider>
     </entry>
