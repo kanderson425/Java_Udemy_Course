@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f78fefc1-fae0-42e3-afe1-3699d2bc6de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Junit Challenge/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Junit Challenge/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Junit Challenge/src/com/kyleanderson/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Junit Challenge/src/com/kyleanderson/UtilitiesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Junit Challenge/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Junit Challenge/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Junit Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Junit Challenge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Junit Challenge/Junit Challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Junit Challenge/Junit Challenge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Junit Challenge/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Junit Challenge/src/com/kyleanderson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Junit Challenge/src/com/kyleanderson/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Junit Challenge/src/com/kyleanderson/Utilities.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,16 +41,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BankAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="40" selection-start-line="40" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="449">
+              <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BankAccountTestParameterized.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="675">
@@ -80,7 +83,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="24" />
     <option name="width" value="840" />
     <option name="height" value="972" />
   </component>
@@ -130,7 +133,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -256,7 +259,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="840" height="972" extended-state="0" />
+    <frame x="0" y="24" width="840" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -264,10 +267,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18546365" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2907268" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.37969926" visible="true" weight="0.33853543" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.37969926" visible="true" weight="0.33853543" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49415886" weight="0.32905483" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -302,17 +305,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BankAccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="40" selection-start-line="40" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BankAccountTestParameterized.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BankAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -333,6 +336,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -344,6 +348,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>JavaFX-11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -355,6 +360,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

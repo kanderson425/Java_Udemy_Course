@@ -3,6 +3,11 @@ package com.kyleanderson;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+    Utilities util = new Utilities();
+
+        System.out.println("Input is: AABCDDEFF");
+        util.removePairs("AABCDDEFF");
+
+
     }
 }
