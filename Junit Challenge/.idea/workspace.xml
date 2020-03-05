@@ -139,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilitiesTest.nullIfOddLength">
+  <component name="RunManager" selected="JUnit.UtilitiesTest.converter">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.kyleanderson.Main" />
       <module name="Junit Challenge" />
@@ -150,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilitiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilitiesTest.converter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit Challenge" />
       <extension name="coverage">
         <pattern>
@@ -160,7 +160,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kyleanderson" />
       <option name="MAIN_CLASS_NAME" value="com.kyleanderson.UtilitiesTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="converter" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,18 +216,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.UtilitiesTest" />
       <item itemvalue="JUnit.UtilitiesTest.removePairs" />
       <item itemvalue="JUnit.UtilitiesTest.everyNthChar" />
       <item itemvalue="JUnit.UtilitiesTest.nullIfOddLength" />
+      <item itemvalue="JUnit.UtilitiesTest.converter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UtilitiesTest.converter" />
         <item itemvalue="JUnit.UtilitiesTest.nullIfOddLength" />
         <item itemvalue="JUnit.UtilitiesTest.everyNthChar" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.UtilitiesTest.removePairs" />
-        <item itemvalue="JUnit.UtilitiesTest" />
       </list>
     </recent_temporary>
   </component>

@@ -32,14 +32,16 @@ public class UtilitiesTest {
 
     @org.junit.Test
     public void converter() throws Exception {
-        fail("This test has not been implemented");
+        Utilities util = new Utilities();
+        assertEquals(300,util.converter(10, 5));
+
     }
 
     @org.junit.Test
     public void nullIfOddLength() throws Exception {
         Utilities util = new Utilities();
-        assertEquals(new String("Test"), util.nullIfOddLength("Test"));
+        assertNotNull(util.nullIfOddLength("Test"));
 
-        assertNull(new String("Testing"), util.nullIfOddLength("Testing"));
+        assertNull(util.nullIfOddLength("Testing"));
     }
 }
