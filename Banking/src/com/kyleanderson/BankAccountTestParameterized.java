@@ -9,7 +9,7 @@ import java.util.Collection;
 import static org.junit.Assert.assertEquals;
 
 
-//@RunWith(Parameterized.class);
+@RunWith(Parameterized.class)
 public class BankAccountTestParameterized {
 
     private BankAccount account;
@@ -30,7 +30,7 @@ public class BankAccountTestParameterized {
     }
 
     @Parameterized.Parameters
-    public static Collection<Object> testConditions() {
+    public static Collection<Object[]> testConditions() {
         return Arrays.asList(new Object[][] {
                 {100.00, true, 1100.00},
                 {200.00, true, 1200.00},
@@ -41,8 +41,8 @@ public class BankAccountTestParameterized {
     }
 
     @org.junit.Test
-    public void getBalance_deposit() throws Exception {
+    public void deposit() throws Exception {
         account.deposit(amount, branch);
-        assertEquals(expected, account.getBalance(), 0);
+        assertEquals(expected, account.getBalance(), 0.01);
     }
 }
