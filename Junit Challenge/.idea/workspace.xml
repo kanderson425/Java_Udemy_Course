@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="637d30c6-e567-44df-83ca-b2552cfc420d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Banking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Banking/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Utilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" afterDir="false" />
@@ -15,34 +16,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Utilities.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="165">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Utilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+            <state relative-caret-position="137">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -64,15 +64,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/kyleanderson/Utilities.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/Utilities.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="840" />
+    <option name="x" value="792" />
     <option name="y" value="23" />
-    <option name="width" value="840" />
+    <option name="width" value="888" />
     <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -83,7 +83,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,6 +106,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilitiesTest.removePairs">
+  <component name="RunManager" selected="JUnit.UtilitiesTest.everyNthChar">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.kyleanderson.Main" />
       <module name="Junit Challenge" />
@@ -168,6 +168,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UtilitiesTest.everyNthChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit Challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kyleanderson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kyleanderson" />
+      <option name="MAIN_CLASS_NAME" value="com.kyleanderson.UtilitiesTest" />
+      <option name="METHOD_NAME" value="everyNthChar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UtilitiesTest.removePairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit Challenge" />
       <extension name="coverage">
@@ -188,11 +204,13 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.UtilitiesTest" />
       <item itemvalue="JUnit.UtilitiesTest.removePairs" />
+      <item itemvalue="JUnit.UtilitiesTest.everyNthChar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UtilitiesTest.removePairs" />
+        <item itemvalue="JUnit.UtilitiesTest.everyNthChar" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.UtilitiesTest.removePairs" />
         <item itemvalue="JUnit.UtilitiesTest" />
       </list>
     </recent_temporary>
@@ -211,39 +229,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UtilitiesTest - 2020.03.04 at 20h 59m 37s.xml">
-      <configuration name="UtilitiesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest - 2020.03.04 at 21h 00m 05s.xml">
-      <configuration name="UtilitiesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest - 2020.03.04 at 21h 01m 02s.xml">
-      <configuration name="UtilitiesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest_removePairs - 2020.03.04 at 21h 02m 04s.xml">
-      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest_removePairs - 2020.03.04 at 21h 03m 02s.xml">
-      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest_removePairs - 2020.03.04 at 21h 05m 56s.xml">
-      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest_removePairs - 2020.03.04 at 21h 06m 26s.xml">
-      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest_removePairs - 2020.03.04 at 21h 20m 54s.xml">
-      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UtilitiesTest_removePairs - 2020.03.04 at 21h 25m 29s.xml">
       <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UtilitiesTest_removePairs - 2020.03.04 at 21h 26m 27s.xml">
       <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UtilitiesTest_removePairs - 2020.03.04 at 21h 34m 33s.xml">
+      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest_removePairs - 2020.03.04 at 21h 35m 13s.xml">
+      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest_removePairs - 2020.03.04 at 21h 35m 44s.xml">
+      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest_removePairs - 2020.03.04 at 21h 36m 08s.xml">
+      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 12h 42m 02s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 12h 43m 00s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 12h 44m 21s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 12h 46m 08s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="840" y="23" width="840" height="972" extended-state="0" />
+    <frame x="792" y="23" width="888" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -251,10 +269,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.10401002" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.100472815" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.22180451" visible="true" weight="0.32905483" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.20921986" visible="true" weight="0.32905483" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -263,7 +281,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.7781955" side_tool="true" visible="true" weight="0.32905483" />
+      <window_info active="true" anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.7907801" side_tool="true" visible="true" weight="0.32905483" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -275,24 +293,24 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Utilities.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        <state relative-caret-position="137">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="165">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Utilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        <state relative-caret-position="315">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
         </state>
       </provider>
     </entry>

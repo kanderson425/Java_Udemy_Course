@@ -8,6 +8,7 @@ public class Main {
         System.out.println("Input is: ABCDDEFF");
         util.removePairs("ABCDEDEFF");
 
-
+        char[] source = {'h','e','l','l','o'};
+        util.everyNthChar(source, 2);
     }
 }

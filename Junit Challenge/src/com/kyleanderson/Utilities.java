@@ -19,7 +19,7 @@ public class Utilities {
         for(int i =n-1; i<sourceArray.length; i+= n) {
             result[index++] = sourceArray[i];
         }
-
+        System.out.println("char[] result: " + ((char[])result));
         return result;
     }
 

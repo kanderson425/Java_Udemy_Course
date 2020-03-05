@@ -9,7 +9,12 @@ public class UtilitiesTest {
 
     @org.junit.Test
     public void everyNthChar() throws Exception {
-        fail("This test has not been implemented");
+        Utilities util = new Utilities();
+        char[] source = {'h','e','l','l','o'};
+        char[] output = {'e','l'};
+        util.everyNthChar(source, 2);
+        assertArrayEquals(output, util.everyNthChar(source, 2));
+
     }
 
     @org.junit.Test
