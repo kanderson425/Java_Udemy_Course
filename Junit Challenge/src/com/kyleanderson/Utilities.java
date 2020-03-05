@@ -29,7 +29,7 @@ public class Utilities {
     //"ABCBDEEF" -> "ABCDEF"
 
     public String removePairs(String source) {
-        if(source.length() < 2) {
+        if(source == null || source.length() < 2) {
             return source;
         }
 

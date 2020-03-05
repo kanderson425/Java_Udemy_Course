@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f78fefc1-fae0-42e3-afe1-3699d2bc6de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Junit Challenge/src/com/kyleanderson/UtilitiesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Junit Challenge/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Junit Challenge/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Junit Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Junit Challenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Junit Challenge/Junit Challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Junit Challenge/Junit Challenge.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Junit Challenge/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Junit Challenge/src/com/kyleanderson/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Junit Challenge/src/com/kyleanderson/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Junit Challenge/src/com/kyleanderson/Utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Junit Challenge/src/com/kyleanderson/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Junit Challenge/src/com/kyleanderson/UtilitiesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -260,7 +258,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="840" height="972" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />

@@ -16,9 +16,10 @@ public class UtilitiesTest {
     public void removePairs() throws Exception  {
         Utilities util = new Utilities();
         assertEquals("ABCDEF", util.removePairs("AABCDDEFF"));
-
-//        String newString2 = util.removePairs("ABCCABDEEF");
-//        assertEquals("ABCABDEF", newString2);
+        assertEquals("ABCABDEF", util.removePairs("ABCCABDEEF"));
+        assertNull("Did not get null returned. Argument passed is null", util.removePairs(null));
+        assertEquals("A", util.removePairs("A"));
+        assertEquals("", "");
 
     }
 
