@@ -11,9 +11,11 @@ public class UtilitiesTest {
     public void everyNthChar() throws Exception {
         Utilities util = new Utilities();
         char[] source = {'h','e','l','l','o'};
-        char[] output = {'e','l'};
-        util.everyNthChar(source, 2);
+        char[] output = util.everyNthChar(new char[] {'h','e','l','l','o'}, 2);
         assertArrayEquals(output, util.everyNthChar(source, 2));
+
+        char[] output2 = util.everyNthChar(new char[] {'h','e','l','l','o'}, 8);
+        assertArrayEquals(new char[] {'h','e','l','l','o'},output2);
 
     }
 
@@ -35,6 +37,9 @@ public class UtilitiesTest {
 
     @org.junit.Test
     public void nullIfOddLength() throws Exception {
-        fail("This test has not been implemented");
+        Utilities util = new Utilities();
+        assertEquals(new String("Test"), util.nullIfOddLength("Test"));
+
+        assertNull(new String("Testing"), util.nullIfOddLength("Testing"));
     }
 }
