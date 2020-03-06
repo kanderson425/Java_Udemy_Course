@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="637d30c6-e567-44df-83ca-b2552cfc420d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTestParameterized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Banking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Banking/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,17 +31,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Utilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-222">
-              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="65" />
+            <state relative-caret-position="-28">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTestParameterized.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+            <state relative-caret-position="446">
+              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -48,8 +60,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,13 +74,14 @@
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Main.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Utilities.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTestParameterized.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="840" />
+    <option name="x" value="687" />
     <option name="y" value="23" />
-    <option name="width" value="840" />
+    <option name="width" value="993" />
     <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -138,7 +151,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilitiesTest.removePairs">
+  <component name="RunManager" selected="JUnit.UtilitiesTestParameterized.removePairs">
+    <configuration name="UtilitiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit Challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kyleanderson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kyleanderson" />
+      <option name="MAIN_CLASS_NAME" value="com.kyleanderson.UtilitiesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilitiesTestParameterized.removePairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit Challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kyleanderson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kyleanderson" />
+      <option name="MAIN_CLASS_NAME" value="com.kyleanderson.UtilitiesTestParameterized" />
+      <option name="METHOD_NAME" value="removePairs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UtilitiesTest.converter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit Challenge" />
       <extension name="coverage">
@@ -155,22 +199,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilitiesTest.converter_arithmeticException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit Challenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kyleanderson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kyleanderson" />
-      <option name="MAIN_CLASS_NAME" value="com.kyleanderson.UtilitiesTest" />
-      <option name="METHOD_NAME" value="converter_arithmeticException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UtilitiesTest.everyNthChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit Challenge" />
       <extension name="coverage">
@@ -182,22 +210,6 @@
       <option name="PACKAGE_NAME" value="com.kyleanderson" />
       <option name="MAIN_CLASS_NAME" value="com.kyleanderson.UtilitiesTest" />
       <option name="METHOD_NAME" value="everyNthChar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UtilitiesTest.nullIfOddLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit Challenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kyleanderson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kyleanderson" />
-      <option name="MAIN_CLASS_NAME" value="com.kyleanderson.UtilitiesTest" />
-      <option name="METHOD_NAME" value="nullIfOddLength" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -221,18 +233,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.UtilitiesTest.everyNthChar" />
-      <item itemvalue="JUnit.UtilitiesTest.nullIfOddLength" />
       <item itemvalue="JUnit.UtilitiesTest.converter" />
-      <item itemvalue="JUnit.UtilitiesTest.converter_arithmeticException" />
       <item itemvalue="JUnit.UtilitiesTest.removePairs" />
+      <item itemvalue="JUnit.UtilitiesTest" />
+      <item itemvalue="JUnit.UtilitiesTestParameterized.removePairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UtilitiesTestParameterized.removePairs" />
+        <item itemvalue="JUnit.UtilitiesTest" />
         <item itemvalue="JUnit.UtilitiesTest.removePairs" />
         <item itemvalue="JUnit.UtilitiesTest.everyNthChar" />
         <item itemvalue="JUnit.UtilitiesTest.converter" />
-        <item itemvalue="JUnit.UtilitiesTest.converter_arithmeticException" />
-        <item itemvalue="JUnit.UtilitiesTest.nullIfOddLength" />
       </list>
     </recent_temporary>
   </component>
@@ -250,39 +262,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 17h 50m 00s.xml">
-      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_converter_arithmeticException - 2020.03.05 at 18h 04m 54s.xml">
+      <configuration name="UtilitiesTest.converter_arithmeticException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 17h 50m 20s.xml">
-      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_converter_arithmeticException - 2020.03.05 at 18h 04m 56s.xml">
+      <configuration name="UtilitiesTest.converter_arithmeticException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 17h 50m 21s.xml">
-      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 17h 51m 46s.xml">
-      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest_nullIfOddLength - 2020.03.05 at 17h 55m 41s.xml">
+    <history-entry file="UtilitiesTest_nullIfOddLength - 2020.03.05 at 18h 06m 14s.xml">
       <configuration name="UtilitiesTest.nullIfOddLength" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest_nullIfOddLength - 2020.03.05 at 17h 56m 22s.xml">
-      <configuration name="UtilitiesTest.nullIfOddLength" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_converter_arithmeticException - 2020.03.05 at 18h 06m 17s.xml">
+      <configuration name="UtilitiesTest.converter_arithmeticException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest_nullIfOddLength - 2020.03.05 at 17h 56m 58s.xml">
-      <configuration name="UtilitiesTest.nullIfOddLength" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest_nullIfOddLength - 2020.03.05 at 17h 57m 47s.xml">
-      <configuration name="UtilitiesTest.nullIfOddLength" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest_converter - 2020.03.05 at 17h 59m 14s.xml">
+    <history-entry file="UtilitiesTest_converter - 2020.03.05 at 18h 06m 20s.xml">
       <configuration name="UtilitiesTest.converter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest_converter_arithmeticException - 2020.03.05 at 18h 02m 43s.xml">
-      <configuration name="UtilitiesTest.converter_arithmeticException" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_removePairs - 2020.03.05 at 18h 06m 23s.xml">
+      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 18h 07m 23s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest_removePairs - 2020.03.05 at 18h 07m 29s.xml">
+      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest_removePairs - 2020.03.05 at 18h 09m 36s.xml">
+      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest - 2020.03.05 at 18h 09m 50s.xml">
+      <configuration name="UtilitiesTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="182" y="23" width="1498" height="972" extended-state="0" />
+    <frame x="687" y="23" width="993" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -290,19 +302,19 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.05837912" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21135646" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.2081044" visible="true" weight="0.32905483" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.44360903" weight="0.32905483" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49917492" weight="0.32905483" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49881798" weight="0.3990665" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49793956" weight="0.3990665" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.7918956" side_tool="true" visible="true" weight="0.32905483" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.556391" side_tool="true" visible="true" weight="0.32905483" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -323,15 +335,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Utilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-222">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="65" />
+        <state relative-caret-position="-28">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        <state relative-caret-position="350">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTestParameterized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
         </state>
       </provider>
     </entry>

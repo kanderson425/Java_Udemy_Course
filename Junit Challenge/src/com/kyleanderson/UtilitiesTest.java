@@ -32,7 +32,6 @@ public class UtilitiesTest {
         assertNull("Did not get null returned. Argument passed is null", util.removePairs(null));
         assertEquals("A", util.removePairs("A"));
         assertEquals("", "");
-
     }
 
     @org.junit.Test
