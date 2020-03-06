@@ -39,7 +39,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BankAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
+            <state relative-caret-position="540">
               <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="67" />
             </state>
           </provider>
@@ -78,7 +78,6 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="806" />
     <option name="y" value="23" />
     <option name="width" value="840" />
     <option name="height" value="972" />
@@ -255,7 +254,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="806" y="23" width="840" height="972" extended-state="0" />
+    <frame x="0" y="23" width="840" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -310,7 +309,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/BankAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
+        <state relative-caret-position="540">
           <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="67" />
         </state>
       </provider>

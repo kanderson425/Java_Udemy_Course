@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="637d30c6-e567-44df-83ca-b2552cfc420d" name="Default Changelist" comment="" />
+    <list default="true" id="637d30c6-e567-44df-83ca-b2552cfc420d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="399">
+              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -64,9 +66,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="182" />
+    <option name="x" value="840" />
     <option name="y" value="23" />
-    <option name="width" value="1498" />
+    <option name="width" value="840" />
     <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -136,17 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilitiesTest.converter_arithmeticException">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kyleanderson.Main" />
-      <module name="Junit Challenge" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UtilitiesTest.removePairs">
     <configuration name="UtilitiesTest.converter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit Challenge" />
       <extension name="coverage">
@@ -211,20 +203,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UtilitiesTest.removePairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit Challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kyleanderson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kyleanderson" />
+      <option name="MAIN_CLASS_NAME" value="com.kyleanderson.UtilitiesTest" />
+      <option name="METHOD_NAME" value="removePairs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.UtilitiesTest.everyNthChar" />
       <item itemvalue="JUnit.UtilitiesTest.nullIfOddLength" />
       <item itemvalue="JUnit.UtilitiesTest.converter" />
       <item itemvalue="JUnit.UtilitiesTest.converter_arithmeticException" />
+      <item itemvalue="JUnit.UtilitiesTest.removePairs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UtilitiesTest.converter_arithmeticException" />
-        <item itemvalue="JUnit.UtilitiesTest.converter" />
-        <item itemvalue="JUnit.UtilitiesTest.nullIfOddLength" />
+        <item itemvalue="JUnit.UtilitiesTest.removePairs" />
         <item itemvalue="JUnit.UtilitiesTest.everyNthChar" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.UtilitiesTest.converter" />
+        <item itemvalue="JUnit.UtilitiesTest.converter_arithmeticException" />
+        <item itemvalue="JUnit.UtilitiesTest.nullIfOddLength" />
       </list>
     </recent_temporary>
   </component>
@@ -242,9 +250,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 17h 48m 42s.xml">
-      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 17h 50m 00s.xml">
       <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
     </history-entry>
@@ -272,9 +277,13 @@
     <history-entry file="UtilitiesTest_converter - 2020.03.05 at 17h 59m 14s.xml">
       <configuration name="UtilitiesTest.converter" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UtilitiesTest_converter_arithmeticException - 2020.03.05 at 18h 02m 43s.xml">
+      <configuration name="UtilitiesTest.converter_arithmeticException" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="182" y="23" width="1498" height="972" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -321,8 +330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="399">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
         </state>
       </provider>
     </entry>
