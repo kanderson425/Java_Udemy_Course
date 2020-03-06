@@ -29,9 +29,14 @@ public class UtilitiesTest {
     public void removePairs() throws Exception  {
         assertEquals("ABCDEF", util.removePairs("AABCDDEFF"));
         assertEquals("ABCABDEF", util.removePairs("ABCCABDEEF"));
-        assertNull("Did not get null returned. Argument passed is null", util.removePairs(null));
         assertEquals("A", util.removePairs("A"));
         assertEquals("", "");
+    }
+
+    @org.junit.Test
+    public void removePairs_null() throws Exception {
+        assertNull("Did not get null returned. Argument passed is null", util.removePairs(null));
+
     }
 
     @org.junit.Test
