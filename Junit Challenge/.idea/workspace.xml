@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="637d30c6-e567-44df-83ca-b2552cfc420d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Banking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Banking/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="637d30c6-e567-44df-83ca-b2552cfc420d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="42" column="75" lean-forward="true" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
+            <state relative-caret-position="362">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -67,9 +64,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="426" />
+    <option name="x" value="182" />
     <option name="y" value="23" />
-    <option name="width" value="1254" />
+    <option name="width" value="1498" />
     <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -139,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilitiesTest.converter">
+  <component name="RunManager" selected="JUnit.UtilitiesTest.converter_arithmeticException">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.kyleanderson.Main" />
       <module name="Junit Challenge" />
@@ -161,6 +158,22 @@
       <option name="PACKAGE_NAME" value="com.kyleanderson" />
       <option name="MAIN_CLASS_NAME" value="com.kyleanderson.UtilitiesTest" />
       <option name="METHOD_NAME" value="converter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilitiesTest.converter_arithmeticException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit Challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kyleanderson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kyleanderson" />
+      <option name="MAIN_CLASS_NAME" value="com.kyleanderson.UtilitiesTest" />
+      <option name="METHOD_NAME" value="converter_arithmeticException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,36 +211,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilitiesTest.removePairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit Challenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kyleanderson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kyleanderson" />
-      <option name="MAIN_CLASS_NAME" value="com.kyleanderson.UtilitiesTest" />
-      <option name="METHOD_NAME" value="removePairs" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.UtilitiesTest.removePairs" />
       <item itemvalue="JUnit.UtilitiesTest.everyNthChar" />
       <item itemvalue="JUnit.UtilitiesTest.nullIfOddLength" />
       <item itemvalue="JUnit.UtilitiesTest.converter" />
+      <item itemvalue="JUnit.UtilitiesTest.converter_arithmeticException" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UtilitiesTest.converter_arithmeticException" />
         <item itemvalue="JUnit.UtilitiesTest.converter" />
         <item itemvalue="JUnit.UtilitiesTest.nullIfOddLength" />
         <item itemvalue="JUnit.UtilitiesTest.everyNthChar" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.UtilitiesTest.removePairs" />
       </list>
     </recent_temporary>
   </component>
@@ -245,18 +242,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 12h 53m 03s.xml">
-      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 12h 54m 44s.xml">
-      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 17h 47m 56s.xml">
-      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 17h 48m 09s.xml">
-      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 17h 48m 42s.xml">
       <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
     </history-entry>
@@ -275,20 +260,31 @@
     <history-entry file="UtilitiesTest_nullIfOddLength - 2020.03.05 at 17h 55m 41s.xml">
       <configuration name="UtilitiesTest.nullIfOddLength" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UtilitiesTest_nullIfOddLength - 2020.03.05 at 17h 56m 22s.xml">
+      <configuration name="UtilitiesTest.nullIfOddLength" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest_nullIfOddLength - 2020.03.05 at 17h 56m 58s.xml">
+      <configuration name="UtilitiesTest.nullIfOddLength" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest_nullIfOddLength - 2020.03.05 at 17h 57m 47s.xml">
+      <configuration name="UtilitiesTest.nullIfOddLength" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest_converter - 2020.03.05 at 17h 59m 14s.xml">
+      <configuration name="UtilitiesTest.converter" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="426" y="23" width="1254" height="972" extended-state="0" />
-    <editor active="true" />
+    <frame x="182" y="23" width="1498" height="972" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.07013201" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.05837912" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.20874588" weight="0.32905483" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.2081044" visible="true" weight="0.32905483" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49917492" weight="0.32905483" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -297,7 +293,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5008251" side_tool="true" visible="true" weight="0.32905483" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.7918956" side_tool="true" visible="true" weight="0.32905483" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -325,8 +321,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="42" column="75" lean-forward="true" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
+        <state relative-caret-position="362">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>

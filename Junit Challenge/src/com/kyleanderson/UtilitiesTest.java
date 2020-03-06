@@ -34,7 +34,12 @@ public class UtilitiesTest {
     public void converter() throws Exception {
         Utilities util = new Utilities();
         assertEquals(300,util.converter(10, 5));
+    }
 
+    @org.junit.Test(expected = ArithmeticException.class)
+    public void converter_arithmeticException() throws Exception {
+        Utilities util = new Utilities();
+        util.converter(10, 0);
     }
 
     @org.junit.Test

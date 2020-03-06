@@ -256,6 +256,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="806" y="23" width="840" height="972" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
