@@ -51,8 +51,11 @@ public class UtilitiesTest {
 
     @org.junit.Test
     public void nullIfOddLength() throws Exception {
-        assertNotNull(util.nullIfOddLength("Test"));
-
         assertNull(util.nullIfOddLength("Testing"));
+    }
+
+    @org.junit.Test
+    public void nullIfOddLength_notNull() throws Exception {
+        assertNotNull(util.nullIfOddLength("Test"));
     }
 }

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="637d30c6-e567-44df-83ca-b2552cfc420d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Banking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Banking/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,9 +77,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="687" />
-    <option name="y" value="23" />
-    <option name="width" value="993" />
+    <option name="x" value="87" />
+    <option name="y" value="24" />
+    <option name="width" value="1593" />
     <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -148,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilitiesTest.removePairs_null">
+  <component name="RunManager" selected="JUnit.UtilitiesTest.nullIfOddLength_notNull">
     <configuration name="UtilitiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit Challenge" />
       <extension name="coverage">
@@ -180,7 +181,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilitiesTest.everyNthChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilitiesTest.nullIfOddLength_notNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit Challenge" />
       <extension name="coverage">
         <pattern>
@@ -190,7 +191,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kyleanderson" />
       <option name="MAIN_CLASS_NAME" value="com.kyleanderson.UtilitiesTest" />
-      <option name="METHOD_NAME" value="everyNthChar" />
+      <option name="METHOD_NAME" value="nullIfOddLength_notNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -229,19 +230,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UtilitiesTest.everyNthChar" />
       <item itemvalue="JUnit.UtilitiesTest.removePairs" />
       <item itemvalue="JUnit.UtilitiesTest" />
       <item itemvalue="JUnit.UtilitiesTestParameterized.removePairs" />
       <item itemvalue="JUnit.UtilitiesTest.removePairs_null" />
+      <item itemvalue="JUnit.UtilitiesTest.nullIfOddLength_notNull" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UtilitiesTest.nullIfOddLength_notNull" />
         <item itemvalue="JUnit.UtilitiesTest.removePairs_null" />
         <item itemvalue="JUnit.UtilitiesTestParameterized.removePairs" />
         <item itemvalue="JUnit.UtilitiesTest" />
         <item itemvalue="JUnit.UtilitiesTest.removePairs" />
-        <item itemvalue="JUnit.UtilitiesTest.everyNthChar" />
       </list>
     </recent_temporary>
   </component>
@@ -259,9 +260,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UtilitiesTest_converter_arithmeticException - 2020.03.05 at 18h 04m 56s.xml">
-      <configuration name="UtilitiesTest.converter_arithmeticException" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UtilitiesTest_nullIfOddLength - 2020.03.05 at 18h 06m 14s.xml">
       <configuration name="UtilitiesTest.nullIfOddLength" configurationId="JUnit" />
     </history-entry>
@@ -289,10 +287,12 @@
     <history-entry file="UtilitiesTestParameterized_removePairs - 2020.03.05 at 18h 29m 20s.xml">
       <configuration name="UtilitiesTestParameterized.removePairs" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UtilitiesTest_removePairs_null - 2020.03.06 at 13h 57m 01s.xml">
+      <configuration name="UtilitiesTest.removePairs_null" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="687" y="23" width="993" height="972" extended-state="0" />
-    <editor active="true" />
+    <frame x="687" y="24" width="993" height="972" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -311,7 +311,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5573081" side_tool="true" visible="true" weight="0.32905483" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5573081" side_tool="true" weight="0.32905483" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
