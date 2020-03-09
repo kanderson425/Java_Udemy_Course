@@ -30,6 +30,10 @@ public class UtilitiesTest {
         assertEquals("ABCDEF", util.removePairs("AABCDDEFF"));
         assertEquals("ABCABDEF", util.removePairs("ABCCABDEEF"));
         assertEquals("A", util.removePairs("A"));
+    }
+
+    @org.junit.Test
+    public void removePairs_emptyString() throws Exception {
         assertEquals("", "");
     }
 
