@@ -1,6 +1,5 @@
 package com.kyleanderson;
 
-import jdk.jshell.execution.Util;
 
 import static org.junit.Assert.*;
 
@@ -29,6 +28,10 @@ public class UtilitiesTest {
     public void removePairs() throws Exception  {
         assertEquals("ABCDEF", util.removePairs("AABCDDEFF"));
         assertEquals("ABCABDEF", util.removePairs("ABCCABDEEF"));
+    }
+
+    @org.junit.Test
+    public void removePairs_singleLetter() throws Exception {
         assertEquals("A", util.removePairs("A"));
     }
 
