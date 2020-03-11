@@ -18,10 +18,12 @@ public class UtilitiesTest {
         char[] source = {'h','e','l','l','o'};
         char[] output = util.everyNthChar(new char[] {'h','e','l','l','o'}, 2);
         assertArrayEquals(output, util.everyNthChar(source, 2));
+    }
 
+    @org.junit.Test
+    public void every8thChar() throws Exception {
         char[] output2 = util.everyNthChar(new char[] {'h','e','l','l','o'}, 8);
         assertArrayEquals(new char[] {'h','e','l','l','o'},output2);
-
     }
 
     @org.junit.Test

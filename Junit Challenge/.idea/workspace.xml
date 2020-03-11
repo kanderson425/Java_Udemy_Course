@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="637d30c6-e567-44df-83ca-b2552cfc420d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+            <state relative-caret-position="295">
+              <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -76,9 +77,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="87" />
+    <option name="x" value="269" />
     <option name="y" value="23" />
-    <option name="width" value="1593" />
+    <option name="width" value="1411" />
     <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -148,8 +149,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilitiesTest.removePairs_singleLetter">
-    <configuration name="UtilitiesTestParameterized.removePairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UtilitiesTest.every8thChar">
+    <configuration name="UtilitiesTest.every8thChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit Challenge" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +159,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kyleanderson" />
-      <option name="MAIN_CLASS_NAME" value="com.kyleanderson.UtilitiesTestParameterized" />
-      <option name="METHOD_NAME" value="removePairs" />
+      <option name="MAIN_CLASS_NAME" value="com.kyleanderson.UtilitiesTest" />
+      <option name="METHOD_NAME" value="every8thChar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -230,19 +231,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UtilitiesTestParameterized.removePairs" />
       <item itemvalue="JUnit.UtilitiesTest.removePairs_null" />
       <item itemvalue="JUnit.UtilitiesTest.nullIfOddLength_notNull" />
       <item itemvalue="JUnit.UtilitiesTest.removePairs_emptyString" />
       <item itemvalue="JUnit.UtilitiesTest.removePairs_singleLetter" />
+      <item itemvalue="JUnit.UtilitiesTest.every8thChar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UtilitiesTest.every8thChar" />
         <item itemvalue="JUnit.UtilitiesTest.removePairs_singleLetter" />
         <item itemvalue="JUnit.UtilitiesTest.removePairs_emptyString" />
         <item itemvalue="JUnit.UtilitiesTest.nullIfOddLength_notNull" />
         <item itemvalue="JUnit.UtilitiesTest.removePairs_null" />
-        <item itemvalue="JUnit.UtilitiesTestParameterized.removePairs" />
       </list>
     </recent_temporary>
   </component>
@@ -260,9 +261,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UtilitiesTest_converter - 2020.03.05 at 18h 06m 20s.xml">
-      <configuration name="UtilitiesTest.converter" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UtilitiesTest_removePairs - 2020.03.05 at 18h 06m 23s.xml">
       <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
     </history-entry>
@@ -290,9 +288,12 @@
     <history-entry file="UtilitiesTest_removePairs_emptyString - 2020.03.08 at 20h 47m 25s.xml">
       <configuration name="UtilitiesTest.removePairs_emptyString" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UtilitiesTest_removePairs_singleLetter - 2020.03.09 at 21h 07m 31s.xml">
+      <configuration name="UtilitiesTest.removePairs_singleLetter" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="87" y="23" width="1593" height="972" extended-state="0" />
+    <frame x="269" y="23" width="1411" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -300,10 +301,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1321728" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.14974433" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.44229528" visible="true" weight="0.32905483" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.44192842" visible="true" weight="0.32905483" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.4984227" weight="0.32905483" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -312,7 +313,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5577047" side_tool="true" visible="true" weight="0.32905483" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5580716" side_tool="true" visible="true" weight="0.32905483" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -347,8 +348,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+        <state relative-caret-position="295">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
         </state>
       </provider>
     </entry>
