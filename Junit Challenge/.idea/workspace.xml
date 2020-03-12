@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="637d30c6-e567-44df-83ca-b2552cfc420d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/UtilitiesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,9 +76,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="269" />
+    <option name="x" value="686" />
     <option name="y" value="23" />
-    <option name="width" value="1411" />
+    <option name="width" value="994" />
     <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -261,9 +260,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UtilitiesTest_removePairs - 2020.03.05 at 18h 06m 23s.xml">
-      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UtilitiesTest_everyNthChar - 2020.03.05 at 18h 07m 23s.xml">
       <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
     </history-entry>
@@ -291,20 +287,22 @@
     <history-entry file="UtilitiesTest_removePairs_singleLetter - 2020.03.09 at 21h 07m 31s.xml">
       <configuration name="UtilitiesTest.removePairs_singleLetter" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UtilitiesTest_every8thChar - 2020.03.10 at 21h 08m 56s.xml">
+      <configuration name="UtilitiesTest.every8thChar" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="269" y="23" width="1411" height="972" extended-state="0" />
-    <editor active="true" />
+    <frame x="686" y="23" width="994" height="972" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.14974433" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21533613" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.44192842" visible="true" weight="0.32905483" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.4422269" visible="true" weight="0.32905483" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.4984227" weight="0.32905483" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -313,7 +311,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5580716" side_tool="true" visible="true" weight="0.32905483" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5583596" side_tool="true" weight="0.32905483" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
