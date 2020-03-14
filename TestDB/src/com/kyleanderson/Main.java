@@ -27,8 +27,10 @@ public class Main {
 //            statement.execute("UPDATE contacts SET name='Fido' WHERE email='dog@email.com'");
 //            statement.execute("DELETE FROM contacts WHERE name='Joe'");
 
-            statement.execute("SELECT * FROM contacts");
-            ResultSet results = statement.getResultSet();
+//            statement.execute("SELECT * FROM contacts");
+//            ResultSet results = statement.getResultSet();
+
+            ResultSet results = statement.executeQuery("SELECT * FROM contacts");
             while(results.next()) {
                 System.out.println(results.getString("name") + " " +
                         results.getInt("phone") + " "  +
