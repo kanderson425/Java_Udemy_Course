@@ -34,6 +34,8 @@ public class Main {
 
             insertContact(statement,"Fido",9038,"dog@email.com");
 
+            insertContact(statement, "Prince",876590,"prince@email.com");
+
             statement.execute("UPDATE " + TABLE_CONTACTS + " SET " +
                     COLUMN_PHONE + "=556789" +
                     " WHERE " + COLUMN_NAME + "='Jane'");
