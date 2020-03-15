@@ -17,7 +17,7 @@ public class Datasource {
     public static final String COLUMN_ALBUM_NAME = "name";
     public static final String COLUMN_ALBUM_ARTIST = "artist";
 
-    public static final String TABLE_ARTISTS = "Artist";
+    public static final String TABLE_ARTISTS = "artists";
     public static final String COLUMN_ARTIST_ID = "_id";
     public static final String COLUMN_ARTIST_NAME = "name";
 
