@@ -27,13 +27,9 @@ public class Main {
                     ")");
 
             insertContact(statement,"Kyle",6545678,"kyle@email.com");
-
             insertContact(statement,"Joe",45632,"joe@anywhere.com");
-
             insertContact(statement,"Jane",4829484,"jane@somewhere.com");
-
             insertContact(statement,"Fido",9038,"dog@email.com");
-
             insertContact(statement, "Prince",876590,"prince@email.com");
 
             statement.execute("UPDATE " + TABLE_CONTACTS + " SET " +
