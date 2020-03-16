@@ -35,6 +35,10 @@ public class Datasource {
     public static final int INDEX_SONG_TITLE = 3;
     public static final int INDEX_SONG_ALBUM = 4;
 
+    public static final int ORDER_BY_NONE = 1;
+    public static final int ORDER_BY_ASC = 2;
+    public static final int ORDER_BY_DESC = 3;
+
     private Connection conn;
 
     public boolean open() {
@@ -57,10 +61,23 @@ public class Datasource {
         }
     }
 
-    public List<Artist> queryArtists() {
+    public List<Artist> queryArtists(int sortOrder) {
+
+        StringBuilder sb = new StringBuilder("SELECT * FROM ");
+        sb.append(TABLE_ARTISTS);
+        if(sortOrder != ORDER_BY_NONE) {
+            sb.append(" ORDER BY " );
+            sb.append(COLUMN_ARTIST_NAME);
+            sb.append(" COLLATE NOCASE ");
+            if(sortOrder == ORDER_BY_DESC) {
+                sb.append("DESC");
+            } else {
+                sb.append("ASC");
+            }
+        }
 
         try(Statement statement = conn.createStatement();
-            ResultSet results = statement.executeQuery("SELECT * FROM " + TABLE_ARTISTS)) {
+            ResultSet results = statement.executeQuery(sb.toString())) {
 
             List<Artist> artists = new ArrayList<>();
             while(results.next()) {
