@@ -148,13 +148,12 @@ public class Datasource {
                 albums.add(results.getString(1));
             }
 
+            return albums;
+
         } catch(SQLException e) {
             System.out.println("Query failed: " + e.getMessage());
             return null;
         }
-
-
-
     }
 
 
