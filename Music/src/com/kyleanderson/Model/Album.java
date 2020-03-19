@@ -13,20 +13,20 @@ public class Album {
         return id;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getArtistId() {
-        return artistId;
-    }
-
     public void setId(int id) {
         this.id = id;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getArtistId() {
+        return artistId;
     }
 
     public void setArtistId(int artistId) {

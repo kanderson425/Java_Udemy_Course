@@ -14,28 +14,28 @@ public class Song {
         return id;
     }
 
-    public int getTrack() {
-        return track;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getAlbumId() {
-        return albumId;
-    }
-
     public void setId(int id) {
         this.id = id;
+    }
+
+    public int getTrack() {
+        return track;
     }
 
     public void setTrack(int track) {
         this.track = track;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getAlbumId() {
+        return albumId;
     }
 
     public void setAlbumId(int albumId) {
