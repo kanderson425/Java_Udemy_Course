@@ -83,6 +83,10 @@ public class Datasource {
             TABLE_ALBUMS + "." + COLUMN_ALBUM_NAME + ", " +
             TABLE_SONGS + "." + COLUMN_SONG_TRACK;
 
+    public static final String QUERY_VIEW_SONG_INFO = "SELECT " + COLUMN_ARTIST_NAME + ", " +
+        COLUMN_SONG_ALBUM + ", " + COLUMN_SONG_TRACK + " FROM " + TABLE_ARTIST_SONG_VIEW +
+            " WHERE " + COLUMN_SONG_TITLE + " = \"";
+
 
 
     private Connection conn;
@@ -256,6 +260,33 @@ public class Datasource {
             System.out.println("Query failed: " + e.getMessage());
             return false;
         }
+    }
+
+    public List<SongArtist> querySongInfoView(String title) {
+        StringBuilder sb = new StringBuilder(QUERY_VIEW_SONG_INFO);
+        sb.append(title);
+        sb.append("\"");
+
+        System.out.println(sb.toString());
+
+        try(Statement statement = conn.createStatement();
+            ResultSet results = statement.executeQuery(sb.toString())) {
+
+            List<SongArtist> songArtists = new ArrayList<>();
+            while(results.next()) {
+                SongArtist songArtist = new SongArtist();
+                songArtist.setArtistName(results.getString(1));
+                songArtist.setAlbumName(results.getString(2));
+                songArtist.setTrack(results.getInt(3));
+                songArtists.add(songArtist);
+            }
+
+            return songArtists;
+        } catch(SQLException e) {
+            System.out.println("Query failed: " + e.getMessage());
+            return null;
+        }
+
     }
 
 }
