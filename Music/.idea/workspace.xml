@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d949880-54f6-47c1-a34d-0afd068895bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ModuleUI2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ModuleUI2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MusicUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/out/production/MusicUI/sample/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/out/production/MusicUI/sample/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/src/sample/Model/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/src/sample/Model/Artist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/src/sample/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/src/sample/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestDB/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

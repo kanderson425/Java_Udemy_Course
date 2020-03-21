@@ -104,7 +104,8 @@ public class Datasource {
     public static final String QUERY_ALBUM = "SELECT " + COLUMN_ALBUM_ID + " FROM " +
             TABLE_ALBUMS + " WHERE " + COLUMN_ALBUM_NAME +" =?";
 
-    public static final String QUERY_SONG = "SELECT ";
+    public static final String QUERY_ALBUMS_BY_ARTIST_ID = "SELECT * FROM " + TABLE_ALBUMS +
+            " WHERE " + COLUMN_ALBUM_ARTIST + " = ? ORDER BY " + COLUMN_ALBUM_NAME + " COLLATE NOCASE";
 
     private Connection conn;
 
@@ -115,6 +116,7 @@ public class Datasource {
 
     private PreparedStatement queryArtist;
     private PreparedStatement queryAlbum;
+    private PreparedStatement queryAlbumsByArtistID;
 
     private static Datasource instance = new Datasource();
 
@@ -137,6 +139,7 @@ public class Datasource {
             insertIntoSongs = conn.prepareStatement(INSERT_SONGS);
             queryArtist = conn.prepareStatement(QUERY_ARTIST);
             queryAlbum = conn.prepareStatement(QUERY_ALBUM);
+            queryAlbumsByArtistID = conn.prepareStatement(QUERY_ALBUMS_BY_ARTIST_ID);
 
 
             return true;
@@ -170,6 +173,10 @@ public class Datasource {
 
             if(queryAlbum != null) {
                 queryAlbum.close();
+            }
+
+            if(queryAlbumsByArtistID != null) {
+                queryAlbumsByArtistID.close();
             }
 
             if(conn != null) {
