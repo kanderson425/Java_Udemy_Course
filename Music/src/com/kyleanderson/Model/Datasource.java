@@ -105,6 +105,8 @@ public class Datasource {
     public static final String QUERY_ALBUM = "SELECT " + COLUMN_ALBUM_ID + " FROM " +
             TABLE_ALBUMS + " WHERE " + COLUMN_ALBUM_NAME +" =?";
 
+    public static final String QUERY_SONG = "SELECT ";
+
     private Connection conn;
 
     private PreparedStatement querySongInfoView;
@@ -384,6 +386,40 @@ public class Datasource {
                 return generatedKeys.getInt(1);
             } else {
                 throw new SQLException("Couldn't get _id for album");
+            }
+        }
+    }
+
+    public void insertSong(String title, String artist, String album, int track)  {
+        try {
+            conn.setAutoCommit(false);
+
+            int artistId = insertArtist(artist);
+            int albumId = insertAlbum(album, artistId);
+            insertIntoSongs.setInt(1, track);
+            insertIntoSongs.setString(2, title);
+            insertIntoSongs.setInt(3, albumId);
+            int affectedRows = insertIntoSongs.executeUpdate();
+            if(affectedRows == 1) {
+                conn.commit();
+            } else {
+                throw new SQLException("The song insert failed");
+            }
+
+        } catch(SQLException e) {
+            System.out.println("Insert song exception: " + e.getMessage());
+            try {
+                System.out.println("Performing rollback");
+                conn.rollback();
+            } catch(SQLException e2) {
+                System.out.println("Oh boy! Things are reeally bad! " + e2.getMessage());
+            }
+        } finally   {
+            try {
+                System.out.println("Resetting default commit behavior");
+                conn.setAutoCommit(true);
+            } catch(SQLException e) {
+                System.out.println("Couldn't reset auto-commit!" + e.getMessage());
             }
         }
     }
