@@ -107,6 +107,9 @@ public class Datasource {
     public static final String QUERY_ALBUMS_BY_ARTIST_ID = "SELECT * FROM " + TABLE_ALBUMS +
             " WHERE " + COLUMN_ALBUM_ARTIST + " = ? ORDER BY " + COLUMN_ALBUM_NAME + " COLLATE NOCASE";
 
+    public static final String UPDATE_ARTIST_NAME = "UPDATE " + TABLE_ARTISTS + " SET " +
+            COLUMN_ARTIST_NAME + " =? WHERE " + COLUMN_ARTIST_ID + " =?";
+
     private Connection conn;
 
     private PreparedStatement querySongInfoView;
@@ -117,6 +120,7 @@ public class Datasource {
     private PreparedStatement queryArtist;
     private PreparedStatement queryAlbum;
     private PreparedStatement queryAlbumsByArtistID;
+    private PreparedStatement updateArtistName;
 
     private static Datasource instance = new Datasource();
 
@@ -140,6 +144,7 @@ public class Datasource {
             queryArtist = conn.prepareStatement(QUERY_ARTIST);
             queryAlbum = conn.prepareStatement(QUERY_ALBUM);
             queryAlbumsByArtistID = conn.prepareStatement(QUERY_ALBUMS_BY_ARTIST_ID);
+            updateArtistName = conn.prepareStatement(UPDATE_ARTIST_NAME);
 
 
             return true;
@@ -177,6 +182,10 @@ public class Datasource {
 
             if(queryAlbumsByArtistID != null) {
                 queryAlbumsByArtistID.close();
+            }
+
+            if(updateArtistName != null) {
+                updateArtistName.close();
             }
 
             if(conn != null) {
