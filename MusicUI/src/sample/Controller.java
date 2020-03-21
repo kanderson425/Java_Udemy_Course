@@ -7,6 +7,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import sample.Model.Album;
 import sample.Model.Artist;
 import sample.Model.Datasource;
 
@@ -19,6 +20,26 @@ public class Controller {
         artistTable.itemsProperty().bind(task.valueProperty());
 
         new Thread(task).start();
+    }
+
+    @FXML
+    public void listAlbumsForArtists() {
+        final Artist artist = (Artist) artistTable.getSelectionModel().getSelectedItem();
+        if(artist == null) {
+            System.out.println("No artist selected");
+            return;
+        }
+        Task<ObservableList<Album>> task = new Task<ObservableList<Album>>() {
+            @Override
+            protected ObservableList<Album> call() throws Exception {
+                return FXCollections.observableArrayList(
+                        Datasource.getInstance().queryAlbumsForArtistId(artist.getId()));
+            }
+        };
+        artistTable.itemsProperty().bind(task.valueProperty());
+
+        new Thread(task).start();
+
     }
 
 }
