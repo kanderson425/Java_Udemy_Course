@@ -1,10 +1,10 @@
 package sample;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.chart.PieChart;
 import javafx.stage.Stage;
 import sample.Model.Datasource;
 
@@ -21,7 +21,10 @@ public class Main extends Application {
     @Override
     public void init() throws Exception {
         super.init();
-        Datasource.getInstance().open();
+        if(!Datasource.getInstance().open()) {
+            System.out.println("FATAL ERROR: Couldn't connect to database");
+            Platform.exit();
+        }
     }
 
     @Override
