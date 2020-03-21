@@ -69,7 +69,7 @@ public class Main {
 //                    " Track number = " + artist.getTrack());
 //        }
 
-        datasource.insertSong("Like A Rolling Stone", "Bob Dylan", "Bob Dylan's Greatest Hits", 5);
+        datasource.insertSong("Bird Dog", "Everly Brothers", "All-Time Greatest Hits", 7);
 
         datasource.close();
     }

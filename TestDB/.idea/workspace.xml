@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc0e646-c3a7-4ef0-971e-bff7db7c9089" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MusicUI/MusicUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicUI/src/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Music/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Music/music.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/music.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Music/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/src/com/kyleanderson/Main.java" afterDir="false" />
@@ -42,16 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_30_1.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="769" />
     <option name="y" value="23" />
     <option name="width" value="900" />
@@ -134,7 +127,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="769" y="23" width="900" height="972" extended-state="1" />
+    <frame x="769" y="23" width="900" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
