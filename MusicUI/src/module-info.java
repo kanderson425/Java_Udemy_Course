@@ -5,4 +5,5 @@ module MusicUI {
     requires sqlite.jdbc;
 
     opens sample;
+    opens sample.Model;
 }

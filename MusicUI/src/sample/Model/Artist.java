@@ -11,19 +11,26 @@ public class Artist {
     private SimpleIntegerProperty id;
     private SimpleStringProperty name;
 
-    public SimpleIntegerProperty getId() {
-        return id;
+    public Artist() {
+        this.id = new SimpleIntegerProperty();
+        this.name = new SimpleStringProperty();
     }
 
-    public void setId(SimpleIntegerProperty id) {
-        this.id = id;
+    public int getId() {
+        return id.get();
     }
 
-    public SimpleStringProperty getName() {
-        return name;
+    public void setId(int id) {
+        this.id.set(id);
     }
 
-    public void setName(SimpleStringProperty name) {
-        this.name = name;
+    public String getName() {
+        return name.get();
     }
+
+    public void setName(String name) {
+        this.name.set(name);
+    }
+
+
 }

@@ -17,9 +17,9 @@
         <TableView fx:id="artistTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
             <columns>
                 <TableColumn prefWidth="${artistTable.width}" text="Name">
-                        <cellValueFactory>
-                            <PropertyValueFactory property="name"/>
-                        </cellValueFactory>
+                    <cellValueFactory>
+                        <PropertyValueFactory property="name"/>
+                    </cellValueFactory>
                 </TableColumn>
             </columns>
             <BorderPane.margin>
