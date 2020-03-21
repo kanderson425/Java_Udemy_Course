@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d949880-54f6-47c1-a34d-0afd068895bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/music.db" beforeDir="false" afterPath="$PROJECT_DIR$/music.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Model/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Model/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Model/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Model/Artist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Model/Datasource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Model/Datasource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Model/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Model/Song.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestDB/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+            <state relative-caret-position="420">
+              <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Model/Datasource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="285" column="12" lean-forward="true" selection-start-line="285" selection-start-column="12" selection-end-line="285" selection-end-column="12" />
+            <state relative-caret-position="380">
+              <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -58,6 +53,7 @@
       <find>track</find>
       <find>track</find>
       <find>TABLE_ARTIST_SONG_VIEW</find>
+      <find>close</find>
       <find>track</find>
     </findStrings>
   </component>
@@ -72,15 +68,15 @@
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Model/Artist.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Model/SongArtist.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Model/Song.java" />
-        <option value="$PROJECT_DIR$/src/com/kyleanderson/Model/Datasource.java" />
         <option value="$PROJECT_DIR$/src/com/kyleanderson/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/kyleanderson/Model/Datasource.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="769" />
     <option name="y" value="23" />
-    <option name="width" value="1600" />
+    <option name="width" value="900" />
     <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -180,7 +176,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="23" width="1600" height="972" extended-state="0" />
+    <frame x="4" y="23" width="1676" height="972" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -188,10 +184,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.09884467" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.094247244" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.3659148" weight="0.2823804" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.36536106" visible="true" weight="0.2823804" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49874687" weight="0.32905483" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -200,7 +196,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5012531" side_tool="true" visible="true" weight="0.2823804" />
+      <window_info active="true" anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.6346389" side_tool="true" visible="true" weight="0.2823804" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -240,17 +236,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Model/Datasource.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="285" column="12" lean-forward="true" selection-start-line="285" selection-start-column="12" selection-end-line="285" selection-end-column="12" />
+        <state relative-caret-position="420">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kyleanderson/Model/Datasource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        <state relative-caret-position="380">
+          <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
         </state>
       </provider>
     </entry>

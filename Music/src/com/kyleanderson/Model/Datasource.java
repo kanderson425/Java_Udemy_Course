@@ -1,5 +1,6 @@
 package com.kyleanderson.Model;
 
+import javax.swing.plaf.nimbus.State;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -89,17 +90,30 @@ public class Datasource {
         COLUMN_SONG_ALBUM + ", " + COLUMN_SONG_TRACK + " FROM " + TABLE_ARTIST_SONG_VIEW +
             " WHERE " + COLUMN_SONG_TITLE + " = ?";
 
-    //SELECT name, album, track FROM artist_list WHERE title = ?
 
+    public static final String INSERT_ARTIST = "INSERT INTO " + TABLE_ARTISTS +
+            "(" + COLUMN_ARTIST_NAME + ") VALUES(?)";
+    public static final String INSERT_ALBUMS = "INSERT INTO " + TABLE_ALBUMS +
+            "(" + COLUMN_ALBUM_NAME + ", " + COLUMN_ALBUM_ARTIST + ") VALUES(?,?)";
+    public static final String INSERT_SONGS = "INSERT INTO " + TABLE_SONGS +
+            "(" + COLUMN_SONG_TRACK + ", " + COLUMN_SONG_TITLE + ", " + COLUMN_SONG_ALBUM +
+            " ) VALUES(?, ?, ?)";
 
     private Connection conn;
 
     private PreparedStatement querySongInfoView;
+    private PreparedStatement insertIntoArtists;
+    private PreparedStatement insertIntoAlbums;
+    private PreparedStatement insertIntoSongs;
 
     public boolean open() {
         try {
             conn = DriverManager.getConnection(CONNECTION_STRING);
             querySongInfoView = conn.prepareStatement(QUERY_VIEW_VIEW_SONG_INFO_PREP);
+            insertIntoArtists = conn.prepareStatement(INSERT_ARTIST, Statement.RETURN_GENERATED_KEYS);
+            insertIntoAlbums = conn.prepareStatement(INSERT_ALBUMS, Statement.RETURN_GENERATED_KEYS);
+            insertIntoSongs = conn.prepareStatement(INSERT_SONGS);
+
 
             return true;
         } catch(SQLException e) {
