@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc0e646-c3a7-4ef0-971e-bff7db7c9089" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ModuleUI2/src/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Music/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/src/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/src/sample/Model/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/src/sample/Model/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/src/sample/Model/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/src/sample/Model/Artist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/src/sample/Model/Datasource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/src/sample/Model/Datasource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModuleUI2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ModuleUI2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MusicUI/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/src/sample/Controller.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
