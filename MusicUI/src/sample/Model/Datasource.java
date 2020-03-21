@@ -384,6 +384,20 @@ public class Datasource {
         }
     }
 
+    public boolean updateArtistName(int id, String newName) {
+        try {
+            updateArtistName.setString(1, newName);
+            updateArtistName.setInt(2, id);
+            int affectedRecords = updateArtistName.executeUpdate();
+
+            return affectedRecords == 1;
+
+        } catch(SQLException e) {
+            System.out.println("Updated failed: " + e.getMessage());
+            return false;
+        }
+    }
+
     public void insertSong(String title, String artist, String album, int track)  {
         try {
             conn.setAutoCommit(false);
@@ -417,4 +431,5 @@ public class Datasource {
             }
         }
     }
+
 }
