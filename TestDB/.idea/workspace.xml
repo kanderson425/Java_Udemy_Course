@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdc0e646-c3a7-4ef0-971e-bff7db7c9089" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ModuleUI2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ModuleUI2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Music/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/src/sample/Model/Datasource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/src/sample/Model/Datasource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicUI/src/sample/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicUI/src/sample/main.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="cdc0e646-c3a7-4ef0-971e-bff7db7c9089" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +36,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="769" />
     <option name="y" value="23" />
     <option name="width" value="900" />
@@ -126,7 +119,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="769" y="23" width="900" height="972" extended-state="1" />
+    <frame x="769" y="23" width="900" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -146,7 +139,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.55244756" side_tool="true" visible="true" weight="0.32905483" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.55244756" side_tool="true" weight="0.32905483" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
