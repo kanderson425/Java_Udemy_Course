@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70dd819-9f9f-42e4-8efb-b1f38e201cd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../EchoServer/src/com/kyleanderson/Echoer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EchoServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EchoServer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EchoServer/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EchoServer/src/com/kyleanderson/Main.java" afterDir="false" />
     </list>
