@@ -16,7 +16,7 @@ public class Main {
                 byte[] buffer = new byte[50];
                 DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
                 socket.receive(packet);
-                System.out.println("Text received is: " + new String(buffer));
+                System.out.println("Text received is: " + new String(buffer, 0, packet.getLength()));
             }
 
         } catch(SocketException e) {
