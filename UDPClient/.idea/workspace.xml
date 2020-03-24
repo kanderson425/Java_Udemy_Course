@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf3dfd6-e7e9-45a6-8fe2-6b85148cb0bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/UDPClient.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EchoClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EchoClient/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EchoServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EchoServer/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -46,6 +47,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -89,7 +91,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="556" width="840" height="439" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
