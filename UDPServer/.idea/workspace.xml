@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbd1df00-dfde-43b6-927a-5376b4c68a80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../UDPClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UDPClient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UDPClient/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UDPClient/src/com/kyleanderson/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kyleanderson/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="cbd1df00-dfde-43b6-927a-5376b4c68a80" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +41,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="841" />
+    <option name="x" value="840" />
     <option name="y" value="23" />
     <option name="width" value="840" />
     <option name="height" value="504" />
@@ -112,8 +107,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="841" y="23" width="840" height="504" extended-state="0" />
-    <editor active="true" />
+    <frame x="840" y="23" width="840" height="504" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -123,7 +117,7 @@
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.14661655" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49874687" visible="true" weight="0.37017995" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49749374" visible="true" weight="0.37017995" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -132,7 +126,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.5012531" side_tool="true" visible="true" weight="0.37017995" />
+      <window_info anchor="bottom" x="-1754" y="221" width="1632" height="284" id="Run" order="10" sideWeight="0.50250626" side_tool="true" weight="0.37017995" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
