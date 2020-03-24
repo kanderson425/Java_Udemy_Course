@@ -6,21 +6,27 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.Buffer;
 
 public class Main {
 
     public static void main(String[] args) {
         try (ServerSocket serverSocket = new ServerSocket(5000)) {
-            Socket socket = serverSocket.accept();
-            System.out.println("Client Connected");
-
-            BufferedReader input = new BufferedReader(
-                    new InputStreamReader(socket.getInputStream()));
-            PrintWriter output = new PrintWriter(socket.getOutputStream(), true);
 
             while(true) {
+                Socket socket = serverSocket.accept();
+                System.out.println("Client Connected");
+
+                BufferedReader input = new BufferedReader(
+                        new InputStreamReader(socket.getInputStream()));
+                PrintWriter output = new PrintWriter(socket.getOutputStream(), true);
+
                 String echoString = input.readLine();
+                try {
+                    Thread.sleep(15000);
+                }catch(InterruptedException e) {
+                    System.out.println("Thread interrupted");
+                }
+
                 if(echoString.equals("exit")) {
                     break;
                 }
