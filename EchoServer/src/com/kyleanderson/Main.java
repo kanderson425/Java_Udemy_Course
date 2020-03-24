@@ -11,9 +11,6 @@ public class Main {
 
             while(true) {
                 new Echoer(serverSocket.accept()).start();
-//                Socket socket = serverSocket.accept();
-//                Echoer echoer = new Echoer(socket);
-//                echoer.start();
 
             }
 
