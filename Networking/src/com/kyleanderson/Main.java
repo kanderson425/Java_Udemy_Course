@@ -10,9 +10,13 @@ public class Main {
     public static void main(String[] args) {
         try {
 //            URI uri = new URI("http://username:password@myserver.com:5000/catalog/phones?os=android#samsung");
-            URI uri = new URI("/catalog/phones?os=android#samsung");
+            URI baseUri = new URI("http://username:password@myserver.com:5000");
+            URI uri1 = new URI("/catalog/phones?os=android#samsung");
+            URI uri2 = new URI("/catalog/tvs?manufacturer=samsung");
+            URI uri3 = new URI("/stores/locations?zip=12345");
+            URI resolvedUri1 = baseUri.resolve(uri1);
 
-            URL url  = uri.toURL();
+            URL url  = resolvedUri.toURL();
             System.out.println("URL = " + url);
 //            System.out.println("Scheme = " + uri.getScheme());
 //            System.out.println("Scheme-specific part = " + uri.getSchemeSpecificPart());
