@@ -1,4 +1,4 @@
-package academy.learnProgramming.ui;
+package ui;
 
 import academy.learnProgramming.db.Datasource;
 import javafx.application.Application;
@@ -13,7 +13,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/academy/learnProgramming/ui/main.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/ui/main.fxml"));
         Parent root = loader.load();
         Controller controller = loader.getController();
         controller.listArtists();

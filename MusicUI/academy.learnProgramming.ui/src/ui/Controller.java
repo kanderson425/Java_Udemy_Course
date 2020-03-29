@@ -1,4 +1,4 @@
-package academy.learnProgramming.ui;
+package ui;
 
 import academy.learnProgramming.common.Album;
 import academy.learnProgramming.common.Artist;

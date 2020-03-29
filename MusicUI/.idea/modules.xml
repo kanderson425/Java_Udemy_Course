@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/academy.learnProgramming.common/academy.learnProgramming" filepath="$PROJECT_DIR$/academy.learnProgramming.common/academy.learnProgramming" />
       <module fileurl="file://$PROJECT_DIR$/academy.learnProgramming.common/academy.learnProgramming.common.iml" filepath="$PROJECT_DIR$/academy.learnProgramming.common/academy.learnProgramming.common.iml" />
       <module fileurl="file://$PROJECT_DIR$/academy.learnProgramming.db/academy.learnProgramming.db.iml" filepath="$PROJECT_DIR$/academy.learnProgramming.db/academy.learnProgramming.db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/academy.learnProgramming.ui/academy.learnProgramming.ui.iml" filepath="$PROJECT_DIR$/academy.learnProgramming.ui/academy.learnProgramming.ui.iml" />
     </modules>
   </component>
 </project>

@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/academy.learnProgramming.db/academy.learnProgramming.db.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/academy.learnProgramming.db/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/academy.learnProgramming.ui/academy.learnProgramming.ui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/academy.learnProgramming.ui/src/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/academy.learnProgramming.common/academy.learnProgramming.common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/academy.learnProgramming.common/academy.learnProgramming.common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/academy.learnProgramming.common/src/academy/learnProgramming/db/Datasource.java" beforeDir="false" afterPath="$PROJECT_DIR$/academy.learnProgramming.db/src/academy/learnProgramming/db/Datasource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academy.learnProgramming.common/src/academy/learnProgramming/ui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/academy.learnProgramming.ui/src/ui/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academy.learnProgramming.common/src/academy/learnProgramming/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/academy.learnProgramming.ui/src/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academy.learnProgramming.common/src/academy/learnProgramming/ui/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/academy.learnProgramming.ui/src/ui/main.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/academy.learnProgramming.common/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/academy.learnProgramming.common/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academy.learnProgramming.db/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/academy.learnProgramming.db/src/module-info.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,20 +70,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/academy.learnProgramming.db/src/module-info.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/academy.learnProgramming.ui/src/ui/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/academy.learnProgramming.db/src/academy/learnProgramming/db/Datasource.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/academy.learnProgramming.ui/src/module-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="38" />
+            <state relative-caret-position="45">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -123,17 +125,18 @@
         <option value="$PROJECT_DIR$/academy.learnProgramming.common/src/academy/learnProgramming/ui/main.fxml" />
         <option value="$PROJECT_DIR$/academy.learnProgramming.common/src/academy/learnProgramming/ui/Controller.java" />
         <option value="$PROJECT_DIR$/academy.learnProgramming.common/src/academy/learnProgramming/db/Datasource.java" />
-        <option value="$PROJECT_DIR$/academy.learnProgramming.common/src/module-info.java" />
         <option value="$PROJECT_DIR$/academy.learnProgramming.common/src/academy/learnProgramming/ui/Main.java" />
         <option value="$PROJECT_DIR$/academy.learnProgramming.db/src/module-info.java" />
+        <option value="$PROJECT_DIR$/academy.learnProgramming.ui/src/module-info.java" />
+        <option value="$PROJECT_DIR$/academy.learnProgramming.common/src/module-info.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="838" />
-    <option name="y" value="23" />
-    <option name="width" value="842" />
+    <option name="x" value="568" />
+    <option name="y" value="24" />
+    <option name="width" value="1112" />
     <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -170,39 +173,13 @@
             <path>
               <item name="MusicUI" type="b2602c69:ProjectViewProjectNode" />
               <item name="MusicUI" type="462c0819:PsiDirectoryNode" />
-              <item name="academy.learnProgramming.common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learnProgramming" type="462c0819:PsiDirectoryNode" />
+              <item name="academy.learnProgramming.ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MusicUI" type="b2602c69:ProjectViewProjectNode" />
               <item name="MusicUI" type="462c0819:PsiDirectoryNode" />
-              <item name="academy.learnProgramming.common" type="462c0819:PsiDirectoryNode" />
+              <item name="academy.learnProgramming.ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learnProgramming" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MusicUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MusicUI" type="462c0819:PsiDirectoryNode" />
-              <item name="academy.learnProgramming.common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learnProgramming" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MusicUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MusicUI" type="462c0819:PsiDirectoryNode" />
-              <item name="academy.learnProgramming.common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learnProgramming" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="MusicUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MusicUI" type="462c0819:PsiDirectoryNode" />
-              <item name="academy.learnProgramming.db" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,12 +244,12 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.learnProgramming.ui.Main" />
-      <module name="academy.learnProgramming.common" />
+      <option name="MAIN_CLASS_NAME" value="ui.Main" />
+      <module name="academy.learnProgramming.ui" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academy.learnProgramming.ui.*" />
+          <option name="PATTERN" value="ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,6 +269,20 @@
       </extension>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Main" />
+      <module name="academy.learnProgramming.common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -336,6 +327,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -357,10 +349,10 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="687" y="23" width="993" height="972" extended-state="0" />
+    <frame x="568" y="23" width="1112" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24710831" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.29719627" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -464,14 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/academy.learnProgramming.common/src/academy/learnProgramming/ui/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/academy.learnProgramming.common/src/academy/learnProgramming/ui/main.fxml">
+    <entry file="file://$PROJECT_DIR$/academy.learnProgramming.ui/src/ui/main.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
@@ -479,17 +464,10 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/academy.learnProgramming.common/src/academy/learnProgramming/ui/Main.java">
+    <entry file="file://$PROJECT_DIR$/academy.learnProgramming.db/src/academy/learnProgramming/db/Datasource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/academy.learnProgramming.common/src/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="30">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -500,10 +478,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/academy.learnProgramming.db/src/academy/learnProgramming/db/Datasource.java">
+    <entry file="file://$PROJECT_DIR$/academy.learnProgramming.common/src/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="38" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/academy.learnProgramming.ui/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/academy.learnProgramming.ui/src/ui/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/academy.learnProgramming.ui/src/ui/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -560,7 +559,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>common|academy.learnProgramming</last-edited>
+          <last-edited>ui|academy.learnProgramming</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
