@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MusicUI.iml" filepath="$PROJECT_DIR$/MusicUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/academy.learnProgramming.common/academy.learnProgramming" filepath="$PROJECT_DIR$/academy.learnProgramming.common/academy.learnProgramming" />
+      <module fileurl="file://$PROJECT_DIR$/academy.learnProgramming.common/academy.learnProgramming.common.iml" filepath="$PROJECT_DIR$/academy.learnProgramming.common/academy.learnProgramming.common.iml" />
     </modules>
   </component>
 </project>

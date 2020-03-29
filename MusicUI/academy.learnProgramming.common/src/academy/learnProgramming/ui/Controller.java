@@ -1,16 +1,14 @@
-package sample;
+package academy.learnProgramming.ui;
 
+import academy.learnProgramming.common.Album;
+import academy.learnProgramming.common.Artist;
+import academy.learnProgramming.db.Datasource;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
 import javafx.fxml.FXML;
 import javafx.scene.control.ProgressBar;
-import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import javafx.scene.control.cell.PropertyValueFactory;
-import sample.Model.Album;
-import sample.Model.Artist;
-import sample.Model.Datasource;
 
 public class Controller {
     @FXML

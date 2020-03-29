@@ -1,4 +1,4 @@
-package sample.Model;
+package academy.learnProgramming.common;
 
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
@@ -6,16 +6,14 @@ import javafx.beans.property.SimpleStringProperty;
 /**
  * Created by kyleanderson on Mar 15, 2020
  */
-public class Album {
+public class Artist {
 
     private SimpleIntegerProperty id;
     private SimpleStringProperty name;
-    private SimpleIntegerProperty artistId;
 
-    public Album() {
+    public Artist() {
         this.id = new SimpleIntegerProperty();
         this.name = new SimpleStringProperty();
-        this.artistId = new SimpleIntegerProperty();
     }
 
     public int getId() {
@@ -34,11 +32,5 @@ public class Album {
         this.name.set(name);
     }
 
-    public int getArtistId() {
-        return artistId.get();
-    }
 
-    public void setArtistId(int artistId) {
-        this.artistId.set(artistId);
-    }
 }

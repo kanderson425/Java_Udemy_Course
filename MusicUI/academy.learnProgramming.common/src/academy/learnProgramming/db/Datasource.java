@@ -1,4 +1,7 @@
-package sample.Model;
+package academy.learnProgramming.db;
+
+import academy.learnProgramming.common.Album;
+import academy.learnProgramming.common.Artist;
 
 import java.sql.*;
 import java.util.ArrayList;
